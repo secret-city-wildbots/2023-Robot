@@ -127,6 +127,7 @@ AddOutputFilter chunkFilter
 			<Item Name="AutoPlayParser.vi" Type="VI" URL="../AutoPlayParser.vi"/>
 			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
 			<Item Name="AutoSequencer.vi" Type="VI" URL="../AutoSequencer.vi"/>
+			<Item Name="GlobalAutonomous.vi" Type="VI" URL="../GlobalAutonomous.vi"/>
 		</Item>
 		<Item Name="Autonomous Paths" Type="Folder" URL="../../Autonomous Paths">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -141,6 +142,7 @@ AddOutputFilter chunkFilter
 			<Item Name="DriverStationGetCommands.vi" Type="VI" URL="../DriverStationGetCommands.vi"/>
 			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
 			<Item Name="DriverStationSendData.vi" Type="VI" URL="../DriverStationSendData.vi"/>
+			<Item Name="GlobalDriverStationCommands.vi" Type="VI" URL="../GlobalDriverStationCommands.vi"/>
 			<Item Name="InitDriverControl.vi" Type="VI" URL="../InitDriverControl.vi"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder" URL="../../Documentation">
@@ -151,8 +153,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
-			<Item Name="autonomousinfo.vi" Type="VI" URL="../autonomousinfo.vi"/>
-			<Item Name="drivercommands.vi" Type="VI" URL="../drivercommands.vi"/>
 			<Item Name="driverdata.vi" Type="VI" URL="../driverdata.vi"/>
 			<Item Name="refnumbers.vi" Type="VI" URL="../refnumbers.vi"/>
 			<Item Name="robotconstants.vi" Type="VI" URL="../robotconstants.vi"/>
@@ -179,6 +179,7 @@ AddOutputFilter chunkFilter
 				<Item Name="CalculateRobotGroundVelocity.vi" Type="VI" URL="../CalculateRobotGroundVelocity.vi"/>
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
+				<Item Name="GlobalPoseAndTargeting.vi" Type="VI" URL="../GlobalPoseAndTargeting.vi"/>
 				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 				<Item Name="VisionPose.vi" Type="VI" URL="../VisionPose.vi"/>
 			</Item>
