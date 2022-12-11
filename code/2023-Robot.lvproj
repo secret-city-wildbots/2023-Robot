@@ -155,7 +155,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
-			<Item Name="GlobalMiscellaneous.vi" Type="VI" URL="../GlobalMiscellaneous.vi"/>
 			<Item Name="sensordata.vi" Type="VI" URL="../sensordata.vi"/>
 		</Item>
 		<Item Name="LimeLight Pipelines" Type="Folder" URL="../../LimeLight Pipelines">
@@ -228,6 +227,7 @@ AddOutputFilter chunkFilter
 					<Item Name="OutputLED.vi" Type="VI" URL="../OutputLED.vi"/>
 					<Item Name="StateLED.vi" Type="VI" URL="../StateLED.vi"/>
 				</Item>
+				<Item Name="GlobalMiscellaneous.vi" Type="VI" URL="../GlobalMiscellaneous.vi"/>
 				<Item Name="InitMiscellaneous.vi" Type="VI" URL="../InitMiscellaneous.vi"/>
 				<Item Name="OutputCompressor.vi" Type="VI" URL="../OutputCompressor.vi"/>
 				<Item Name="StateAlarmManagement.vi" Type="VI" URL="../StateAlarmManagement.vi"/>
