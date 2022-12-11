@@ -215,6 +215,7 @@ AddOutputFilter chunkFilter
 				<Item Name="OutputSwerveAzimuth.vi" Type="VI" URL="../OutputSwerveAzimuth.vi"/>
 				<Item Name="OutputSwerveDrive.vi" Type="VI" URL="../OutputSwerveDrive.vi"/>
 				<Item Name="StateDrivebase.vi" Type="VI" URL="../StateDrivebase.vi"/>
+				<Item Name="GlobalDrivebase.vi" Type="VI" URL="../GlobalDrivebase.vi"/>
 			</Item>
 			<Item Name="Miscellaneous" Type="Folder">
 				<Item Name="Camera Control" Type="Folder">
