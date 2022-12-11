@@ -155,10 +155,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
-			<Item Name="refnumbers.vi" Type="VI" URL="../refnumbers.vi"/>
-			<Item Name="robotconstants.vi" Type="VI" URL="../robotconstants.vi"/>
-			<Item Name="robotoutputs.vi" Type="VI" URL="../robotoutputs.vi"/>
-			<Item Name="robotprofiles.vi" Type="VI" URL="../robotprofiles.vi"/>
+			<Item Name="GlobalMiscellaneous.vi" Type="VI" URL="../GlobalMiscellaneous.vi"/>
 			<Item Name="sensordata.vi" Type="VI" URL="../sensordata.vi"/>
 		</Item>
 		<Item Name="LimeLight Pipelines" Type="Folder" URL="../../LimeLight Pipelines">
