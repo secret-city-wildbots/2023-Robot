@@ -1,0 +1,29 @@
+------------------------------------------------------------
+Status LED Chasers
+------------------------------------------------------------
+Red/? - master alarm is active
+Yellow/? - master caution is active
+Green/? - no alarms or cautions
+?/Orange - robot is running autonomously
+?/Green - robot is controlled by human
+------------------------------------------------------------
+Status LED Backgrounds
+------------------------------------------------------------
+Teal (solid) - normal driving
+Pink (blinking) - ***
+Pink (solid) - ***
+Aquamarine (solid) - ***
+Aquamarine (blinking) - ***
+Green (blinking) - signaling the HUMAN PLAYER
+Off - robot is diverting power to critical subsystems
+------------------------------------------------------------
+Driver Vibrations
+------------------------------------------------------------
+Until IMU is reset when holding reset button
+Until valid target detected when holding reacquire button
+Until step advance button is pressed during a systems check
+------------------------------------------------------------
+Manipulator Vibrations
+------------------------------------------------------------
+While toggling the master safety override
+While toggling the TCP override

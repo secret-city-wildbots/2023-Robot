@@ -1,0 +1,3 @@
+> changes to CAN device initialization
+> reduced control output parrallelism
+> changes to the global variable structure

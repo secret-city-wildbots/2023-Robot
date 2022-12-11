@@ -1,0 +1,12 @@
+This play does nothing and should be left as the default auto play.
+
+X = any
+Y = any
+H = any
+
+*
+DriveWaitForTime(-1)
+DriveEnd()
+*
+ManipWaitForTime(-1)
+ManipEnd()
