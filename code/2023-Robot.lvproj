@@ -139,11 +139,13 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Communications" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="DriverStationGetCommands.vi" Type="VI" URL="../DriverStationGetCommands.vi"/>
 			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
 			<Item Name="DriverStationSendData.vi" Type="VI" URL="../DriverStationSendData.vi"/>
-			<Item Name="GlobalDriverStationCommands.vi" Type="VI" URL="../GlobalDriverStationCommands.vi"/>
 			<Item Name="InitDriverControl.vi" Type="VI" URL="../InitDriverControl.vi"/>
+			<Item Name="GlobalDriverStationData.vi" Type="VI" URL="../GlobalDriverStationData.vi"/>
+			<Item Name="GlobalDriverStationCommands.vi" Type="VI" URL="../GlobalDriverStationCommands.vi"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder" URL="../../Documentation">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -153,7 +155,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
-			<Item Name="driverdata.vi" Type="VI" URL="../driverdata.vi"/>
 			<Item Name="refnumbers.vi" Type="VI" URL="../refnumbers.vi"/>
 			<Item Name="robotconstants.vi" Type="VI" URL="../robotconstants.vi"/>
 			<Item Name="robotoutputs.vi" Type="VI" URL="../robotoutputs.vi"/>
