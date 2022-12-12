@@ -154,9 +154,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		</Item>
-		<Item Name="Global Variables" Type="Folder">
-			<Item Name="sensordata.vi" Type="VI" URL="../sensordata.vi"/>
-		</Item>
 		<Item Name="LimeLight Pipelines" Type="Folder" URL="../../LimeLight Pipelines">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
