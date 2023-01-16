@@ -188,6 +188,13 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Subsystems" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Arm" Type="Folder">
+				<Item Name="GlobalArm.vi" Type="VI" URL="../GlobalArm.vi"/>
+				<Item Name="InitArm.vi" Type="VI" URL="../InitArm.vi"/>
+				<Item Name="OutputArm.vi" Type="VI" URL="../OutputArm.vi"/>
+				<Item Name="StateArm.vi" Type="VI" URL="../StateArm.vi"/>
+			</Item>
+			<Item Name="Climber" Type="Folder"/>
 			<Item Name="Drivebase" Type="Folder">
 				<Item Name="Swerve Toolbox" Type="Folder">
 					<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
@@ -214,6 +221,9 @@ AddOutputFilter chunkFilter
 				<Item Name="StateDrivebase.vi" Type="VI" URL="../StateDrivebase.vi"/>
 				<Item Name="StutterShifterState.vi" Type="VI" URL="../StutterShifterState.vi"/>
 			</Item>
+			<Item Name="Gripper" Type="Folder"/>
+			<Item Name="Hopper" Type="Folder"/>
+			<Item Name="Intake" Type="Folder"/>
 			<Item Name="LEDs" Type="Folder">
 				<Item Name="LEDDebugColorSensors.vi" Type="VI" URL="../LEDDebugColorSensors.vi"/>
 				<Item Name="LEDDebugColorSwerve.vi" Type="VI" URL="../LEDDebugColorSwerve.vi"/>
