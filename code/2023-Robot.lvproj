@@ -27,6 +27,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.DoNotReboot" Type="Bool">true</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
@@ -188,6 +189,18 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Subsystems" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Arm" Type="Folder">
+				<Item Name="GlobalArm.vi" Type="VI" URL="../GlobalArm.vi"/>
+				<Item Name="InitArm.vi" Type="VI" URL="../InitArm.vi"/>
+				<Item Name="OutputArm.vi" Type="VI" URL="../OutputArm.vi"/>
+				<Item Name="StateArm.vi" Type="VI" URL="../StateArm.vi"/>
+			</Item>
+			<Item Name="Climber" Type="Folder">
+				<Item Name="GlobalClimber.vi" Type="VI" URL="../GlobalClimber.vi"/>
+				<Item Name="InitClimber.vi" Type="VI" URL="../InitClimber.vi"/>
+				<Item Name="OutputClimber.vi" Type="VI" URL="../OutputClimber.vi"/>
+				<Item Name="StateClimber.vi" Type="VI" URL="../StateClimber.vi"/>
+			</Item>
 			<Item Name="Drivebase" Type="Folder">
 				<Item Name="Swerve Toolbox" Type="Folder">
 					<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
@@ -213,6 +226,24 @@ AddOutputFilter chunkFilter
 				<Item Name="OutputSwerveDrive.vi" Type="VI" URL="../OutputSwerveDrive.vi"/>
 				<Item Name="StateDrivebase.vi" Type="VI" URL="../StateDrivebase.vi"/>
 				<Item Name="StutterShifterState.vi" Type="VI" URL="../StutterShifterState.vi"/>
+			</Item>
+			<Item Name="Gripper" Type="Folder">
+				<Item Name="GlobalGripper.vi" Type="VI" URL="../GlobalGripper.vi"/>
+				<Item Name="InitGripper.vi" Type="VI" URL="../InitGripper.vi"/>
+				<Item Name="OutputGripper.vi" Type="VI" URL="../OutputGripper.vi"/>
+				<Item Name="StateGripper.vi" Type="VI" URL="../StateGripper.vi"/>
+			</Item>
+			<Item Name="Hopper" Type="Folder">
+				<Item Name="GlobalHopper.vi" Type="VI" URL="../GlobalHopper.vi"/>
+				<Item Name="InitHopper.vi" Type="VI" URL="../InitHopper.vi"/>
+				<Item Name="OutputHopper.vi" Type="VI" URL="../OutputHopper.vi"/>
+				<Item Name="StateHopper.vi" Type="VI" URL="../StateHopper.vi"/>
+			</Item>
+			<Item Name="Intake" Type="Folder">
+				<Item Name="GlobalIntake.vi" Type="VI" URL="../GlobalIntake.vi"/>
+				<Item Name="InitIntake.vi" Type="VI" URL="../InitIntake.vi"/>
+				<Item Name="OutputIntake.vi" Type="VI" URL="../OutputIntake.vi"/>
+				<Item Name="StateIntake.vi" Type="VI" URL="../StateIntake.vi"/>
 			</Item>
 			<Item Name="LEDs" Type="Folder">
 				<Item Name="LEDDebugColorSensors.vi" Type="VI" URL="../LEDDebugColorSensors.vi"/>
@@ -776,7 +807,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">/C/Git Checkouts/Robot Builds/2023</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
