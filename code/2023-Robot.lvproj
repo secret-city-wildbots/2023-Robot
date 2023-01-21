@@ -27,7 +27,6 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
-		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.DoNotReboot" Type="Bool">true</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
@@ -161,22 +160,20 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
-			<Item Name="Calibration" Type="Folder">
-				<Item Name="MeasureDriveAcceleration.vi" Type="VI" URL="../MeasureDriveAcceleration.vi"/>
-			</Item>
 			<Item Name="Evergreen" Type="Folder">
 				<Item Name="DetectPressureAnomalies.vi" Type="VI" URL="../DetectPressureAnomalies.vi"/>
 				<Item Name="MeasureBaselineCurrents.vi" Type="VI" URL="../MeasureBaselineCurrents.vi"/>
 			</Item>
 			<Item Name="Pose Estimation" Type="Folder">
 				<Item Name="Odometry" Type="Folder">
+					<Item Name="CalculateRobotVelocityAcceleration.vi" Type="VI" URL="../CalculateRobotVelocityAcceleration.vi"/>
 					<Item Name="ConvertFalconDriveEncoders.vi" Type="VI" URL="../ConvertFalconDriveEncoders.vi"/>
 					<Item Name="GetPigeonIMU.vi" Type="VI" URL="../GetPigeonIMU.vi"/>
 					<Item Name="GetShifterState.vi" Type="VI" URL="../GetShifterState.vi"/>
 					<Item Name="GetSwerveAbsoluteAzimuth.vi" Type="VI" URL="../GetSwerveAbsoluteAzimuth.vi"/>
 					<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
+					<Item Name="GetSwerveRawAzimuth.vi" Type="VI" URL="../GetSwerveRawAzimuth.vi"/>
 				</Item>
-				<Item Name="CalculateRobotGroundVelocity.vi" Type="VI" URL="../CalculateRobotGroundVelocity.vi"/>
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
 				<Item Name="GetVisionTarget.vi" Type="VI" URL="../GetVisionTarget.vi"/>
