@@ -176,8 +176,9 @@ AddOutputFilter chunkFilter
 				</Item>
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
-				<Item Name="GetVisionTarget.vi" Type="VI" URL="../GetVisionTarget.vi"/>
+				<Item Name="GetAprilTags.vi" Type="VI" URL="../GetAprilTags.vi"/>
 				<Item Name="GlobalPoseAndTargeting.vi" Type="VI" URL="../GlobalPoseAndTargeting.vi"/>
+				<Item Name="ModePose.vi" Type="VI" URL="../ModePose.vi"/>
 				<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
 				<Item Name="VisionPose.vi" Type="VI" URL="../VisionPose.vi"/>
 			</Item>
