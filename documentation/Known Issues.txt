@@ -6,6 +6,7 @@
 > Re-write of the auto play parser to support variables and setting the suggested robot start location
 > automatic insertion of the dashboard delay into all auto plays, check report auto steps etc.
 > created a dedicated "Robot is Enabled" global variable
+> more detailed error messages are sent when a CAN or power fault occurs
 
 -- bugs --
 > NT values displayed in the tune tab only update for the first time 5 seconds after clicking into the tab
