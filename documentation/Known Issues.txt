@@ -1,0 +1,13 @@
+-- new features --
+> RED vs. BLUE alliance AprilTag data flipping
+> triggered updates are now sent continuously for the first 5 seconds after their first call
+> tweaked the set behavior of Auto_Path_Suffix for consistency
+> fixing a bug in the auto play which is used if no auto plays can be loaded
+> Re-write of the auto play parser to support variables and setting the suggested robot start location
+> automatic insertion of the dashboard delay into all auto plays, check report auto steps etc.
+
+-- bugs --
+> NT values displayed in the tune tab only update for the first time 5 seconds after clicking into the tab
+
+-- National Instruments --
+> values wired to the default terminal of "NT Get Boolean Array.vi" are not honored

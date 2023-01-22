@@ -1,12 +1,13 @@
-This play does nothing and should be left as the default auto play.
-
-X = any
-Y = any
-H = any
+This play does nothing and should always be left as the default auto play.
 
 *
-DriveWaitForTime(-1)
+start_x_red = 75
+start_y_red = 300
+start_h_red = 0
+start_x_blue = 75
+start_y_blue = 25
+start_h_blue = 0
+*
 DriveEnd()
 *
-ManipWaitForTime(-1)
 ManipEnd()

@@ -121,8 +121,8 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
 			<Item Name="AutoParameterStringToArray.vi" Type="VI" URL="../AutoParameterStringToArray.vi"/>
-			<Item Name="AutoPlayParser.vi" Type="VI" URL="../AutoPlayParser.vi"/>
-			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
+			<Item Name="AutoPlayLoad.vi" Type="VI" URL="../AutoPlayLoad.vi"/>
+			<Item Name="AutoPlayParse.vi" Type="VI" URL="../AutoPlayParse.vi"/>
 			<Item Name="AutoSequencer.vi" Type="VI" URL="../AutoSequencer.vi"/>
 			<Item Name="GlobalAutonomous.vi" Type="VI" URL="../GlobalAutonomous.vi"/>
 		</Item>
