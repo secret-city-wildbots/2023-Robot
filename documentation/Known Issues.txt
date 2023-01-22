@@ -5,6 +5,7 @@
 > fixing a bug in the auto play which is used if no auto plays can be loaded
 > Re-write of the auto play parser to support variables and setting the suggested robot start location
 > automatic insertion of the dashboard delay into all auto plays, check report auto steps etc.
+> created a dedicated "Robot is Enabled" global variable
 
 -- bugs --
 > NT values displayed in the tune tab only update for the first time 5 seconds after clicking into the tab
