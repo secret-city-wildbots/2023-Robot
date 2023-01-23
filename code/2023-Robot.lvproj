@@ -13,6 +13,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="autonomous paths" Type="Folder" URL="../../autonomous paths">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="autonomous plays" Type="Folder" URL="../../autonomous plays">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="calibrations and preferences" Type="Folder" URL="../../calibrations and preferences">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="documentation" Type="Folder" URL="../../documentation">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="limelight pipelines" Type="Folder" URL="../../limelight pipelines">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="ArmSimulator.vi" Type="VI" URL="../ArmSimulator.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -195,15 +210,6 @@ AddOutputFilter chunkFilter
 			<Item Name="AutoSequencer.vi" Type="VI" URL="../AutoSequencer.vi"/>
 			<Item Name="GlobalAutonomous.vi" Type="VI" URL="../GlobalAutonomous.vi"/>
 		</Item>
-		<Item Name="autonomous paths" Type="Folder" URL="../../autonomous paths">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="autonomous plays" Type="Folder" URL="../../autonomous plays">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="calibrations and preferences" Type="Folder" URL="../../calibrations and preferences">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Communications" Type="Folder">
 			<Item Name="DriverStationGetCommands.vi" Type="VI" URL="../DriverStationGetCommands.vi"/>
 			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
@@ -211,9 +217,6 @@ AddOutputFilter chunkFilter
 			<Item Name="GlobalDriverStationCommands.vi" Type="VI" URL="../GlobalDriverStationCommands.vi"/>
 			<Item Name="GlobalDriverStationData.vi" Type="VI" URL="../GlobalDriverStationData.vi"/>
 			<Item Name="InitDriverControl.vi" Type="VI" URL="../InitDriverControl.vi"/>
-		</Item>
-		<Item Name="documentation" Type="Folder" URL="../../documentation">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="FIRST" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -224,9 +227,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 			<Item Name="SetGlobalVariables.vi" Type="VI" URL="../SetGlobalVariables.vi"/>
 			<Item Name="SetRobotProfile.vi" Type="VI" URL="../SetRobotProfile.vi"/>
-		</Item>
-		<Item Name="limelight pipelines" Type="Folder" URL="../../limelight pipelines">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Evergreen" Type="Folder">
@@ -878,7 +878,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">/C/Git Checkouts/Robot Builds/2023</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
