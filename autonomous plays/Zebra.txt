@@ -1,12 +1,15 @@
 Performs an automated systems check. This play should only be run with the robot on blocks or a cart.
 
-X = any
-Y = any
-H = any
-
+*
+start_x_red = 124
+start_y_red = 62
+start_h_red = 0
+start_x_blue = 124
+start_y_blue = 62
+start_h_blue = 0
 *
 DriveSetRobotPosition(124,62) # set robot position to consistent location
-DriveWaitForManip(15) # wait until manipulator sequence is complete
+DriveWaitForManip(1) # wait until manipulator sequence is complete
 DriveWaitForButton()
 DriveDistanceX(400, 0.2) # drive forward
 DriveWaitForTime(2000)

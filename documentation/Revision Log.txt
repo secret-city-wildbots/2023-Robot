@@ -1,0 +1,16 @@
+v0.3
+> Adding an Inverse and Forward Kinematics simulation for the arm.
+> More detailed error messages are sent when a CAN or power fault occurs.
+> Created a dedicated "Robot is Enabled" global variable
+> Increasing the amount of disabled time before drive motors go into coast to keep from falling off of the CHARGING STATION.
+> Cleaning up the Master State Controller.
+> AprilTag pose estimates are now flipped based on alliance color.
+> All triggered updates are now sent continuously for the first 5 seconds after their first call.
+> Tweaked the set behavior of Auto_Path_Suffix for consistency.
+> Fixing a bug in the auto play which is used if no auto plays can be loaded from the RoboRIO.
+> Suggested autonomous start locations are sent to the Dashboard.
+> Re-writes the auto play parser to support variables and setting the suggested robot start location.
+> Automatic insertion of the dashboard delay into all auto plays.
+> Robot pose estimation has been updated to work with 2023 AprilTags instead of 2022 retro-reflective targets.
+> Cleans up the odometry code and fixes sever critical bugs from 2022.
+> Switches to "hybrid" odometry which primarily uses the Falcon position data and only uses velocity projections durring shifting events.

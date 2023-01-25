@@ -13,7 +13,93 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="autonomous paths" Type="Folder" URL="../../autonomous paths">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="autonomous plays" Type="Folder" URL="../../autonomous plays">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="calibrations and preferences" Type="Folder" URL="../../calibrations and preferences">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="documentation" Type="Folder" URL="../../documentation">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="limelight pipelines" Type="Folder" URL="../../limelight pipelines">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="ArmSimulator.vi" Type="VI" URL="../ArmSimulator.vi"/>
+		<Item Name="ArmInverseKinematics.vi" Type="VI" URL="../ArmInverseKinematics.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="LV3DPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LV3DPointTypeDef.ctl"/>
+				<Item Name="DH Kinematic Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/robotics/Kinematics/DH Kinematic Parameters.ctl"/>
+				<Item Name="NI_Robotics_Link.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Link/NI_Robotics_Link.lvclass"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="NI_Kinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/NI_Kinematics.lvlib"/>
+				<Item Name="NI_Robotics Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/NI_Robotics Utilities.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_Robotics_AnalyticKinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/NI_Robotics_AnalyticKinematics.lvlib"/>
+				<Item Name="NI_Robotics_Serial Robot Arm.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Robot/NI_Robotics_Serial Robot Arm.lvclass"/>
+				<Item Name="NI_Robotics_3DKinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/Plotting/NI_Robotics_3DKinematics.lvlib"/>
+				<Item Name="DH Dynamic Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/robotics/Kinematics/DH Dynamic Parameters.ctl"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_AngleManipulation.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/AngleManip/NI_AngleManipulation.lvlib"/>
+				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
+				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
+				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
+				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="LVSceneTextAlignment.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSceneTextAlignment.ctl"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_Robotics_Analytical Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/Generic/NI_Robotics_Analytical Serial Arm Class.lvclass"/>
+				<Item Name="NI_Robotics_5R Type 1 Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/5R/Type 1/NI_Robotics_5R Type 1 Serial Arm Class.lvclass"/>
+				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
+				<Item Name="NI_Robotics_6R Type 2 Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/6R/Type 2/NI_Robotics_6R Type 2 Serial Arm Class.lvclass"/>
+				<Item Name="NI_Robotics_6R Type 3 Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/6R/Type 3/NI_Robotics_6R Type 3 Serial Arm Class.lvclass"/>
+				<Item Name="NI_Robotics_SCARA Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/SCARA/NI_Robotics_SCARA Serial Arm Class.lvclass"/>
+				<Item Name="NI_Robotics_6R Type 1 Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/6R/Type 1/NI_Robotics_6R Type 1 Serial Arm Class.lvclass"/>
+				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
+			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT roboRIO">
@@ -27,7 +113,6 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
-		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.DoNotReboot" Type="Bool">true</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
@@ -122,19 +207,10 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
 			<Item Name="AutoParameterStringToArray.vi" Type="VI" URL="../AutoParameterStringToArray.vi"/>
-			<Item Name="AutoPlayParser.vi" Type="VI" URL="../AutoPlayParser.vi"/>
-			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
+			<Item Name="AutoPlayLoad.vi" Type="VI" URL="../AutoPlayLoad.vi"/>
+			<Item Name="AutoPlayParse.vi" Type="VI" URL="../AutoPlayParse.vi"/>
 			<Item Name="AutoSequencer.vi" Type="VI" URL="../AutoSequencer.vi"/>
 			<Item Name="GlobalAutonomous.vi" Type="VI" URL="../GlobalAutonomous.vi"/>
-		</Item>
-		<Item Name="autonomous paths" Type="Folder" URL="../../autonomous paths">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="autonomous plays" Type="Folder" URL="../../autonomous plays">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="calibrations and preferences" Type="Folder" URL="../../calibrations and preferences">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Communications" Type="Folder">
 			<Item Name="DriverStationGetCommands.vi" Type="VI" URL="../DriverStationGetCommands.vi"/>
@@ -143,9 +219,6 @@ AddOutputFilter chunkFilter
 			<Item Name="GlobalDriverStationCommands.vi" Type="VI" URL="../GlobalDriverStationCommands.vi"/>
 			<Item Name="GlobalDriverStationData.vi" Type="VI" URL="../GlobalDriverStationData.vi"/>
 			<Item Name="InitDriverControl.vi" Type="VI" URL="../InitDriverControl.vi"/>
-		</Item>
-		<Item Name="documentation" Type="Folder" URL="../../documentation">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="FIRST" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -157,30 +230,27 @@ AddOutputFilter chunkFilter
 			<Item Name="SetGlobalVariables.vi" Type="VI" URL="../SetGlobalVariables.vi"/>
 			<Item Name="SetRobotProfile.vi" Type="VI" URL="../SetRobotProfile.vi"/>
 		</Item>
-		<Item Name="limelight pipelines" Type="Folder" URL="../../limelight pipelines">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Sensors" Type="Folder">
-			<Item Name="Calibration" Type="Folder">
-				<Item Name="MeasureDriveAcceleration.vi" Type="VI" URL="../MeasureDriveAcceleration.vi"/>
-			</Item>
 			<Item Name="Evergreen" Type="Folder">
 				<Item Name="DetectPressureAnomalies.vi" Type="VI" URL="../DetectPressureAnomalies.vi"/>
 				<Item Name="MeasureBaselineCurrents.vi" Type="VI" URL="../MeasureBaselineCurrents.vi"/>
 			</Item>
 			<Item Name="Pose Estimation" Type="Folder">
 				<Item Name="Odometry" Type="Folder">
+					<Item Name="CalculateRobotVelocityAcceleration.vi" Type="VI" URL="../CalculateRobotVelocityAcceleration.vi"/>
 					<Item Name="ConvertFalconDriveEncoders.vi" Type="VI" URL="../ConvertFalconDriveEncoders.vi"/>
 					<Item Name="GetPigeonIMU.vi" Type="VI" URL="../GetPigeonIMU.vi"/>
 					<Item Name="GetShifterState.vi" Type="VI" URL="../GetShifterState.vi"/>
 					<Item Name="GetSwerveAbsoluteAzimuth.vi" Type="VI" URL="../GetSwerveAbsoluteAzimuth.vi"/>
 					<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
+					<Item Name="GetSwerveRawAzimuth.vi" Type="VI" URL="../GetSwerveRawAzimuth.vi"/>
+					<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 				</Item>
-				<Item Name="CalculateRobotGroundVelocity.vi" Type="VI" URL="../CalculateRobotGroundVelocity.vi"/>
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
-				<Item Name="GetVisionTarget.vi" Type="VI" URL="../GetVisionTarget.vi"/>
+				<Item Name="GetAprilTags.vi" Type="VI" URL="../GetAprilTags.vi"/>
 				<Item Name="GlobalPoseAndTargeting.vi" Type="VI" URL="../GlobalPoseAndTargeting.vi"/>
+				<Item Name="ModePose.vi" Type="VI" URL="../ModePose.vi"/>
 				<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
 				<Item Name="VisionPose.vi" Type="VI" URL="../VisionPose.vi"/>
 			</Item>
@@ -212,7 +282,6 @@ AddOutputFilter chunkFilter
 					<Item Name="SwerveKinematics.vi" Type="VI" URL="../SwerveKinematics.vi"/>
 					<Item Name="SwerveLatchGoalAngle.vi" Type="VI" URL="../SwerveLatchGoalAngle.vi"/>
 					<Item Name="SwerveModifyDriveCommand.vi" Type="VI" URL="../SwerveModifyDriveCommand.vi"/>
-					<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 					<Item Name="SwerveUnwrapGoalAngle.vi" Type="VI" URL="../SwerveUnwrapGoalAngle.vi"/>
 				</Item>
 				<Item Name="ConfigureDriverProfiles.vi" Type="VI" URL="../ConfigureDriverProfiles.vi"/>
@@ -338,10 +407,13 @@ AddOutputFilter chunkFilter
 				<Item Name="SendMessageToConsole.vi" Type="VI" URL="../SendMessageToConsole.vi"/>
 				<Item Name="ReducedBWSendToNT.vim" Type="VI" URL="../ReducedBWSendToNT.vim"/>
 			</Item>
+			<Item Name="Error Helpers" Type="Folder">
+				<Item Name="MergeErrorMessages.vi" Type="VI" URL="../MergeErrorMessages.vi"/>
+				<Item Name="ErrorLatch.vi" Type="VI" URL="../ErrorLatch.vi"/>
+			</Item>
 			<Item Name="BlinkLight.vi" Type="VI" URL="../BlinkLight.vi"/>
 			<Item Name="DesyncInitCAN.vi" Type="VI" URL="../DesyncInitCAN.vi"/>
 			<Item Name="StateSelectionEnum.vim" Type="VI" URL="../StateSelectionEnum.vim"/>
-			<Item Name="ErrorLatch.vi" Type="VI" URL="../ErrorLatch.vi"/>
 			<Item Name="RGBtoGRB.vi" Type="VI" URL="../RGBtoGRB.vi"/>
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
 		</Item>
@@ -490,6 +562,7 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_UtilitiesRead LocalTime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Utilities/FPGA_UtilitiesRead LocalTime.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="i2c_bus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2c_bus.ctl"/>
+				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
 				<Item Name="Joystick data proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/Joystick data proto.ctl"/>
 				<Item Name="Joystick proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/Joystick proto.ctl"/>
 				<Item Name="Joystick Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/Joystick/Joystick Update Ops.ctl"/>
@@ -807,7 +880,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">/C/Git Checkouts/Robot Builds/2023</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

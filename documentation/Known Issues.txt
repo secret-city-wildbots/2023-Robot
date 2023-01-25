@@ -1,0 +1,8 @@
+-- new features --
+
+-- bugs --
+> the robot probably shifts too early, worry less about maintaining motor efficiency and stay in low gear for longer
+> need to run additional checks on the AprilTags pose estimates, they are still marked as valid even when too far away for stable calculation
+
+-- National Instruments --
+> values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
