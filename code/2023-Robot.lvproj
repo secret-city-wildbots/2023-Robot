@@ -260,6 +260,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Subsystems" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Arm" Type="Folder">
+				<Item Name="ArmFeedForwardCalculations.vi" Type="VI" URL="../ArmFeedForwardCalculations.vi"/>
 				<Item Name="ArmSimulatorReal.vi" Type="VI" URL="../ArmSimulatorReal.vi"/>
 				<Item Name="GlobalArm.vi" Type="VI" URL="../GlobalArm.vi"/>
 				<Item Name="InitArm.vi" Type="VI" URL="../InitArm.vi"/>
@@ -418,7 +419,6 @@ AddOutputFilter chunkFilter
 			<Item Name="RGBtoGRB.vi" Type="VI" URL="../RGBtoGRB.vi"/>
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
 		</Item>
-		<Item Name="ArmFeedForwardCalculations.vi" Type="VI" URL="../ArmFeedForwardCalculations.vi"/>
 		<Item Name="MasterRobotModeController.vi" Type="VI" URL="../MasterRobotModeController.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
