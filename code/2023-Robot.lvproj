@@ -418,6 +418,7 @@ AddOutputFilter chunkFilter
 			<Item Name="RGBtoGRB.vi" Type="VI" URL="../RGBtoGRB.vi"/>
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
 		</Item>
+		<Item Name="ArmFeedForwardCalculations.vi" Type="VI" URL="../ArmFeedForwardCalculations.vi"/>
 		<Item Name="MasterRobotModeController.vi" Type="VI" URL="../MasterRobotModeController.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
