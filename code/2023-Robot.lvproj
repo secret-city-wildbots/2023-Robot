@@ -262,8 +262,10 @@ AddOutputFilter chunkFilter
 			<Item Name="Arm" Type="Folder">
 				<Item Name="Arm Position Check.vi" Type="VI" URL="../Arm Position Check.vi"/>
 				<Item Name="ArmFeedForwardCalculations.vi" Type="VI" URL="../ArmFeedForwardCalculations.vi"/>
+				<Item Name="ArmSequencer.vi" Type="VI" URL="../ArmSequencer.vi"/>
 				<Item Name="GlobalArm.vi" Type="VI" URL="../GlobalArm.vi"/>
 				<Item Name="InitArm.vi" Type="VI" URL="../InitArm.vi"/>
+				<Item Name="ModeArmScoring.vi" Type="VI" URL="../ModeArmScoring.vi"/>
 				<Item Name="OutputArm.vi" Type="VI" URL="../OutputArm.vi"/>
 				<Item Name="StateArm.vi" Type="VI" URL="../StateArm.vi"/>
 			</Item>
