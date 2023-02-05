@@ -1,0 +1,5 @@
+v0.1
+Control Loop: 30 ms
+RoboRIO CPU: 60%
+CAN Utilization: ***%
+Bootup Time: *** s
