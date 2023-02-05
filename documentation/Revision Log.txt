@@ -1,3 +1,28 @@
+-- Known Issues --
+> The robot probably shifts too early, worry less about maintaining motor efficiency and stay in low gear for longer
+> Need to run additional checks on the AprilTags pose estimates, they are still marked as valid even when too far away for stable calculation
+> Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
+
+-- Untested Features --
+> Adding absolute arm encoder sensors.
+> Receives arm data from the Dashboard.
+> Arm zeroing and unlocking are now tied to Dashboard controls.
+> Sends the gripper state to the Dashboard.
+> Sends the scoring state to the Dashboard.
+> Sends the absolute arm encoder readings to the Dashboard.
+> Adds temperature readings and alarms for the arm motors.
+> Merged color sensor game piece detection.
+> Merged MVP gripper state controller.
+
+-- Releases --
+
+v***
+> Increases the time threshold before a shifter failure is latched.
+> More detailed alarm information is now sent to the Driver Station console when a motor overheats.
+> Adds a GRNF for the REV Color Sensor v3.
+> Foward Kinematics calculations are complete and integreated with the Feed Forward model for the Shoulder, Elbow, and Wrist motors.
+> OutputArm infrastucture is in place to send all control and configuration commands to the Shoulder, Elbow, and Wrist motors.
+
 v0.3
 > Adding an Inverse and Forward Kinematics simulation for the arm.
 > More detailed error messages are sent when a CAN or power fault occurs.
