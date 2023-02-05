@@ -5,6 +5,7 @@
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 
 -- Untested Features --
+> Adds visualization of the goal end effector position to the Dashboard.
 > Integrates the arm state controller with the master state controller.
 > Adds a state controller for the arm.
 > Actually controlling the arm motors with the code in OutputArm.vi.

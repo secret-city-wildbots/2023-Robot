@@ -260,8 +260,11 @@ AddOutputFilter chunkFilter
 		<Item Name="Subsystems" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Arm" Type="Folder">
+				<Item Name="Kinematics" Type="Folder">
+					<Item Name="ArmFeedForwardCalculations.vi" Type="VI" URL="../ArmFeedForwardCalculations.vi"/>
+					<Item Name="ArmGoalEndEffectorPosition.vi" Type="VI" URL="../ArmGoalEndEffectorPosition.vi"/>
+				</Item>
 				<Item Name="Arm Position Check.vi" Type="VI" URL="../Arm Position Check.vi"/>
-				<Item Name="ArmFeedForwardCalculations.vi" Type="VI" URL="../ArmFeedForwardCalculations.vi"/>
 				<Item Name="ArmSequencer.vi" Type="VI" URL="../ArmSequencer.vi"/>
 				<Item Name="GlobalArm.vi" Type="VI" URL="../GlobalArm.vi"/>
 				<Item Name="InitArm.vi" Type="VI" URL="../InitArm.vi"/>
