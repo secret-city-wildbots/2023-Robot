@@ -11,6 +11,8 @@ OutputArm
 GetHighPrioritySensors
 InitArm
 Finish
+InitGripper
+StateGripper
 
 -- new features --
 > Adds temperature readings and alarms for the arm motors.
@@ -19,9 +21,10 @@ Finish
 > Sends the scoring state to the Dashboard.
 > Receives arm data from the Dashboard.
 > Arm zeroing and unlocking are now tied to Dashboard controls.
-
 > Increases the time threshold before a shifter failure is latched.
 > Adding absolute arm encoder sensors.
+> Merging color sensor game piece detection.
+> Merging MVP gripper state controller.
 
 -- bugs --
 > the robot probably shifts too early, worry less about maintaining motor efficiency and stay in low gear for longer
