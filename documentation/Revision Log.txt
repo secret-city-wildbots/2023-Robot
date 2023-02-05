@@ -5,9 +5,11 @@
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 
 -- Untested Features --
-> Actually controller arm motors with the code in OutputArm.vi.
+> Integrates the arm state controller with the master state controller.
+> Adds a state controller for the arm.
+> Actually controlling the arm motors with the code in OutputArm.vi.
 > Adding absolute arm encoder sensors.
-> Receives arm data from the Dashboard.
+> Receives arm data and overrides from the Dashboard.
 > Arm zeroing and unlocking are now tied to Dashboard controls.
 > Sends the gripper state to the Dashboard.
 > Sends the scoring state to the Dashboard.
