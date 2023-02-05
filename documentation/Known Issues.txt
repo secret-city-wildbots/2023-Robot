@@ -1,4 +1,21 @@
+--MERGE--
+GetLowPrioritySensors
+StateAlarmManagement
+DriverStationSendData
+GlobalArm
+GlobalGripper
+StateGripper
+SetGlobalVariables
+DriverStationGetData
+OutputArm
+
 -- new features --
+> Adds temperature readings and alarms for the arm motors.
+> Sends the absolute arm encoder readings to the Dashboard.
+> Sends the gripper state to the Dashboard.
+> Sends the scoring state to the Dashboard.
+> Receives arm data from the Dashboard.
+> Arm zeroing and unlocking are now tied to Dashboard controls.
 
 -- bugs --
 > the robot probably shifts too early, worry less about maintaining motor efficiency and stay in low gear for longer
