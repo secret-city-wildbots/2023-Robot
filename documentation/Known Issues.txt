@@ -21,6 +21,7 @@ Finish
 > Arm zeroing and unlocking are now tied to Dashboard controls.
 
 > Increases the time threshold before a shifter failure is latched.
+> Adding absolute arm encoder sensors.
 
 -- bugs --
 > the robot probably shifts too early, worry less about maintaining motor efficiency and stay in low gear for longer
