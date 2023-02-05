@@ -1,9 +1,11 @@
 -- Known Issues --
+> The absolute arm encoders can only be calibrated in the true-zero orientation.
 > The robot probably shifts too early, worry less about maintaining motor efficiency and stay in low gear for longer
 > Need to run additional checks on the AprilTags pose estimates, they are still marked as valid even when too far away for stable calculation
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 
 -- Untested Features --
+> Actually controller arm motors with the code in OutputArm.vi.
 > Adding absolute arm encoder sensors.
 > Receives arm data from the Dashboard.
 > Arm zeroing and unlocking are now tied to Dashboard controls.
@@ -13,10 +15,12 @@
 > Adds temperature readings and alarms for the arm motors.
 > Merged color sensor game piece detection.
 > Merged MVP gripper state controller.
+> Full sensor fusion and path following at BioLargo.
 
 -- Releases --
 
 v***
+> Manipulator buttons have been configured to control the robot master state.
 > Increases the time threshold before a shifter failure is latched.
 > More detailed alarm information is now sent to the Driver Station console when a motor overheats.
 > Adds a GRNF for the REV Color Sensor v3.
