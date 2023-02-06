@@ -5,6 +5,7 @@
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 
 -- Untested Features --
+> Adds arm (and generic motor) simulation code.
 > Adds absolute arm encoder reading and calibration code.
 > Adds visualization of the goal end effector position to the Dashboard.
 > Integrates the arm state controller with the master state controller.

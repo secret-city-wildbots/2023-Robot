@@ -234,6 +234,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Evergreen" Type="Folder">
 				<Item Name="DetectPressureAnomalies.vi" Type="VI" URL="../DetectPressureAnomalies.vi"/>
 				<Item Name="MeasureBaselineCurrents.vi" Type="VI" URL="../MeasureBaselineCurrents.vi"/>
+				<Item Name="SimulateMotorPosition.vi" Type="VI" URL="../SimulateMotorPosition.vi"/>
 			</Item>
 			<Item Name="Pose Estimation" Type="Folder">
 				<Item Name="Odometry" Type="Folder">
