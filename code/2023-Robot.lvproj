@@ -29,7 +29,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="ArmSimulator.vi" Type="VI" URL="../ArmSimulator.vi"/>
-		<Item Name="ArmInverseKinematics.vi" Type="VI" URL="../ArmInverseKinematics.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DH Kinematic Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/robotics/Kinematics/DH Kinematic Parameters.ctl"/>
@@ -99,6 +98,7 @@
 				<Item Name="NI_Robotics_6R Type 1 Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/6R/Type 1/NI_Robotics_6R Type 1 Serial Arm Class.lvclass"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="ArmInverseKinematics.vi" Type="VI" URL="../ArmInverseKinematics.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -263,6 +263,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Kinematics" Type="Folder">
 					<Item Name="ArmFeedForwardCalculations.vi" Type="VI" URL="../ArmFeedForwardCalculations.vi"/>
 					<Item Name="ArmGoalEndEffectorPosition.vi" Type="VI" URL="../ArmGoalEndEffectorPosition.vi"/>
+					<Item Name="ArmGoalJointAngleCalculations.vi" Type="VI" URL="../ArmGoalJointAngleCalculations.vi"/>
+					<Item Name="ArmInverseKinematics.vi" Type="VI" URL="../ArmInverseKinematics.vi"/>
 				</Item>
 				<Item Name="Arm Position Check.vi" Type="VI" URL="../Arm Position Check.vi"/>
 				<Item Name="ArmSequencer.vi" Type="VI" URL="../ArmSequencer.vi"/>
