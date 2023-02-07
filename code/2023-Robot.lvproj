@@ -28,7 +28,9 @@
 		<Item Name="limelight pipelines" Type="Folder" URL="../../limelight pipelines">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="ArmSimulator.vi" Type="VI" URL="../ArmSimulator.vi"/>
+		<Item Name="Simulators" Type="Folder">
+			<Item Name="ArmKinematicsSimulator.vi" Type="VI" URL="../ArmKinematicsSimulator.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DH Kinematic Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/robotics/Kinematics/DH Kinematic Parameters.ctl"/>
@@ -99,6 +101,12 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="ArmInverseKinematics.vi" Type="VI" URL="../ArmInverseKinematics.vi"/>
+			<Item Name="GlobalMiscellaneous.vi" Type="VI" URL="../GlobalMiscellaneous.vi"/>
+			<Item Name="GlobalDrivebase.vi" Type="VI" URL="../GlobalDrivebase.vi"/>
+			<Item Name="GlobalArm.vi" Type="VI" URL="../GlobalArm.vi"/>
+			<Item Name="SetRobotProfile.vi" Type="VI" URL="../SetRobotProfile.vi"/>
+			<Item Name="InitArmKinematics.vi" Type="VI" URL="../InitArmKinematics.vi"/>
+			<Item Name="ArmGoalJointAngleCalculations.vi" Type="VI" URL="../ArmGoalJointAngleCalculations.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -265,6 +273,7 @@ AddOutputFilter chunkFilter
 					<Item Name="ArmGoalEndEffectorPosition.vi" Type="VI" URL="../ArmGoalEndEffectorPosition.vi"/>
 					<Item Name="ArmGoalJointAngleCalculations.vi" Type="VI" URL="../ArmGoalJointAngleCalculations.vi"/>
 					<Item Name="ArmInverseKinematics.vi" Type="VI" URL="../ArmInverseKinematics.vi"/>
+					<Item Name="InitArmKinematics.vi" Type="VI" URL="../InitArmKinematics.vi"/>
 				</Item>
 				<Item Name="Arm Position Check.vi" Type="VI" URL="../Arm Position Check.vi"/>
 				<Item Name="ArmSequencer.vi" Type="VI" URL="../ArmSequencer.vi"/>
