@@ -234,7 +234,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Evergreen" Type="Folder">
 				<Item Name="DetectPressureAnomalies.vi" Type="VI" URL="../DetectPressureAnomalies.vi"/>
 				<Item Name="MeasureBaselineCurrents.vi" Type="VI" URL="../MeasureBaselineCurrents.vi"/>
-				<Item Name="SimulateMotorPosition.vi" Type="VI" URL="../SimulateMotorPosition.vi"/>
 			</Item>
 			<Item Name="Pose Estimation" Type="Folder">
 				<Item Name="Odometry" Type="Folder">
@@ -346,7 +345,58 @@ AddOutputFilter chunkFilter
 			<Item Name="MasterStateController.vi" Type="VI" URL="../MasterStateController.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Actuator Interlocks" Type="Folder">
+				<Item Name="GenerateSinusoidalOutput.vi" Type="VI" URL="../GenerateSinusoidalOutput.vi"/>
+				<Item Name="GenerateSquarewaveOutput.vi" Type="VI" URL="../GenerateSquarewaveOutput.vi"/>
+				<Item Name="TAI_Motor.vi" Type="VI" URL="../TAI_Motor.vi"/>
+				<Item Name="TAI_Servo.vi" Type="VI" URL="../TAI_Servo.vi"/>
+				<Item Name="TAI_Solenoid.vi" Type="VI" URL="../TAI_Solenoid.vi"/>
+				<Item Name="TestActuatorInterlock.vi" Type="VI" URL="../TestActuatorInterlock.vi"/>
+			</Item>
+			<Item Name="Array Helpers" Type="Folder">
+				<Item Name="BuildRollingArray.vim" Type="VI" URL="../BuildRollingArray.vim"/>
+				<Item Name="SearchTimestampArray.vi" Type="VI" URL="../SearchTimestampArray.vi"/>
+			</Item>
+			<Item Name="Communication Helpers" Type="Folder">
+				<Item Name="ReducedBWSendToNT.vim" Type="VI" URL="../ReducedBWSendToNT.vim"/>
+				<Item Name="SendMessageToConsole.vi" Type="VI" URL="../SendMessageToConsole.vi"/>
+			</Item>
+			<Item Name="Control Algorithms" Type="Folder">
+				<Item Name="CustomPID_v4.0.vi" Type="VI" URL="../CustomPID_v4.0.vi"/>
+				<Item Name="CustomPID_v4.1.vi" Type="VI" URL="../CustomPID_v4.1.vi"/>
+				<Item Name="LimitAcceleration.vi" Type="VI" URL="../LimitAcceleration.vi"/>
+			</Item>
+			<Item Name="Control Modifiers" Type="Folder">
+				<Item Name="EdgeTrigger.vi" Type="VI" URL="../EdgeTrigger.vi"/>
+				<Item Name="Latch.vim" Type="VI" URL="../Latch.vim"/>
+				<Item Name="LongpressButton.vi" Type="VI" URL="../LongpressButton.vi"/>
+				<Item Name="PulseOutput.vi" Type="VI" URL="../PulseOutput.vi"/>
+				<Item Name="StickyButton.vi" Type="VI" URL="../StickyButton.vi"/>
+				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
+			</Item>
+			<Item Name="Error Helpers" Type="Folder">
+				<Item Name="ErrorLatch.vi" Type="VI" URL="../ErrorLatch.vi"/>
+				<Item Name="MergeErrorMessages.vi" Type="VI" URL="../MergeErrorMessages.vi"/>
+			</Item>
+			<Item Name="File Helpers" Type="Folder">
+				<Item Name="BumpSetpoint.vi" Type="VI" URL="../BumpSetpoint.vi"/>
+				<Item Name="ConfigureSetpoints.vi" Type="VI" URL="../ConfigureSetpoints.vi"/>
+				<Item Name="ConfigureVariable.vi" Type="VI" URL="../ConfigureVariable.vi"/>
+				<Item Name="ReadCSV.vi" Type="VI" URL="../ReadCSV.vi"/>
+				<Item Name="ReadXML.vi" Type="VI" URL="../ReadXML.vi"/>
+			</Item>
+			<Item Name="Joysticks" Type="Folder">
+				<Item Name="GenericJoystickCalibrate.vi" Type="VI" URL="../GenericJoystickCalibrate.vi"/>
+				<Item Name="GenericJoystickCoerce.vi" Type="VI" URL="../GenericJoystickCoerce.vi"/>
+				<Item Name="GenericJoystickDeadband.vi" Type="VI" URL="../GenericJoystickDeadband.vi"/>
+			</Item>
+			<Item Name="Parser" Type="Folder">
+				<Item Name="SafeParser.vi" Type="VI" URL="../SafeParser.vi"/>
+				<Item Name="SafeParser_Float.vi" Type="VI" URL="../SafeParser_Float.vi"/>
+				<Item Name="SafeParser_Integer.vi" Type="VI" URL="../SafeParser_Integer.vi"/>
+				<Item Name="SafeParser_String.vi" Type="VI" URL="../SafeParser_String.vi"/>
+			</Item>
 			<Item Name="Ref Num Helpers" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="GetRefNumFast.vi" Type="VI" URL="../GetRefNumFast.vi"/>
@@ -362,71 +412,27 @@ AddOutputFilter chunkFilter
 				<Item Name="GRNF_POT.vi" Type="VI" URL="../GRNF_POT.vi"/>
 				<Item Name="GRNF_Servo.vi" Type="VI" URL="../GRNF_Servo.vi"/>
 			</Item>
-			<Item Name="Control Modifiers" Type="Folder">
-				<Item Name="EdgeTrigger.vi" Type="VI" URL="../EdgeTrigger.vi"/>
-				<Item Name="Latch.vim" Type="VI" URL="../Latch.vim"/>
-				<Item Name="PulseOutput.vi" Type="VI" URL="../PulseOutput.vi"/>
-				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
-				<Item Name="LongpressButton.vi" Type="VI" URL="../LongpressButton.vi"/>
-				<Item Name="StickyButton.vi" Type="VI" URL="../StickyButton.vi"/>
-			</Item>
-			<Item Name="File Helpers" Type="Folder">
-				<Item Name="ReadCSV.vi" Type="VI" URL="../ReadCSV.vi"/>
-				<Item Name="ReadXML.vi" Type="VI" URL="../ReadXML.vi"/>
-				<Item Name="ConfigureSetpoints.vi" Type="VI" URL="../ConfigureSetpoints.vi"/>
-				<Item Name="ConfigureVariable.vi" Type="VI" URL="../ConfigureVariable.vi"/>
-				<Item Name="BumpSetpoint.vi" Type="VI" URL="../BumpSetpoint.vi"/>
-			</Item>
-			<Item Name="Joysticks" Type="Folder">
-				<Item Name="GenericJoystickCalibrate.vi" Type="VI" URL="../GenericJoystickCalibrate.vi"/>
-				<Item Name="GenericJoystickCoerce.vi" Type="VI" URL="../GenericJoystickCoerce.vi"/>
-				<Item Name="GenericJoystickDeadband.vi" Type="VI" URL="../GenericJoystickDeadband.vi"/>
-			</Item>
-			<Item Name="Parser" Type="Folder">
-				<Item Name="SafeParser.vi" Type="VI" URL="../SafeParser.vi"/>
-				<Item Name="SafeParser_Float.vi" Type="VI" URL="../SafeParser_Float.vi"/>
-				<Item Name="SafeParser_Integer.vi" Type="VI" URL="../SafeParser_Integer.vi"/>
-				<Item Name="SafeParser_String.vi" Type="VI" URL="../SafeParser_String.vi"/>
-			</Item>
-			<Item Name="Actuator Interlocks" Type="Folder">
-				<Item Name="GenerateSinusoidalOutput.vi" Type="VI" URL="../GenerateSinusoidalOutput.vi"/>
-				<Item Name="GenerateSquarewaveOutput.vi" Type="VI" URL="../GenerateSquarewaveOutput.vi"/>
-				<Item Name="TAI_Motor.vi" Type="VI" URL="../TAI_Motor.vi"/>
-				<Item Name="TAI_Servo.vi" Type="VI" URL="../TAI_Servo.vi"/>
-				<Item Name="TAI_Solenoid.vi" Type="VI" URL="../TAI_Solenoid.vi"/>
-				<Item Name="TestActuatorInterlock.vi" Type="VI" URL="../TestActuatorInterlock.vi"/>
-			</Item>
-			<Item Name="Array Helpers" Type="Folder">
-				<Item Name="BuildRollingArray.vim" Type="VI" URL="../BuildRollingArray.vim"/>
-				<Item Name="SearchTimestampArray.vi" Type="VI" URL="../SearchTimestampArray.vi"/>
-			</Item>
 			<Item Name="Sensor Helpers" Type="Folder">
-				<Item Name="InterpolateCalibrationValue.vi" Type="VI" URL="../InterpolateCalibrationValue.vi"/>
-				<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
 				<Item Name="AngularDistance.vi" Type="VI" URL="../AngularDistance.vi"/>
+				<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
+				<Item Name="InterpolateCalibrationValue.vi" Type="VI" URL="../InterpolateCalibrationValue.vi"/>
+			</Item>
+			<Item Name="Talon SRX" Type="Folder">
+				<Item Name="TalonSRXConfigMotionMagic.vi" Type="VI" URL="../TalonSRXConfigMotionMagic.vi"/>
+				<Item Name="TalonSRXConfigPID.vi" Type="VI" URL="../TalonSRXConfigPID.vi"/>
+				<Item Name="TalonSRXReadEncoders.vi" Type="VI" URL="../TalonSRXReadEncoders.vi"/>
+				<Item Name="TalonSRXSetCoaset.vi" Type="VI" URL="../TalonSRXSetCoaset.vi"/>
+				<Item Name="TalonSRXZeroEncoder.vi" Type="VI" URL="../TalonSRXZeroEncoder.vi"/>
 			</Item>
 			<Item Name="Timing" Type="Folder">
+				<Item Name="ElapsedTimes.vi" Type="VI" URL="../ElapsedTimes.vi"/>
 				<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 				<Item Name="TimeThreshold.vi" Type="VI" URL="../TimeThreshold.vi"/>
-				<Item Name="ElapsedTimes.vi" Type="VI" URL="../ElapsedTimes.vi"/>
-			</Item>
-			<Item Name="Control Algorithms" Type="Folder">
-				<Item Name="CustomPID_v4.0.vi" Type="VI" URL="../CustomPID_v4.0.vi"/>
-				<Item Name="CustomPID_v4.1.vi" Type="VI" URL="../CustomPID_v4.1.vi"/>
-				<Item Name="LimitAcceleration.vi" Type="VI" URL="../LimitAcceleration.vi"/>
-			</Item>
-			<Item Name="Communication Helpers" Type="Folder">
-				<Item Name="SendMessageToConsole.vi" Type="VI" URL="../SendMessageToConsole.vi"/>
-				<Item Name="ReducedBWSendToNT.vim" Type="VI" URL="../ReducedBWSendToNT.vim"/>
-			</Item>
-			<Item Name="Error Helpers" Type="Folder">
-				<Item Name="MergeErrorMessages.vi" Type="VI" URL="../MergeErrorMessages.vi"/>
-				<Item Name="ErrorLatch.vi" Type="VI" URL="../ErrorLatch.vi"/>
 			</Item>
 			<Item Name="BlinkLight.vi" Type="VI" URL="../BlinkLight.vi"/>
 			<Item Name="DesyncInitCAN.vi" Type="VI" URL="../DesyncInitCAN.vi"/>
-			<Item Name="StateSelectionEnum.vim" Type="VI" URL="../StateSelectionEnum.vim"/>
 			<Item Name="RGBtoGRB.vi" Type="VI" URL="../RGBtoGRB.vi"/>
+			<Item Name="StateSelectionEnum.vim" Type="VI" URL="../StateSelectionEnum.vim"/>
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
 		</Item>
 		<Item Name="MasterRobotModeController.vi" Type="VI" URL="../MasterRobotModeController.vi"/>
