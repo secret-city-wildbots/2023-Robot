@@ -418,10 +418,11 @@ AddOutputFilter chunkFilter
 				<Item Name="InterpolateCalibrationValue.vi" Type="VI" URL="../InterpolateCalibrationValue.vi"/>
 			</Item>
 			<Item Name="Talon SRX" Type="Folder">
+				<Item Name="TalonSRXCommandPosition.vi" Type="VI" URL="../TalonSRXCommandPosition.vi"/>
 				<Item Name="TalonSRXConfigMotionMagic.vi" Type="VI" URL="../TalonSRXConfigMotionMagic.vi"/>
 				<Item Name="TalonSRXConfigPID.vi" Type="VI" URL="../TalonSRXConfigPID.vi"/>
-				<Item Name="TalonSRXReadEncoders.vi" Type="VI" URL="../TalonSRXReadEncoders.vi"/>
-				<Item Name="TalonSRXSetCoaset.vi" Type="VI" URL="../TalonSRXSetCoaset.vi"/>
+				<Item Name="TalonSRXReadEncoder.vi" Type="VI" URL="../TalonSRXReadEncoder.vi"/>
+				<Item Name="TalonSRXSetCoast.vi" Type="VI" URL="../TalonSRXSetCoast.vi"/>
 				<Item Name="TalonSRXZeroEncoder.vi" Type="VI" URL="../TalonSRXZeroEncoder.vi"/>
 			</Item>
 			<Item Name="Timing" Type="Folder">
