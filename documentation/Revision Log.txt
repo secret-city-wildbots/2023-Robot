@@ -4,6 +4,7 @@
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 
 -- Untested Features --
+> The robot now sends and "is booted" signal to the Dashboard.
 > Adds a state controller for the arm.
 > Actually controlling the arm motors with the code in OutputArm.vi.
 > Reading an actual absolute encoder, test calibration behavior.
