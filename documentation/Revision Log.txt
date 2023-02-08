@@ -4,15 +4,16 @@
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 
 -- Untested Features --
-> The robot now sends an "is booted" signal to the Dashboard.
-> Adds a state controller for the arm.
 > Actually controlling the arm motors with the code in OutputArm.vi.
 > Reading an actual absolute encoder, test calibration behavior.
-> Full sensor fusion and path following at BioLargo.
+> Full sensor fusion at BioLargo.
+> Initial path following at BioLargo.
 
 -- Releases --
 
-v***
+v0.4
+> The robot now sends a "code is running" signal to the Dashboard.
+> Adds a state controller for the arm.
 > Finishes out the functionality for the on-computer arm kinematics simulator.
 > Adds arm (and generic motor) simulation code.
 > Adds visualization of the goal end effector position to the Dashboard.
