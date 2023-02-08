@@ -2,8 +2,12 @@
 > The robot probably shifts too early, worry less about maintaining motor efficiency and stay in low gear for longer
 > Need to run additional checks on the AprilTags pose estimates, they are still marked as valid even when too far away for stable calculation
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
+> The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 
 -- Untested Features --
+> The IK algorithm has not yet been deployed or tested on the robot.
+> Connects the end effector jogging Dashboard data to the IK algorithm.
+> Adding joint angle constraints (in independent joint space).
 > Actually controlling the arm motors with the code in OutputArm.vi.
 > Reading an actual absolute encoder, test calibration behavior.
 > Full sensor fusion at BioLargo.
