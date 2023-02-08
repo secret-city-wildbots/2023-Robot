@@ -1,0 +1,11 @@
+v0.4
+Control Loop: 30 ms
+RoboRIO CPU: 75%
+CAN Utilization: 80%
+Code Bootup Time: 11s
+
+v0.1
+Control Loop: 30 ms
+RoboRIO CPU: 60%
+CAN Utilization: ***%
+Code Bootup Time: *** s
