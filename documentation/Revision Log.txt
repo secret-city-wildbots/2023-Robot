@@ -5,9 +5,7 @@
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 
 -- Untested Features --
-> The IK algorithm has not yet been deployed or tested on the robot.
-> Connects the end effector jogging Dashboard data to the IK algorithm.
-> Adding joint angle constraints (in independent joint space).
+> Cleaning up the drivebase state controller.
 > Actually controlling the arm motors with the code in OutputArm.vi.
 > Reading an actual absolute encoder, test calibration behavior.
 > Full sensor fusion at BioLargo.
@@ -16,9 +14,9 @@
 -- Releases --
 
 v***
-
-
-
+> Adding joint angle constraints (in independent joint space).
+> Connects the end effector jogging Dashboard data to the IK algorithm.
+> The IK algorithm has been deployed and tested on the robot.
 
 v0.4
 > The robot now sends a "code is running" signal to the Dashboard.

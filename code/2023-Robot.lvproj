@@ -309,6 +309,7 @@ AddOutputFilter chunkFilter
 				</Item>
 				<Item Name="ConfigureDriverProfiles.vi" Type="VI" URL="../ConfigureDriverProfiles.vi"/>
 				<Item Name="DecideWhenToShift.vi" Type="VI" URL="../DecideWhenToShift.vi"/>
+				<Item Name="DetermineSpeedCap.vi" Type="VI" URL="../DetermineSpeedCap.vi"/>
 				<Item Name="DriveCommandToMotorPower.vi" Type="VI" URL="../DriveCommandToMotorPower.vi"/>
 				<Item Name="GlobalDrivebase.vi" Type="VI" URL="../GlobalDrivebase.vi"/>
 				<Item Name="InitDrivebase.vi" Type="VI" URL="../InitDrivebase.vi"/>
