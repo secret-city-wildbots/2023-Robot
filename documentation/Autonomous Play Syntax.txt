@@ -46,6 +46,14 @@ DriveAngleH(param1, param2)
 2. The signed rotation command, note that the user must specify the desired rotation direction.
 
 -----------------------------------------------------------
+
+DriveBalance(param1)
+# This VI balances the robot from near or far side when lined up
+
+1. "near" or "far" to indicate which side the robot is coming from in relation to the driver station
+
+-----------------------------------------------------------
+
 DriveSetRobotPosition(param1, param2)
 # This VI manually updates the robot's position, use to zero-out accumulated pose error.
 
