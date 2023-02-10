@@ -5,6 +5,7 @@
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 
 -- Untested Features --
+> Adding simulation capability for the robot pitch angle.
 > Adding code to read and report the robot pitch angle.
 > Cleaning up the drivebase state controller.
 > Actually controlling the arm motors with the code in OutputArm.vi.

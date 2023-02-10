@@ -990,12 +990,9 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkTablesLV.dll" Type="Document" URL="FRC_NetworkTablesLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="GlobalDrivebase.vi" Type="VI" URL="../../../2023-Robot (main-arch)/code/GlobalDrivebase.vi"/>
-			<Item Name="GlobalDriverStationCommands.vi" Type="VI" URL="../../../2023-Robot (main-arch)/code/GlobalDriverStationCommands.vi"/>
 			<Item Name="hmblv.dll" Type="Document" URL="hmblv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LimitAcceleration.vi" Type="VI" URL="../../../2023-Robot (main-arch)/code/LimitAcceleration.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1006,7 +1003,6 @@ AddOutputFilter chunkFilter
 			<Item Name="ntcoreffi.dll" Type="Document" URL="ntcoreffi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="StickyButton.vi" Type="VI" URL="../../../2023-Robot (main-arch)/code/StickyButton.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
