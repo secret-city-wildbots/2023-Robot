@@ -252,7 +252,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Odometry" Type="Folder">
 					<Item Name="CalculateRobotVelocityAcceleration.vi" Type="VI" URL="../CalculateRobotVelocityAcceleration.vi"/>
 					<Item Name="ConvertFalconDriveEncoders.vi" Type="VI" URL="../ConvertFalconDriveEncoders.vi"/>
-					<Item Name="GetPigeonIMU.vi" Type="VI" URL="../GetPigeonIMU.vi"/>
 					<Item Name="GetShifterState.vi" Type="VI" URL="../GetShifterState.vi"/>
 					<Item Name="GetSwerveAbsoluteAzimuth.vi" Type="VI" URL="../GetSwerveAbsoluteAzimuth.vi"/>
 					<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
@@ -262,6 +261,7 @@ AddOutputFilter chunkFilter
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
 				<Item Name="GetAprilTags.vi" Type="VI" URL="../GetAprilTags.vi"/>
+				<Item Name="GetPigeonIMU.vi" Type="VI" URL="../GetPigeonIMU.vi"/>
 				<Item Name="GlobalPoseAndTargeting.vi" Type="VI" URL="../GlobalPoseAndTargeting.vi"/>
 				<Item Name="ModePose.vi" Type="VI" URL="../ModePose.vi"/>
 				<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>

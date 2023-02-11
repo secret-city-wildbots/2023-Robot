@@ -5,6 +5,9 @@
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 
 -- Untested Features --
+> Adding a way to zero the pitch angle.
+> Modifying the power management state controller for the 2023 season.
+> Changing how the compressor power diversion is implimented.
 > Adding simulation capability for the robot pitch angle.
 > Adding code to read and report the robot pitch angle.
 > Cleaning up the drivebase state controller.
