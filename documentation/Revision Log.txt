@@ -5,6 +5,7 @@
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 
 -- Untested Features --
+> Linking the game piece detection to the grip solenoid state.
 > Actually controlling the arm motors with the code in OutputArm.vi.
 > Reading an actual absolute encoder, test calibration behavior.
 > Full sensor fusion at BioLargo.
