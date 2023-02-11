@@ -6,13 +6,14 @@
 
 -- Untested Features --
 > Actually controlling the arm motors with the code in OutputArm.vi.
-> Reading an actual absolute encoder, test calibration behavior.
 > Full sensor fusion at BioLargo.
 > Initial path following at BioLargo.
 
 -- Releases --
 
 v***
+> Reading an actual absolute encoder, test calibration behavior.
+> Added logic for auto-stow
 > Lowering the state controller loop delay to 25 ms.
 > Updated the autonomous state change command to work with the 2023 master state controller.
 > Merged in auto-balancing autonomous command.
