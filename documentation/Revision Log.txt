@@ -6,6 +6,8 @@
 > Some CAN and device references do not match the hardware interfaces spreadsheet because they are being tested using Sidewinder.
 
 -- Untested Features --
+> Controlling an actual hopper.
+> Controlling an actual gripper.
 > Actually controlling the arm motors with the code in OutputArm.vi.
 > Full sensor fusion at BioLargo.
 > Initial path following at BioLargo.
@@ -13,6 +15,8 @@
 -- Releases --
 
 v***
+> Creating a new wrapper for commanding the state of the switchable REV PDH port.
+> Creating the initial output code for the hopper.
 > Creating a new wrapper for commanding the state of a double-acting solenoid.
 > Creating the initial output code for the gripper.
 > Creating an interface for auto-stowing the arm based on triggers from other subsystem state controllers.

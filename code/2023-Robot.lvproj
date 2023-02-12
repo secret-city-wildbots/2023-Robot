@@ -370,6 +370,16 @@ AddOutputFilter chunkFilter
 				<Item Name="TAI_Solenoid.vi" Type="VI" URL="../TAI_Solenoid.vi"/>
 				<Item Name="TestActuatorInterlock.vi" Type="VI" URL="../TestActuatorInterlock.vi"/>
 			</Item>
+			<Item Name="Actuator Wrappers" Type="Folder">
+				<Item Name="DoubleSolenoidCommandState.vi" Type="VI" URL="../DoubleSolenoidCommandState.vi"/>
+				<Item Name="PDHSwitchCommandState.vi" Type="VI" URL="../PDHSwitchCommandState.vi"/>
+				<Item Name="TalonSRXCommandPosition.vi" Type="VI" URL="../TalonSRXCommandPosition.vi"/>
+				<Item Name="TalonSRXConfigMotionMagic.vi" Type="VI" URL="../TalonSRXConfigMotionMagic.vi"/>
+				<Item Name="TalonSRXConfigPID.vi" Type="VI" URL="../TalonSRXConfigPID.vi"/>
+				<Item Name="TalonSRXReadEncoder.vi" Type="VI" URL="../TalonSRXReadEncoder.vi"/>
+				<Item Name="TalonSRXSetCoast.vi" Type="VI" URL="../TalonSRXSetCoast.vi"/>
+				<Item Name="TalonSRXZeroEncoder.vi" Type="VI" URL="../TalonSRXZeroEncoder.vi"/>
+			</Item>
 			<Item Name="Array Helpers" Type="Folder">
 				<Item Name="BuildRollingArray.vim" Type="VI" URL="../BuildRollingArray.vim"/>
 				<Item Name="SearchTimestampArray.vi" Type="VI" URL="../SearchTimestampArray.vi"/>
@@ -390,9 +400,6 @@ AddOutputFilter chunkFilter
 				<Item Name="PulseOutput.vi" Type="VI" URL="../PulseOutput.vi"/>
 				<Item Name="StickyButton.vi" Type="VI" URL="../StickyButton.vi"/>
 				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
-			</Item>
-			<Item Name="Double Acting Solenoid" Type="Folder">
-				<Item Name="DoubleSolenoidCommandState.vi" Type="VI" URL="../DoubleSolenoidCommandState.vi"/>
 			</Item>
 			<Item Name="Error Helpers" Type="Folder">
 				<Item Name="ErrorLatch.vi" Type="VI" URL="../ErrorLatch.vi"/>
@@ -435,14 +442,6 @@ AddOutputFilter chunkFilter
 				<Item Name="AngularDistance.vi" Type="VI" URL="../AngularDistance.vi"/>
 				<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
 				<Item Name="InterpolateCalibrationValue.vi" Type="VI" URL="../InterpolateCalibrationValue.vi"/>
-			</Item>
-			<Item Name="Talon SRX" Type="Folder">
-				<Item Name="TalonSRXCommandPosition.vi" Type="VI" URL="../TalonSRXCommandPosition.vi"/>
-				<Item Name="TalonSRXConfigMotionMagic.vi" Type="VI" URL="../TalonSRXConfigMotionMagic.vi"/>
-				<Item Name="TalonSRXConfigPID.vi" Type="VI" URL="../TalonSRXConfigPID.vi"/>
-				<Item Name="TalonSRXReadEncoder.vi" Type="VI" URL="../TalonSRXReadEncoder.vi"/>
-				<Item Name="TalonSRXSetCoast.vi" Type="VI" URL="../TalonSRXSetCoast.vi"/>
-				<Item Name="TalonSRXZeroEncoder.vi" Type="VI" URL="../TalonSRXZeroEncoder.vi"/>
 			</Item>
 			<Item Name="Timing" Type="Folder">
 				<Item Name="ElapsedTimes.vi" Type="VI" URL="../ElapsedTimes.vi"/>
