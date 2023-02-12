@@ -12,7 +12,7 @@
 -- Releases --
 
 v***
-> Reading an actual absolute encoder, test calibration behavior.
+> Reading an actual absolute encoder, tested calibration behavior and fixed bugs.
 > Added logic for auto-stow
 > Lowering the state controller loop delay to 25 ms.
 > Updated the autonomous state change command to work with the 2023 master state controller.
