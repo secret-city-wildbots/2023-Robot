@@ -6,6 +6,7 @@
 > Some CAN and device references do not match the hardware interfaces spreadsheet because they are being tested using Sidewinder.
 
 -- Untested Features --
+> Adding distance and heading to target calculations which will be used for auto-targeting.
 > Places restrictions on what the gripper can do if the arm is still moving.
 > Tying the LimeLight PiP modes to the masters state controller.
 > Adding a state controller for the hopper.
