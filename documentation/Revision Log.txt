@@ -12,6 +12,7 @@
 -- Releases --
 
 v***
+> Creating an interface for auto-stowing the arm based on triggers from other subsystem state controllers.
 > Reading an actual absolute encoder, tested calibration behavior and fixed bugs.
 > Added logic for auto-stow
 > Lowering the state controller loop delay to 25 ms.
