@@ -391,6 +391,9 @@ AddOutputFilter chunkFilter
 				<Item Name="StickyButton.vi" Type="VI" URL="../StickyButton.vi"/>
 				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 			</Item>
+			<Item Name="Double Acting Solenoid" Type="Folder">
+				<Item Name="DoubleSolenoidCommandState.vi" Type="VI" URL="../DoubleSolenoidCommandState.vi"/>
+			</Item>
 			<Item Name="Error Helpers" Type="Folder">
 				<Item Name="ErrorLatch.vi" Type="VI" URL="../ErrorLatch.vi"/>
 				<Item Name="MergeErrorMessages.vi" Type="VI" URL="../MergeErrorMessages.vi"/>

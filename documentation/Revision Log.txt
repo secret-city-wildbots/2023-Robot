@@ -3,6 +3,7 @@
 > Need to run additional checks on the AprilTags pose estimates, they are still marked as valid even when too far away for stable calculation
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
+> Some CAN and device references do not match the hardware interfaces spreadsheet because they are being tested using Sidewinder.
 
 -- Untested Features --
 > Actually controlling the arm motors with the code in OutputArm.vi.
@@ -12,6 +13,8 @@
 -- Releases --
 
 v***
+> Creating a new wrapper for commanding the state of a double-acting solenoid.
+> Creating the initial output code for the gripper.
 > Creating an interface for auto-stowing the arm based on triggers from other subsystem state controllers.
 > Reading an actual absolute encoder, tested calibration behavior and fixed bugs.
 > Added logic for auto-stow
