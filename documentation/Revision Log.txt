@@ -6,6 +6,7 @@
 > Some CAN and device references do not match the hardware interfaces spreadsheet because they are being tested using Sidewinder.
 
 -- Untested Features --
+> Adding beam break code to detect game pieces in the hopper.
 > Controlling an actual hopper.
 > Controlling an actual gripper.
 > Actually controlling the arm motors with the code in OutputArm.vi.
