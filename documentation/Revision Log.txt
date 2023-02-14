@@ -18,6 +18,9 @@
 -- Releases --
 
 v***
+> Adding an auto command to wait for the arm to stop moving.
+> Adding an auto command to release a gamepiece.
+> Adding an auto command block to change the scoring position.
 > Flips the default gripper position.
 > Adding a handshake sequence to ensure the LimeLight has the correct setting after a connection loss.
 > Adding a state controller for the hopper.
