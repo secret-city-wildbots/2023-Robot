@@ -4,6 +4,7 @@
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Some CAN and device references do not match the hardware interfaces spreadsheet because they are being tested using Sidewinder.
+> Auto-targeting is hard-disabled in DriverStationGetData.vi.
 
 -- Untested Features --
 > Places restrictions on what the gripper can do if the arm is still moving.
@@ -17,6 +18,8 @@
 -- Releases --
 
 v***
+> Flips the default gripper position.
+> Adding a handshake sequence to ensure the LimeLight has the correct setting after a connection loss.
 > Adding a state controller for the hopper.
 > Adding distance and heading to target calculations which will be used for auto-targeting.
 > Adding beam break code to detect game pieces in the hopper.
