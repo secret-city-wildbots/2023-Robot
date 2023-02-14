@@ -112,6 +112,7 @@
 			<Item Name="GlobalGripper.vi" Type="VI" URL="../GlobalGripper.vi"/>
 			<Item Name="ArmFeedForwardCalculations.vi" Type="VI" URL="../ArmFeedForwardCalculations.vi"/>
 			<Item Name="GlobalDriverStationData.vi" Type="VI" URL="../GlobalDriverStationData.vi"/>
+			<Item Name="GlobalPoseAndTargeting.vi" Type="VI" URL="../GlobalPoseAndTargeting.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
