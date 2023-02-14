@@ -120,3 +120,20 @@ ManipHumanPlayerSignal(param1)
 1. Set to "on" to signal human player or "off" to stop
 
 -----------------------------------------------------------
+
+ManipChangeScoringPosition(param1)
+# This VI changes the robot's scoring height
+
+1. Specifies the desired scoring height (0=low, 1=mid, 2=high)
+
+-----------------------------------------------------------
+
+ManipDropPiece
+# This VI drops a held piece
+
+-----------------------------------------------------------
+
+ManipWaitForArm
+# This VI waits until the arm has arrived at its most recently requested state
+
+-----------------------------------------------------------
