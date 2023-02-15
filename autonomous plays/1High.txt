@@ -1,15 +1,15 @@
-This play just balances (TESTING)
+This play scores one game piece high and then gets the mobility bonus
 
 *
 start_x_red = 75
-start_y_red = 200
+start_y_red = 300
 start_h_red = 0
 start_x_blue = 75
-start_y_blue = 100
+start_y_blue = 10
 start_h_blue = 0
 *
 DriveWaitForManip(4)
-DriveDistanceX(48,0.2)
+DriveDistanceX(155,0.2)
 DriveEnd()
 *
 ManipChangeState(2)

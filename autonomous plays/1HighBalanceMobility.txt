@@ -1,4 +1,4 @@
-This play just balances (TESTING)
+This play scores one game piece high, gets the mobility bonus, and then balances
 
 *
 start_x_red = 75
