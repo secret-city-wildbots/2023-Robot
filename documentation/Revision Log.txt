@@ -7,6 +7,10 @@
 > Auto-targeting is hard-disabled in DriverStationGetData.vi.
 
 -- Untested Features --
+> Adding an auto command to drive over the CHARGING STATION.
+> Adding an auto command to wait for the arm to stop moving.
+> Adding an auto command to release a gamepiece.
+> Adding an auto command block to change the scoring position.
 > Places restrictions on what the gripper can do if the arm is still moving.
 > Tying the LimeLight PiP modes to the masters state controller.
 > Controlling an actual hopper.
@@ -17,10 +21,7 @@
 
 -- Releases --
 
-v***
-> Adding an auto command to wait for the arm to stop moving.
-> Adding an auto command to release a gamepiece.
-> Adding an auto command block to change the scoring position.
+v0.5
 > Flips the default gripper position.
 > Adding a handshake sequence to ensure the LimeLight has the correct setting after a connection loss.
 > Adding a state controller for the hopper.
