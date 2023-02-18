@@ -7,10 +7,12 @@
 > Auto-targeting is hard-disabled in DriverStationGetData.vi.
 
 -- Untested Features --
-> Adding an auto command to drive over the CHARGING STATION.
-> Adding an auto command to wait for the arm to stop moving.
-> Adding an auto command to release a gamepiece.
-> Adding an auto command block to change the scoring position.
+> Allowing right and left hopper wings to be controlled independently depending on the alliance color.
+> The PWM port used for the LEDs is now properly closed when the robot code finishes.
+> The ejector solenoid will fire when releasing a CUBE from the gripper.
+> Adding an ejector solenoid for the gripper.
+> Creating a robot profile for "2023 Beta."
+> Connecting Dashboard overrides to the Master Caution state controller.
 > Places restrictions on what the gripper can do if the arm is still moving.
 > Tying the LimeLight PiP modes to the masters state controller.
 > Controlling an actual hopper.
@@ -20,6 +22,13 @@
 > Initial path following at BioLargo.
 
 -- Releases --
+
+v***
+> Fixing a broken run arrow in the arm simulator.
+> Adding an auto command to drive over the CHARGING STATION.
+> Adding an auto command to wait for the arm to stop moving.
+> Adding an auto command to release a gamepiece.
+> Adding an auto command block to change the scoring position.
 
 v0.5
 > Flips the default gripper position.
