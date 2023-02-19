@@ -23,6 +23,8 @@
 -- Releases --
 
 v***
+> Fixing a bug in the solenoid output code.
+> Updating the drivebase parameters for the 2023 robot.
 > Creating a robot profile for "2023 Beta."
 > Fixing a broken run arrow in the arm simulator.
 > Adding an auto command to drive over the CHARGING STATION.
