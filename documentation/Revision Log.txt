@@ -3,17 +3,16 @@
 > Need to run additional checks on the AprilTags pose estimates, they are still marked as valid even when too far away for stable calculation
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
-> Some CAN and device references do not match the hardware interfaces spreadsheet because they are being tested using Sidewinder.
 > Auto-targeting is hard-disabled in DriverStationGetData.vi.
 > Color sensor is commented out.
 > Arm temperatures are commented out.
 > Arm output code is disabled.
+> When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
 
 -- Untested Features --
 > Allowing right and left hopper wings to be controlled independently depending on the alliance color.
 > The PWM port used for the LEDs is now properly closed when the robot code finishes.
 > The ejector solenoid will fire when releasing a CUBE from the gripper.
-> Adding an ejector solenoid for the gripper.
 > Connecting Dashboard overrides to the Master Caution state controller.
 > Places restrictions on what the gripper can do if the arm is still moving.
 > Tying the LimeLight PiP modes to the masters state controller.
@@ -26,7 +25,10 @@
 -- Releases --
 
 v***
+> Changing CAN IDs for the arm motors.
+> Adding a readout of the wheel velocity average.
 > Fixing a bug in the solenoid output code.
+> Adding an ejector solenoid for the gripper.
 > Updating the drivebase parameters for the 2023 robot.
 > Creating a robot profile for "2023 Beta."
 > Fixing a broken run arrow in the arm simulator.
