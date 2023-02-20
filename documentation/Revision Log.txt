@@ -1,5 +1,4 @@
 -- Known Issues --
-> The robot probably shifts too early, worry less about maintaining motor efficiency and stay in low gear for longer
 > Need to run additional checks on the AprilTags pose estimates, they are still marked as valid even when too far away for stable calculation
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
@@ -25,6 +24,7 @@
 -- Releases --
 
 v***
+> Raises the automatic shifting RPM threshold.
 > Changing CAN IDs for the arm motors.
 > Adding a readout of the wheel velocity average.
 > Fixing a bug in the solenoid output code.
