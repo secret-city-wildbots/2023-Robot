@@ -378,12 +378,12 @@ AddOutputFilter chunkFilter
 			<Item Name="Actuator Wrappers" Type="Folder">
 				<Item Name="DoubleSolenoidCommandState.vi" Type="VI" URL="../DoubleSolenoidCommandState.vi"/>
 				<Item Name="PDHSwitchCommandState.vi" Type="VI" URL="../PDHSwitchCommandState.vi"/>
-				<Item Name="TalonSRXCommandPosition.vi" Type="VI" URL="../TalonSRXCommandPosition.vi"/>
-				<Item Name="TalonSRXConfigMotionMagic.vi" Type="VI" URL="../TalonSRXConfigMotionMagic.vi"/>
-				<Item Name="TalonSRXConfigPID.vi" Type="VI" URL="../TalonSRXConfigPID.vi"/>
-				<Item Name="TalonSRXReadEncoder.vi" Type="VI" URL="../TalonSRXReadEncoder.vi"/>
-				<Item Name="TalonSRXSetCoast.vi" Type="VI" URL="../TalonSRXSetCoast.vi"/>
-				<Item Name="TalonSRXZeroEncoder.vi" Type="VI" URL="../TalonSRXZeroEncoder.vi"/>
+				<Item Name="TalonFXCommandPosition.vi" Type="VI" URL="../TalonFXCommandPosition.vi"/>
+				<Item Name="TalonFXConfigMotionMagic.vi" Type="VI" URL="../TalonFXConfigMotionMagic.vi"/>
+				<Item Name="TalonFXConfigPID.vi" Type="VI" URL="../TalonFXConfigPID.vi"/>
+				<Item Name="TalonFXReadEncoder.vi" Type="VI" URL="../TalonFXReadEncoder.vi"/>
+				<Item Name="TalonFXSetCoast.vi" Type="VI" URL="../TalonFXSetCoast.vi"/>
+				<Item Name="TalonFXZeroEncoder.vi" Type="VI" URL="../TalonFXZeroEncoder.vi"/>
 			</Item>
 			<Item Name="Array Helpers" Type="Folder">
 				<Item Name="BuildRollingArray.vim" Type="VI" URL="../BuildRollingArray.vim"/>

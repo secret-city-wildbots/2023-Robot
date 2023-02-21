@@ -4,11 +4,11 @@
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Auto-targeting is hard-disabled in DriverStationGetData.vi.
 > Color sensor is commented out.
-> Arm temperatures are commented out.
-> Arm output code is disabled.
+> Arm absolute encoders are commented out.
 > When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
 
 -- Untested Features --
+> Adding angle transforms to handle the four-bar mechanical behavior of the arm.
 > Allowing right and left hopper wings to be controlled independently depending on the alliance color.
 > The PWM port used for the LEDs is now properly closed when the robot code finishes.
 > The ejector solenoid will fire when releasing a CUBE from the gripper.
@@ -24,6 +24,7 @@
 -- Releases --
 
 v***
+> Changing the name of SRX wrappers to FX wrappers.
 > Raises the automatic shifting RPM threshold.
 > Changing CAN IDs for the arm motors.
 > Adding a readout of the wheel velocity average.
