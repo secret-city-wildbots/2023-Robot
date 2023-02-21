@@ -8,6 +8,7 @@
 > When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
 
 -- Untested Features --
+> The auto-targeting override is disconnected from the alarm state controller.
 > Adding angle transforms to handle the four-bar mechanical behavior of the arm.
 > Allowing right and left hopper wings to be controlled independently depending on the alliance color.
 > The PWM port used for the LEDs is now properly closed when the robot code finishes.
