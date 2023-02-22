@@ -9,7 +9,6 @@
 
 -- Untested Features --
 > The auto-targeting override is disconnected from the alarm state controller.
-> Adding angle transforms to handle the four-bar mechanical behavior of the arm.
 > Allowing right and left hopper wings to be controlled independently depending on the alliance color.
 > The PWM port used for the LEDs is now properly closed when the robot code finishes.
 > The ejector solenoid will fire when releasing a CUBE from the gripper.
@@ -18,13 +17,17 @@
 > Tying the LimeLight PiP modes to the masters state controller.
 > Controlling an actual hopper.
 > Controlling an actual gripper.
-> Actually controlling the arm motors with the code in OutputArm.vi.
 > Full sensor fusion at BioLargo.
 > Initial path following at BioLargo.
 
 -- Releases --
 
 v***
+> Flipping the arm base transform by 180 degrees.
+> Fixing various arm control bugs.
+> Actually controlling the arm motors with the code in OutputArm.vi.
+> Tuning the FF, PID, and MM parameters for the prototype arm.
+> Adding angle transforms to handle the four-bar mechanical behavior of the arm.
 > Changing the name of SRX wrappers to FX wrappers.
 > Raises the automatic shifting RPM threshold.
 > Changing CAN IDs for the arm motors.

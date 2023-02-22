@@ -280,8 +280,8 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Arm" Type="Folder">
 				<Item Name="Kinematics" Type="Folder">
+					<Item Name="ArmEndEffectorPosition.vi" Type="VI" URL="../ArmEndEffectorPosition.vi"/>
 					<Item Name="ArmFeedForwardCalculations.vi" Type="VI" URL="../ArmFeedForwardCalculations.vi"/>
-					<Item Name="ArmGoalEndEffectorPosition.vi" Type="VI" URL="../ArmGoalEndEffectorPosition.vi"/>
 					<Item Name="ArmGoalJointAngleCalculations.vi" Type="VI" URL="../ArmGoalJointAngleCalculations.vi"/>
 					<Item Name="ArmInverseKinematics.vi" Type="VI" URL="../ArmInverseKinematics.vi"/>
 					<Item Name="InitArmKinematics.vi" Type="VI" URL="../InitArmKinematics.vi"/>
