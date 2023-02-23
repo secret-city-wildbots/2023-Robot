@@ -4,6 +4,7 @@
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Auto-targeting is hard-disabled in DriverStationGetData.vi.
 > Color sensor is commented out.
+> Hopper beam break is commented out.
 > Arm absolute encoders are commented out.
 > When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
 > The drive base heading control is commented out.
