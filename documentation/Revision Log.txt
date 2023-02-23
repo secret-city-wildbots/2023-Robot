@@ -6,9 +6,9 @@
 > Color sensor is commented out.
 > Arm absolute encoders are commented out.
 > When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
+> The drive base heading control is commented out.
 
 -- Untested Features --
-> The auto-targeting override is disconnected from the alarm state controller.
 > Allowing right and left hopper wings to be controlled independently depending on the alliance color.
 > The PWM port used for the LEDs is now properly closed when the robot code finishes.
 > The ejector solenoid will fire when releasing a CUBE from the gripper.
@@ -23,6 +23,7 @@
 -- Releases --
 
 v***
+> The auto-targeting override is disconnected from the alarm state controller.
 > Flipping the arm base transform by 180 degrees.
 > Fixing various arm control bugs.
 > Actually controlling the arm motors with the code in OutputArm.vi.
