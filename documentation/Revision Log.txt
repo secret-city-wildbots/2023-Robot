@@ -23,6 +23,7 @@
 -- Releases --
 
 v***
+> Adding the ability to control the wrist in four-bar mode.
 > Added display of end effector position on the dashboard.
 > Hopper wings now open in the shelf master state.
 > Initial joint setpoints are configured on the prototype arm.
