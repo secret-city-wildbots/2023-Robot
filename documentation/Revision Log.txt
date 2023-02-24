@@ -14,7 +14,6 @@
 > The PWM port used for the LEDs is now properly closed when the robot code finishes.
 > The ejector solenoid will fire when releasing a CUBE from the gripper.
 > Connecting Dashboard overrides to the Master Caution state controller.
-> Places restrictions on what the gripper can do if the arm is still moving.
 > Tying the LimeLight PiP modes to the masters state controller.
 > Controlling an actual hopper.
 > Controlling an actual gripper.
@@ -24,6 +23,11 @@
 -- Releases --
 
 v***
+> Hopper wings now open in the shelf master state.
+> Initial joint setpoints are configured on the prototype arm.
+> Added current draw alarms for the arm motors.
+> Added on-motor soft limits to the shoulder.
+> Added detection of arm motor fault.
 > The auto-targeting override is disconnected from the alarm state controller.
 > Flipping the arm base transform by 180 degrees.
 > Fixing various arm control bugs.
