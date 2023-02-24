@@ -23,6 +23,7 @@
 -- Releases --
 
 v***
+> Added display of end effector position on the dashboard.
 > Hopper wings now open in the shelf master state.
 > Initial joint setpoints are configured on the prototype arm.
 > Added current draw alarms for the arm motors.
