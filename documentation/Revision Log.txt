@@ -4,18 +4,13 @@
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Auto-targeting is hard-disabled in DriverStationGetData.vi.
 > Color sensor is commented out.
-> Hopper beam break is commented out.
 > Arm absolute encoders are commented out.
 > When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
 > The drive base heading control is commented out.
 
 -- Untested Features --
-> Allowing right and left hopper wings to be controlled independently depending on the alliance color.
-> The PWM port used for the LEDs is now properly closed when the robot code finishes.
 > The ejector solenoid will fire when releasing a CUBE from the gripper.
-> Connecting Dashboard overrides to the Master Caution state controller.
 > Tying the LimeLight PiP modes to the masters state controller.
-> Controlling an actual hopper.
 > Controlling an actual gripper.
 > Full sensor fusion at BioLargo.
 > Initial path following at BioLargo.
@@ -23,6 +18,12 @@
 -- Releases --
 
 v***
+> Connecting Dashboard overrides to the Master Caution state controller.
+> Allowing right and left hopper wings to be controlled independently depending on the alliance color.
+> Swapped the hopper sensor default.
+> The PWM port used for the LEDs is now properly closed when the robot code finishes.
+> Tested hopper state controller on hardware.
+> Set LED debug positions.
 > Adding the ability to control the wrist in four-bar mode.
 > Added display of end effector position on the dashboard.
 > Hopper wings now open in the shelf master state.
