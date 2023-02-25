@@ -8,7 +8,7 @@ start_x_blue = 75
 start_y_blue = 100
 start_h_blue = 0
 *
-DriveWaitForManip(4)
+DriveWaitForManip(6)
 DriveBalance(near)
 DriveEnd()
 *
@@ -16,4 +16,6 @@ ManipChangeState(2)
 ManipChangeScoringPosition(2)
 ManipWaitForArm()
 ManipDropPiece()
+ManipWaitForArm()
+ManipChangeState(1)
 ManipEnd()

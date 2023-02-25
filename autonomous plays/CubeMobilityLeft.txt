@@ -1,14 +1,14 @@
 This play scores one cube high and then gets the mobility bonus
 
 *
-start_x_red = 75
-start_y_red = 300
+start_x_red = 74
+start_y_red = 275
 start_h_red = 0
-start_x_blue = 75
-start_y_blue = 10
+start_x_blue = 74
+start_y_blue = 174
 start_h_blue = 0
 *
-DriveWaitForManip(4)
+DriveWaitForManip(5)
 DrivePath(6,10,-1,CubeMobilityLeft,robot_suffix) # drive out of the community
 DriveEnd()
 *
@@ -16,4 +16,5 @@ ManipChangeState(2)
 ManipChangeScoringPosition(2)
 ManipWaitForArm()
 ManipDropPiece()
+ManipWaitForArm()
 ManipEnd()
