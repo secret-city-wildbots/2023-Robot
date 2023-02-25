@@ -6,7 +6,6 @@
 > Color sensor is commented out.
 > Arm absolute encoders are commented out.
 > When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
-> The drive base heading control is commented out.
 
 -- Untested Features --
 > The ejector solenoid will fire when releasing a CUBE from the gripper.
@@ -18,6 +17,7 @@
 -- Releases --
 
 v***
+> The drive base heading control is not commented out.
 > Fixing bugs in the auto command to wait for the arm.
 > Fixing bugs in the auto command to release a gamepiece.
 > Added manual wing flapping control and removed auto flapping.
