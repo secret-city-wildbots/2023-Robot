@@ -1,4 +1,4 @@
-This play scores one game piece high and then gets the mobility bonus
+This play scores one cone high and then gets the mobility bonus
 
 *
 start_x_red = 75
@@ -9,11 +9,11 @@ start_y_blue = 10
 start_h_blue = 0
 *
 DriveWaitForManip(4)
-DriveDistanceX(155,0.2)
+DrivePath(6,10,-1,ConeMobilityRight,robot_suffix) # drive out of the community
 DriveEnd()
 *
 ManipChangeState(2)
 ManipChangeScoringPosition(2)
-ManipWaitForArm
-ManipDropPiece
+ManipWaitForArm()
+ManipDropPiece()
 ManipEnd()

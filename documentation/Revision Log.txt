@@ -18,6 +18,7 @@
 -- Releases --
 
 v***
+> Added manual wing flapping control and removed auto flapping.
 > Connecting Dashboard overrides to the Master Caution state controller.
 > Allowing right and left hopper wings to be controlled independently depending on the alliance color.
 > Swapped the hopper sensor default.

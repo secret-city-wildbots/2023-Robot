@@ -15,6 +15,6 @@ DriveEnd()
 *
 ManipChangeState(2)
 ManipChangeScoringPosition(2)
-ManipWaitForArm
-ManipDropPiece
+ManipWaitForArm()
+ManipDropPiece()
 ManipEnd()
