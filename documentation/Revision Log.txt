@@ -17,6 +17,8 @@
 -- Releases --
 
 v***
+> Tweaking the robot acceleration calculation VI.
+> Tuning the drivebase parameters and setting the calibrated wheel diameter.
 > The drive base heading control is not commented out.
 > Fixing bugs in the auto command to wait for the arm.
 > Fixing bugs in the auto command to release a gamepiece.
