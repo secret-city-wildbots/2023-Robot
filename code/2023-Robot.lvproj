@@ -209,6 +209,8 @@ AddOutputFilter chunkFilter
 				<Item Name="DriveWaitForButton.vi" Type="VI" URL="../DriveWaitForButton.vi"/>
 				<Item Name="DriveWaitForManip.vi" Type="VI" URL="../DriveWaitForManip.vi"/>
 				<Item Name="DriveWaitForTime.vi" Type="VI" URL="../DriveWaitForTime.vi"/>
+				<Item Name="ManipActuateGripper.vi" Type="VI" URL="../ManipActuateGripper.vi"/>
+				<Item Name="ManipActuateHopper.vi" Type="VI" URL="../ManipActuateHopper.vi"/>
 				<Item Name="ManipChangeScoringPosition.vi" Type="VI" URL="../ManipChangeScoringPosition.vi"/>
 				<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
 				<Item Name="ManipDropPiece.vi" Type="VI" URL="../ManipDropPiece.vi"/>

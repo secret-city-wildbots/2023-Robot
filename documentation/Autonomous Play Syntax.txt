@@ -135,12 +135,26 @@ ManipChangeScoringPosition(param1)
 
 -----------------------------------------------------------
 
-ManipDropPiece
+ManipDropPiece()
 # This VI drops a held piece
 
 -----------------------------------------------------------
 
-ManipWaitForArm
+ManipActuateGripper(param1)
+# This VI closes the gripper
+
+1. Decides open or closed state of the gripper ("open" or "close")
+
+-----------------------------------------------------------
+
+ManipActuateHopper(param1)
+# This VI closes the hopper
+
+1. Decides open or closed state of the hopper ("open" or "close")
+
+-----------------------------------------------------------
+
+ManipWaitForArm()
 # This VI waits until the arm has arrived at its most recently requested state
 
 -----------------------------------------------------------

@@ -9,6 +9,7 @@
 > Arm output, sensor, and "is moving" code is commented out.
 
 -- Untested Features --
+> Final arm configurations and tuning parameters.
 > The ejector solenoid will fire when releasing a CUBE from the gripper.
 > Tying the LimeLight PiP modes to the masters state controller.
 > Controlling an actual gripper.
@@ -17,6 +18,8 @@
 -- Releases --
 
 v***
+> Enforcing the frame perimeter extension limit for the arm.
+> Adding auto commands needed for the automated systems check.
 > Applying the correct drivebase gear ratios and configurations.
 > Tweaking the robot acceleration calculation VI.
 > Tuning the drivebase parameters and setting the calibrated wheel diameter.
