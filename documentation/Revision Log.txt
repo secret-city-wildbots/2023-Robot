@@ -10,7 +10,6 @@
 
 -- Untested Features --
 > Changes the hopper wing flapping override.
-> Game piece sensor is not tuned yet.
 > Final arm configurations and tuning parameters.
 > Tying the LimeLight PiP modes to the masters state controller.
 > Full sensor fusion at BioLargo.
@@ -19,6 +18,7 @@
 
 v***
 > Fixing edge cases for setting the scoring position.
+> Game piece sensor is not tuned yet.
 > Modifying the gripper state controller based on working with real hardware.
 > The ejector solenoid will fire when releasing a CUBE from the gripper.
 > The grabbed game piece is now correctly sent to the Dashboard.

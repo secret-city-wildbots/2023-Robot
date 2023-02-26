@@ -34,6 +34,8 @@ ManipActuateHopper(open) # open the hopper wings
 ManipWaitForTime(2000)
 ManipActuateHopper(close) # close the hopper wings
 ManipWaitForButton()
+ManipChangeState(3)#enter the hoppering state
+ManipWaitForButton()
 ManipChangeState(2) # enter the scoring state
 ManipChangeScoringPosition(1)
 ManipWaitForArm()
@@ -41,6 +43,6 @@ ManipWaitForButton()
 ManipChangeState(5) # enter the shelf state
 ManipWaitForArm()
 ManipWaitForButton()
-ManipChangeState(0)
+ManipChangeState(0) #enter the stowed state
 ManipWaitForArm()
 ManipEnd()
