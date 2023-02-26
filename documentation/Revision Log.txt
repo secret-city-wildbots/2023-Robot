@@ -6,17 +6,18 @@
 > Color sensor is commented out.
 > Arm absolute encoders are commented out.
 > When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
+> Arm output, sensor, and "is moving" code is commented out.
 
 -- Untested Features --
 > The ejector solenoid will fire when releasing a CUBE from the gripper.
 > Tying the LimeLight PiP modes to the masters state controller.
 > Controlling an actual gripper.
 > Full sensor fusion at BioLargo.
-> Initial path following at BioLargo.
 
 -- Releases --
 
 v***
+> Applying the correct drivebase gear ratios and configurations.
 > Tweaking the robot acceleration calculation VI.
 > Tuning the drivebase parameters and setting the calibrated wheel diameter.
 > The drive base heading control is not commented out.
