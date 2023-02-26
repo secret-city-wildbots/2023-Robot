@@ -18,6 +18,7 @@
 -- Releases --
 
 v***
+> Fixing edge cases for setting the scoring position.
 > Modifying the gripper state controller based on working with real hardware.
 > The ejector solenoid will fire when releasing a CUBE from the gripper.
 > The grabbed game piece is now correctly sent to the Dashboard.
