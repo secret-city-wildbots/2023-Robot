@@ -9,15 +9,18 @@
 > Arm output, sensor, and "is moving" code is commented out.
 
 -- Untested Features --
+> Changes the hopper wing flapping override.
+> Game piece sensor is not tuned yet.
 > Final arm configurations and tuning parameters.
-> The ejector solenoid will fire when releasing a CUBE from the gripper.
 > Tying the LimeLight PiP modes to the masters state controller.
-> Controlling an actual gripper.
 > Full sensor fusion at BioLargo.
 
 -- Releases --
 
 v***
+> Modifying the gripper state controller based on working with real hardware.
+> The ejector solenoid will fire when releasing a CUBE from the gripper.
+> The grabbed game piece is now correctly sent to the Dashboard.
 > Enforcing the frame perimeter extension limit for the arm.
 > Adding auto commands needed for the automated systems check.
 > Applying the correct drivebase gear ratios and configurations.
