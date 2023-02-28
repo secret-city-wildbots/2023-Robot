@@ -18,15 +18,15 @@
 </DBL>
 <DBL>
 <Name>Forward Position Wheel 4</Name>
-<Val>5.00000000000000E-2</Val>
+<Val>0.10000000000000</Val>
 </DBL>
 <DBL>
 <Name>Forward Position Wheel 4</Name>
-<Val>2.00000000000000</Val>
+<Val>3.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Forward Position Wheel 4</Name>
-<Val>0.80000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 </Array>
 </LVData>
