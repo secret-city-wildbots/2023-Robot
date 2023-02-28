@@ -7,9 +7,10 @@
 > Arm absolute encoders are commented out.
 > When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
 > Arm output, sensor, and "is moving" code is commented out.
+> Odometry distances appear to be short by around 5%.
 
 -- Untested Features --
-> Changes the hopper wing flapping override.
+> Absolute arm encoders.
 > Final arm configurations and tuning parameters.
 > Tying the LimeLight PiP modes to the masters state controller.
 > Full sensor fusion at BioLargo.
@@ -17,6 +18,9 @@
 -- Releases --
 
 v***
+> Updating the robot profile name.
+> Flipping the Hopper Wing Right and Gripper Gripping solenoids.
+> Changes the hopper wing flapping override.
 > Fixing edge cases for setting the scoring position.
 > Game piece sensor is not tuned yet.
 > Modifying the gripper state controller based on working with real hardware.
