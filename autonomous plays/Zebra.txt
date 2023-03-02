@@ -9,7 +9,7 @@ start_y_blue = 62
 start_h_blue = 0
 *
 DriveSetRobotPosition(124,62) # set robot position to consistent location
-DriveWaitForManip(18) # wait until manipulator sequence is complete
+DriveWaitForManip(15) # wait until manipulator sequence is complete
 DriveWaitForButton()
 DriveDistanceX(400, 0.2) # drive forward
 DriveWaitForTime(2000)
@@ -38,9 +38,6 @@ ManipChangeState(3)#enter the hoppering state
 ManipWaitForButton()
 ManipChangeState(2) # enter the scoring state
 ManipChangeScoringPosition(1)
-ManipWaitForArm()
-ManipWaitForButton()
-ManipChangeState(5) # enter the shelf state
 ManipWaitForArm()
 ManipWaitForButton()
 ManipChangeState(0) #enter the stowed state
