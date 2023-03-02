@@ -3,14 +3,13 @@
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Auto-targeting is hard-disabled in DriverStationGetData.vi.
-> Color sensor is commented out.
 > Arm absolute encoders are commented out.
 > When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
-> Arm output, sensor, and "is moving" code is commented out.
 > Odometry distances appear to be short by around 5%.
+> Drive heading lock is commented out.
+> Position holding doesn't disengage when the arm reaches its final setpoint location.
 
 -- Untested Features --
-> Absolute arm encoders.
 > Final arm configurations and tuning parameters.
 > Tying the LimeLight PiP modes to the masters state controller.
 > Full sensor fusion at BioLargo.
