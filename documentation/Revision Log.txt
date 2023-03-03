@@ -10,13 +10,13 @@
 > Photon cannons are are commented out.
 
 -- Untested Features --
-> Final arm configurations and tuning parameters.
 > Tying the LimeLight PiP modes to the masters state controller.
 > Full sensor fusion at BioLargo.
 
 -- Releases --
 
-v***
+v1.0
+> Final arm configurations and tuning parameters.
 > Updating the robot profile name.
 > Flipping the Hopper Wing Right and Gripper Gripping solenoids.
 > Changes the hopper wing flapping override.
