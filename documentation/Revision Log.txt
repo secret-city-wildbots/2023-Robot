@@ -8,6 +8,7 @@
 > Odometry distances appear to be short by around 5%.
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > Photon cannons are are commented out.
+> SHELF and GROUND setpoints are locked out.
 
 -- Untested Features --
 > Tying the LimeLight PiP modes to the masters state controller.
