@@ -406,6 +406,7 @@ AddOutputFilter chunkFilter
 				<Item Name="LongpressButton.vi" Type="VI" URL="../LongpressButton.vi"/>
 				<Item Name="PulseOutput.vi" Type="VI" URL="../PulseOutput.vi"/>
 				<Item Name="StickyButton.vi" Type="VI" URL="../StickyButton.vi"/>
+				<Item Name="StickyButton2.vi" Type="VI" URL="../StickyButton2.vi"/>
 				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 			</Item>
 			<Item Name="Error Helpers" Type="Folder">
@@ -1059,7 +1060,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">/C/Git Checkouts/Robot Builds/2023</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">34</Property>
+				<Property Name="Bld_version.build" Type="Int">35</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
