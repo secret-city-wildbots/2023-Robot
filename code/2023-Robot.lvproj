@@ -323,8 +323,8 @@ AddOutputFilter chunkFilter
 				<Item Name="InitDrivebase.vi" Type="VI" URL="../InitDrivebase.vi"/>
 				<Item Name="ModeDrivebase.vi" Type="VI" URL="../ModeDrivebase.vi"/>
 				<Item Name="ModeFieldOriented.vi" Type="VI" URL="../ModeFieldOriented.vi"/>
+				<Item Name="OutputSwerve.vi" Type="VI" URL="../OutputSwerve.vi"/>
 				<Item Name="OutputSwerveAzimuth.vi" Type="VI" URL="../OutputSwerveAzimuth.vi"/>
-				<Item Name="OutputSwerveDrive.vi" Type="VI" URL="../OutputSwerveDrive.vi"/>
 				<Item Name="StateDrivebase.vi" Type="VI" URL="../StateDrivebase.vi"/>
 				<Item Name="StutterShifterState.vi" Type="VI" URL="../StutterShifterState.vi"/>
 			</Item>
@@ -386,6 +386,7 @@ AddOutputFilter chunkFilter
 				<Item Name="TalonFXConfigPID.vi" Type="VI" URL="../TalonFXConfigPID.vi"/>
 				<Item Name="TalonFXReadEncoder.vi" Type="VI" URL="../TalonFXReadEncoder.vi"/>
 				<Item Name="TalonFXSetCoast.vi" Type="VI" URL="../TalonFXSetCoast.vi"/>
+				<Item Name="TalonFXSetVoltageComp.vi" Type="VI" URL="../TalonFXSetVoltageComp.vi"/>
 				<Item Name="TalonFXZeroEncoder.vi" Type="VI" URL="../TalonFXZeroEncoder.vi"/>
 			</Item>
 			<Item Name="Array Helpers" Type="Folder">
