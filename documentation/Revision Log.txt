@@ -16,6 +16,9 @@
 
 -- Releases --
 
+v1.2
+>Cleaned Hopper state controller
+>Swapped all instances of StickyButton2 and StickyButton with an updated StickyButton
 v1.0
 > Final arm configurations and tuning parameters.
 > Updating the robot profile name.
