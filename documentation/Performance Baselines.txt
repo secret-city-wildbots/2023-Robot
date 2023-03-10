@@ -1,3 +1,9 @@
+v1.0
+Control Loop: 25 ms
+RoboRIO CPU: 80%
+CAN Utilization: 
+Code Bootup Time: 27 s (with radio configured)
+
 v0.5
 Control Loop: 25 ms
 RoboRIO CPU: 82%

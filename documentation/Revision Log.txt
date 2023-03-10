@@ -1,25 +1,75 @@
 -- Known Issues --
-> The robot probably shifts too early, worry less about maintaining motor efficiency and stay in low gear for longer
 > Need to run additional checks on the AprilTags pose estimates, they are still marked as valid even when too far away for stable calculation
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
-> Some CAN and device references do not match the hardware interfaces spreadsheet because they are being tested using Sidewinder.
 > Auto-targeting is hard-disabled in DriverStationGetData.vi.
+> Arm absolute encoders are commented out.
+> When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
+> Odometry distances appear to be short by around 5%.
+> Position holding doesn't disengage when the arm reaches its final setpoint location.
+> Photon cannons are are commented out.
+> SHELF and GROUND setpoints are locked out.
 
 -- Untested Features --
+> Tying the LimeLight PiP modes to the masters state controller.
+> Full sensor fusion at BioLargo.
+
+-- Releases --
+
+v1.2
+>Cleaned Hopper state controller
+>Swapped all instances of StickyButton2 and StickyButton with an updated StickyButton
+v1.0
+> Final arm configurations and tuning parameters.
+> Updating the robot profile name.
+> Flipping the Hopper Wing Right and Gripper Gripping solenoids.
+> Changes the hopper wing flapping override.
+> Fixing edge cases for setting the scoring position.
+> Game piece sensor is not tuned yet.
+> Modifying the gripper state controller based on working with real hardware.
+> The ejector solenoid will fire when releasing a CUBE from the gripper.
+> The grabbed game piece is now correctly sent to the Dashboard.
+> Enforcing the frame perimeter extension limit for the arm.
+> Adding auto commands needed for the automated systems check.
+> Applying the correct drivebase gear ratios and configurations.
+> Tweaking the robot acceleration calculation VI.
+> Tuning the drivebase parameters and setting the calibrated wheel diameter.
+> The drive base heading control is not commented out.
+> Fixing bugs in the auto command to wait for the arm.
+> Fixing bugs in the auto command to release a gamepiece.
+> Added manual wing flapping control and removed auto flapping.
+> Connecting Dashboard overrides to the Master Caution state controller.
+> Allowing right and left hopper wings to be controlled independently depending on the alliance color.
+> Swapped the hopper sensor default.
+> The PWM port used for the LEDs is now properly closed when the robot code finishes.
+> Tested hopper state controller on hardware.
+> Set LED debug positions.
+> Adding the ability to control the wrist in four-bar mode.
+> Added display of end effector position on the dashboard.
+> Hopper wings now open in the shelf master state.
+> Initial joint setpoints are configured on the prototype arm.
+> Added current draw alarms for the arm motors.
+> Added on-motor soft limits to the shoulder.
+> Added detection of arm motor fault.
+> The auto-targeting override is disconnected from the alarm state controller.
+> Flipping the arm base transform by 180 degrees.
+> Fixing various arm control bugs.
+> Actually controlling the arm motors with the code in OutputArm.vi.
+> Tuning the FF, PID, and MM parameters for the prototype arm.
+> Adding angle transforms to handle the four-bar mechanical behavior of the arm.
+> Changing the name of SRX wrappers to FX wrappers.
+> Raises the automatic shifting RPM threshold.
+> Changing CAN IDs for the arm motors.
+> Adding a readout of the wheel velocity average.
+> Fixing a bug in the solenoid output code.
+> Adding an ejector solenoid for the gripper.
+> Updating the drivebase parameters for the 2023 robot.
+> Creating a robot profile for "2023 Beta."
+> Fixing a broken run arrow in the arm simulator.
 > Adding an auto command to drive over the CHARGING STATION.
 > Adding an auto command to wait for the arm to stop moving.
 > Adding an auto command to release a gamepiece.
 > Adding an auto command block to change the scoring position.
-> Places restrictions on what the gripper can do if the arm is still moving.
-> Tying the LimeLight PiP modes to the masters state controller.
-> Controlling an actual hopper.
-> Controlling an actual gripper.
-> Actually controlling the arm motors with the code in OutputArm.vi.
-> Full sensor fusion at BioLargo.
-> Initial path following at BioLargo.
-
--- Releases --
 
 v0.5
 > Flips the default gripper position.

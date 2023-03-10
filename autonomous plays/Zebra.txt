@@ -9,7 +9,7 @@ start_y_blue = 62
 start_h_blue = 0
 *
 DriveSetRobotPosition(124,62) # set robot position to consistent location
-DriveWaitForManip(1) # wait until manipulator sequence is complete
+DriveWaitForManip(15) # wait until manipulator sequence is complete
 DriveWaitForButton()
 DriveDistanceX(400, 0.2) # drive forward
 DriveWaitForTime(2000)
@@ -26,4 +26,20 @@ DriveDistanceX(350, 1.0) # high gear sprint down-field
 DriveEnd()
 *
 ManipWaitForButton() # wait for a human to start the sequence
+ManipActuateGripper(close) # close the gripper
+ManipWaitForTime(2000)
+ManipActuateGripper(open) # open the gripper
+ManipWaitForButton()
+ManipActuateHopper(open) # open the hopper wings
+ManipWaitForTime(2000)
+ManipActuateHopper(close) # close the hopper wings
+ManipWaitForButton()
+ManipChangeState(3)#enter the hoppering state
+ManipWaitForButton()
+ManipChangeState(2) # enter the scoring state
+ManipChangeScoringPosition(1)
+ManipWaitForArm()
+ManipWaitForButton()
+ManipChangeState(0) #enter the stowed state
+ManipWaitForArm()
 ManipEnd()
