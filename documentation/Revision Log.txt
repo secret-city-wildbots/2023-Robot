@@ -14,6 +14,19 @@
 > Tying the LimeLight PiP modes to the masters state controller.
 > Full sensor fusion at BioLargo.
 
+
+***
+> Updating the documentation for the Talon FX wrappers.
+> Shifter failure alarm is now bypassed when in actuator testing mode.
+> The swerve modules now vote to determine whether or not to flip directions.
+> Switching to using Talon FX wrappers for the swerve output code.
+> Swerve drive motor RPM measurements are now consolidated in the pose code.
+> Merging OutputSwerveDrive.vi and OutputSwerveAzimuth.vi into OutputSwerve.vi.
+> Adding a Talon FX wrapper for dynamic enabling of voltage compensation.
+
+
+
+
 -- Releases --
 
 v1.0

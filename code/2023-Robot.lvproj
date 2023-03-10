@@ -305,6 +305,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Drivebase" Type="Folder">
 				<Item Name="Swerve Toolbox" Type="Folder">
 					<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
+					<Item Name="SwerveAccelerationSlewLimiting.vi" Type="VI" URL="../SwerveAccelerationSlewLimiting.vi"/>
 					<Item Name="SwerveAntiDrift.vi" Type="VI" URL="../SwerveAntiDrift.vi"/>
 					<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
 					<Item Name="SwerveChooseCenter.vi" Type="VI" URL="../SwerveChooseCenter.vi"/>
@@ -324,7 +325,6 @@ AddOutputFilter chunkFilter
 				<Item Name="ModeDrivebase.vi" Type="VI" URL="../ModeDrivebase.vi"/>
 				<Item Name="ModeFieldOriented.vi" Type="VI" URL="../ModeFieldOriented.vi"/>
 				<Item Name="OutputSwerve.vi" Type="VI" URL="../OutputSwerve.vi"/>
-				<Item Name="OutputSwerveAzimuth.vi" Type="VI" URL="../OutputSwerveAzimuth.vi"/>
 				<Item Name="StateDrivebase.vi" Type="VI" URL="../StateDrivebase.vi"/>
 				<Item Name="StutterShifterState.vi" Type="VI" URL="../StutterShifterState.vi"/>
 			</Item>
