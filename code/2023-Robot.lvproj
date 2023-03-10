@@ -406,7 +406,6 @@ AddOutputFilter chunkFilter
 				<Item Name="LongpressButton.vi" Type="VI" URL="../LongpressButton.vi"/>
 				<Item Name="PulseOutput.vi" Type="VI" URL="../PulseOutput.vi"/>
 				<Item Name="StickyButton.vi" Type="VI" URL="../StickyButton.vi"/>
-				<Item Name="StickyButton2.vi" Type="VI" URL="../StickyButton2.vi"/>
 				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 			</Item>
 			<Item Name="Error Helpers" Type="Folder">
