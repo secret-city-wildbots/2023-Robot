@@ -373,6 +373,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Actuator Wrappers" Type="Folder">
 				<Item Name="DoubleSolenoidCommandState.vi" Type="VI" URL="../DoubleSolenoidCommandState.vi"/>
 				<Item Name="PDHSwitchCommandState.vi" Type="VI" URL="../PDHSwitchCommandState.vi"/>
+				<Item Name="TalonFXCalibrateEncoder.vi" Type="VI" URL="../TalonFXCalibrateEncoder.vi"/>
 				<Item Name="TalonFXCommandPosition.vi" Type="VI" URL="../TalonFXCommandPosition.vi"/>
 				<Item Name="TalonFXCommandPower.vi" Type="VI" URL="../TalonFXCommandPower.vi"/>
 				<Item Name="TalonFXConfigMotionMagic.vi" Type="VI" URL="../TalonFXConfigMotionMagic.vi"/>
