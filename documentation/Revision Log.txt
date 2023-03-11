@@ -2,7 +2,6 @@
 > Need to run additional checks on the AprilTags pose estimates, they are still marked as valid even when too far away for stable calculation
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
-> Auto-targeting is hard-disabled in DriverStationGetData.vi.
 > Arm absolute encoders are commented out.
 > When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
 > Odometry distances appear to be short by around 5%.
@@ -17,6 +16,8 @@
 -- Releases --
 
 v***
+> All Tune-tab NT values can be read when the Variables tab.
+> Sending the swerve output loop time to the Dashboard.
 > Fixing an initialization bug in the swerve angle latching.
 > Adding a visualization of the swerve module state downstream of the angle latching code.
 > Tuning swerve drift control PID.
