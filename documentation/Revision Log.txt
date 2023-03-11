@@ -14,17 +14,21 @@
 > Full sensor fusion at BioLargo.
 
 -- Releases --
+
+> Changing the deadband behavior for heading lock.
+> Fixing a critical bug in the drift lock controller.
+
+v***
 > Faulted drive motors can now be detected, handled, and reported to the Dashboard.
 > The azimuth motors are now unlocked when module calibration mode is armed.
 > Improving how the arm the recovers from a motor brownout condition.
+> Fixes a bug which would cause a false critical battery warning at boot.
 > Removing the absolute arm encoders.
 > Removing Gripper code.
 > Re-linking the auto-targeting override to the MASTER CAUTION.
 > Preparing the Intake subsystem for future work.
 > Removing the Hopper subsystem.
 > Removing the color sensor.
-
-v***
 > All Tune-tab NT values can be read when the Variables tab.
 > Sending the swerve output loop time to the Dashboard.
 > Fixing an initialization bug in the swerve angle latching.
