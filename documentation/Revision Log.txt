@@ -7,6 +7,8 @@
 > Odometry distances appear to be short by around 5%.
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SHELF and GROUND setpoints are locked out.
+> Arm FF caclulations are ignoring the game piece selection.
+> Arm SCORE setpoints are ignoring the game piece selection.
 
 -- Untested Features --
 > Tying the LimeLight PiP modes to the masters state controller.
@@ -14,6 +16,9 @@
 
 -- Releases --
 
+> Removing Gripper code.
+> Re-linking the auto-targeting override to the MASTER CAUTION.
+> Preparing the Intake subsystem for future work.
 > Removing the Hopper subsystem.
 > Removing the color sensor.
 

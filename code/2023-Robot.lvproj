@@ -109,7 +109,6 @@
 			<Item Name="SetRobotProfile.vi" Type="VI" URL="../SetRobotProfile.vi"/>
 			<Item Name="InitArmKinematics.vi" Type="VI" URL="../InitArmKinematics.vi"/>
 			<Item Name="ArmGoalJointAngleCalculations.vi" Type="VI" URL="../ArmGoalJointAngleCalculations.vi"/>
-			<Item Name="GlobalGripper.vi" Type="VI" URL="../GlobalGripper.vi"/>
 			<Item Name="ArmFeedForwardCalculations.vi" Type="VI" URL="../ArmFeedForwardCalculations.vi"/>
 			<Item Name="GlobalDriverStationData.vi" Type="VI" URL="../GlobalDriverStationData.vi"/>
 			<Item Name="GlobalPoseAndTargeting.vi" Type="VI" URL="../GlobalPoseAndTargeting.vi"/>
