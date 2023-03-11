@@ -16,6 +16,9 @@
 -- Releases --
 
 v***
+> Fixed heading lock
+> Fixed strafe lock
+> Updated scoring setpoints for auto-targeting
 > All Tune-tab NT values can be read when the Variables tab.
 > Sending the swerve output loop time to the Dashboard.
 > Fixing an initialization bug in the swerve angle latching.
