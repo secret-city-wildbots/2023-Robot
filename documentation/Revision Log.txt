@@ -14,6 +14,9 @@
 > Full sensor fusion at BioLargo.
 
 -- Releases --
+> Faulted drive motors can now be detected, handled, and reported to the Dashboard.
+> The azimuth motors are now unlocked when module calibration mode is armed.
+> Improving how the arm the recovers from a motor brownout condition.
 > Removing the absolute arm encoders.
 > Removing Gripper code.
 > Re-linking the auto-targeting override to the MASTER CAUTION.
