@@ -16,6 +16,11 @@
 
 
 ***
+> Converting the speed cap deceleration limit into real units.
+> Adding a deceleration and slew rate limiter to the drivebase state controller.
+> The smoothed robot ground velocity can now be plotted.
+> Improving the velocity and pose estimates during shifting.
+> Properly tuning the shift time threshold.
 > Updating the documentation for the Talon FX wrappers.
 > Shifter failure alarm is now bypassed when in actuator testing mode.
 > The swerve modules now vote to determine whether or not to flip directions.
