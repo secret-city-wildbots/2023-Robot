@@ -16,6 +16,10 @@
 
 
 ***
+> Fixing an initialization bug in the swerve angle latching.
+> Adding a visualization of the swerve module state downstream of the angle latching code.
+> Tuing swerve drift control PID.
+> Tuning swrve azimuth PID.
 > Converting the speed cap deceleration limit into real units.
 > Adding a deceleration and slew rate limiter to the drivebase state controller.
 > The smoothed robot ground velocity can now be plotted.
