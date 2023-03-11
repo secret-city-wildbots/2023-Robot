@@ -16,9 +16,28 @@
 
 -- Releases --
 
+v***
+> Fixing an initialization bug in the swerve angle latching.
+> Adding a visualization of the swerve module state downstream of the angle latching code.
+> Tuning swerve drift control PID.
+> Converting the speed cap deceleration limit into real units for clarity.
+> Overhauling the acceleration limiter on the swerve drive.
+> Tuning swrve azimuth PID.
+> The smoothed robot ground velocity can now be plotted.
+> Improving the velocity and pose estimates during shifting.
+> Properly tuning the shift time threshold.
+> Shifter failure alarm is now bypassed when in actuator testing mode.
+> Updating the documentation for the Talon FX wrappers.
+> Swerve drive motor RPM measurements are now consolidated in the pose code.
+> The swerve modules now vote to determine whether or not to flip directions.
+> Switching to using Talon FX wrappers for the swerve output code.
+> Merging OutputSwerveDrive.vi and OutputSwerveAzimuth.vi into OutputSwerve.vi.
+> Adding a Talon FX wrapper for dynamic enabling of voltage compensation.
+
 v1.2
->Cleaned Hopper state controller
->Swapped all instances of StickyButton2 and StickyButton with an updated StickyButton
+> Cleaned up the Hopper state controller
+> Swapped all instances of StickyButton2 and StickyButton with an updated StickyButton
+
 v1.0
 > Final arm configurations and tuning parameters.
 > Updating the robot profile name.
