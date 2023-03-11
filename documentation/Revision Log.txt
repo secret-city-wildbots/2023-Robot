@@ -2,7 +2,6 @@
 > Need to run additional checks on the AprilTags pose estimates, they are still marked as valid even when too far away for stable calculation
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
-> Arm absolute encoders are commented out.
 > When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
 > Odometry distances appear to be short by around 5%.
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
@@ -15,7 +14,7 @@
 > Full sensor fusion at BioLargo.
 
 -- Releases --
-
+> Removing the absolute arm encoders.
 > Removing Gripper code.
 > Re-linking the auto-targeting override to the MASTER CAUTION.
 > Preparing the Intake subsystem for future work.
