@@ -12,13 +12,13 @@
 -- Untested Features --
 > Tying the LimeLight PiP modes to the masters state controller.
 > Full sensor fusion at BioLargo.
+> Changing the deadband behavior for heading lock.
 
 -- Releases --
 
-> Changing the deadband behavior for heading lock.
-> Fixing a critical bug in the drift lock controller.
 
 v***
+> Fixing a critical bug in the drift lock controller.
 > Faulted drive motors can now be detected, handled, and reported to the Dashboard.
 > The azimuth motors are now unlocked when module calibration mode is armed.
 > Improving how the arm the recovers from a motor brownout condition.
