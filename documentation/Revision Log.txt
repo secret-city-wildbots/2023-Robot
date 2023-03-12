@@ -2,7 +2,6 @@
 > Need to run additional checks and averaging on the AprilTags pose estimates.
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
-> When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
 > Odometry distances appear to be short by around 5%.
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SHELF and GROUND setpoints are locked out.
