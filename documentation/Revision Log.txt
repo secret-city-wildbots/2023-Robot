@@ -17,6 +17,7 @@
 -- Releases --
 
 v***
+> Adding ability to calibrate the GRID Y coordinates for each side of the field.
 > Dampening the azimuth PID response.
 > Improved the LimeLight latency estimation.
 > New auto-targeting driver controls.
