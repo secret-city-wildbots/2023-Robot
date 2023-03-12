@@ -7,15 +7,20 @@
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SHELF and GROUND setpoints are locked out.
 > There is no gripper code currently implimented.
+> Manual rotation fudge factor not working in heading lock.
+> Rotation is too twitchy in heading lock.
 
 -- Untested Features --
 > Full sensor fusion at BioLargo.
 > Changing the deadband behavior for heading lock.
-> Need to dampen the azimuth PID response.
 
 -- Releases --
 
 v***
+> Dampening the azimuth PID response.
+> Improved the LimeLight latency estimation.
+> New auto-targeting driver controls.
+> Configured the target coordinates.
 > Tying the LimeLight PiP modes to the master state controller.
 > Updating the haptic engine to working with the planned SMR control scheme.
 > Connecting the arm the feed-forward controller to the manipulator buttons.
