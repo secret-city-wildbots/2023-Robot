@@ -1,23 +1,27 @@
 -- Known Issues --
-> Need to run additional checks on the AprilTags pose estimates, they are still marked as valid even when too far away for stable calculation
+> Need to run additional checks and averaging on the AprilTags pose estimates.
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
 > Odometry distances appear to be short by around 5%.
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SHELF and GROUND setpoints are locked out.
-> Arm FF caclulations are ignoring the game piece selection.
-> Arm SCORE setpoints are ignoring the game piece selection.
+> There is no gripper code currently implimented.
 
 -- Untested Features --
-> Tying the LimeLight PiP modes to the masters state controller.
 > Full sensor fusion at BioLargo.
 > Changing the deadband behavior for heading lock.
+> Need to dampen the azimuth PID response.
 
 -- Releases --
 
-
 v***
+> Tying the LimeLight PiP modes to the master state controller.
+> Updating the haptic engine to working with the planned SMR control scheme.
+> Connecting the arm the feed-forward controller to the manipulator buttons.
+> Connecting LED colors to manipulator buttons.
+> Connecting arm scoring positions to manipulator buttons.
+> The CUBE/CONE decision is now selected by the manipulator.
 > Fixing a critical bug in the drift lock controller.
 > Faulted drive motors can now be detected, handled, and reported to the Dashboard.
 > The azimuth motors are now unlocked when module calibration mode is armed.
