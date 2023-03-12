@@ -1,7 +1,7 @@
 -- Known Issues --
-> Need to run additional checks and averaging on the AprilTags pose estimates.
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
+> Need to run additional checks and averaging on the AprilTags pose estimates.
 > Odometry distances appear to be short by around 5%.
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SHELF and GROUND setpoints are locked out.
@@ -12,6 +12,8 @@
 -- Releases --
 
 v***
+> Increasing the allowed wrist angle range and confirming that code can handle more than 360 degrees of allowed rotation.
+> Automated extension of the arm (auto-targeting) based on the robot pose is now implimented.
 > The robot can now balance while pointing in either direction.
 > Initial sensor fusion algorithm is working, more tuning of the AprilTag validity flags and the wheel diameter are need.
 > Fixing twitchy rotation control in the heading lock drive mode.

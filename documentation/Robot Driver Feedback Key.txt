@@ -14,18 +14,19 @@ Status LED Backgrounds
 ------------------------------------------------------------
 Pink - balancing (flashing means not level)
 Aquamarine - scoring (flashing means arm is moving)
-Yellow - stow, hoppering, shelf, or ground and have a CONE (flashing is a request)
-Purple - stow, hoppering, shelf, or ground and have a CUBE (flashing is a request)
+Yellow - selecting a CONE in stow, hoppering, shelf, or ground (flashing if CONE grabbed)
+Purple - selecting a CUBE in stow, hoppering, shelf, or ground (flashing is CUBE grabbed)
 ------------------------------------------------------------
 Driver Vibrations
 ------------------------------------------------------------
 Until IMU is reset when holding reset button
 Until valid target detected when holding reacquire button
 Until step advance button is pressed during a systems check
-When a game piece gripped in hoppering, shelf, or ground
-When the gripped is in postion in scoring
+When a game piece is gripped in hoppering, shelf, or ground
+When a game piece is gripped and the gripper is in postion in scoring
 ------------------------------------------------------------
 Manipulator Vibrations
 ------------------------------------------------------------
 While toggling the master safety override
 While toggling the TCP override
+Pulse after any pressing state, selection, or scoring position buttons
