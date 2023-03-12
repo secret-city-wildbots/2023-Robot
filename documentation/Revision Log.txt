@@ -7,16 +7,18 @@
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SHELF and GROUND setpoints are locked out.
 > There is no gripper code currently implimented.
-> Manual rotation fudge factor not working in heading lock.
-> Rotation is too twitchy in heading lock.
 
 -- Untested Features --
-> Full sensor fusion at BioLargo.
-> Changing the deadband behavior for heading lock.
 
 -- Releases --
 
 v***
+> The robot can now balance while pointing in either direction.
+> Initial sensor fusion algorithm is working, more tuning of the AprilTag validity flags and the wheel diameter are need.
+> Fixing twitchy rotation control in the heading lock drive mode.
+> Changes the deadband behavior for the heading lock drive mode.
+> Fixing a bug that made the heading lock rotation adjustment sensitive to the driver profile's rotation maximum.
+> Fixing a bug that caused the manipulator joystick to vibrate on boot.
 > Adding ability to calibrate the GRID Y coordinates for each side of the field.
 > Dampening the azimuth PID response.
 > Improved the LimeLight latency estimation.
@@ -53,7 +55,6 @@ v***
 > Shifter failure alarm is now bypassed when in actuator testing mode.
 > Updating the documentation for the Talon FX wrappers.
 > Swerve drive motor RPM measurements are now consolidated in the pose code.
-> The swerve modules now vote to determine whether or not to flip directions.
 > Switching to using Talon FX wrappers for the swerve output code.
 > Merging OutputSwerveDrive.vi and OutputSwerveAzimuth.vi into OutputSwerve.vi.
 > Adding a Talon FX wrapper for dynamic enabling of voltage compensation.
