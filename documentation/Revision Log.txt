@@ -5,13 +5,16 @@
 > Odometry distances appear to be short by around 5%.
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SHELF and GROUND setpoints are locked out.
-> There is no gripper code currently implimented.
+> Gripper code is untested
 
 -- Untested Features --
 
 -- Releases --
 
 v***
+> Added InitGripper
+> Added OutputGripper
+> Added StateGripper
 > Increasing the allowed wrist angle range and confirming that code can handle more than 360 degrees of allowed rotation.
 > Automated extension of the arm (auto-targeting) based on the robot pose is now implimented.
 > The robot can now balance while pointing in either direction.
