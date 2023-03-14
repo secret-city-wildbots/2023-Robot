@@ -1,5 +1,4 @@
 -- Known Issues --
-> Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Need to run additional checks and averaging on the AprilTags pose estimates.
 > Odometry distances appear to be short by around 5%.
@@ -12,6 +11,8 @@
 -- Releases --
 
 v***
+> Values wired to the default terminal of "NT Get Boolean Array.vi" are now honored.
+> Updating to FRC Game Tools v2023.2.
 > Increasing the allowed wrist angle range and confirming that code can handle more than 360 degrees of allowed rotation.
 > Automated extension of the arm (auto-targeting) based on the robot pose is now implimented.
 > The robot can now balance while pointing in either direction.
