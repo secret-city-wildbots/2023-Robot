@@ -140,17 +140,24 @@ ManipDropPiece()
 
 -----------------------------------------------------------
 
-ManipActuateGripper(param1)
-# This VI closes the gripper
+ManipChangePiece(param1)
+# This VI changes scoring mode to cube or cone
 
-1. Decides open or closed state of the gripper ("open" or "close")
+1. Changes between cube and cone scoring modes ("cube" or "cone")
 
 -----------------------------------------------------------
 
-ManipActuateHopper(param1)
-# This VI closes the hopper
+ManipGroundPickup(param1)
+# This VI enters or exits ground pickup mode (requires state to be stowed(0))
 
-1. Decides open or closed state of the hopper ("open" or "close")
+1. Turns on or off ground pickup ("on" or "off")
+
+-----------------------------------------------------------
+
+ManipGroundPickup(param1)
+# This VI enters or exits ground score mode (requires state to be stowed(0))
+
+1. Turns on or off ground scoring ("on" or "off")
 
 -----------------------------------------------------------
 
