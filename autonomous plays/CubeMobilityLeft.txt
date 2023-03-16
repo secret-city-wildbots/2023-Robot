@@ -13,6 +13,7 @@ DrivePath(6,10,-1,CubeMobilityLeft,robot_suffix) # drive out of the community
 DriveEnd()
 *
 ManipChangeState(2)
+ManipChangePiece(cube)
 ManipChangeScoringPosition(2)
 ManipWaitForArm()
 ManipDropPiece()

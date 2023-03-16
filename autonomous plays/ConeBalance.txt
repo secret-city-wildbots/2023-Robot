@@ -1,0 +1,22 @@
+This play scores one game piece high and then balances
+
+*
+start_x_red = 75
+start_y_red = 200
+start_h_red = 0
+start_x_blue = 75
+start_y_blue = 100
+start_h_blue = 0
+*
+DriveWaitForManip(6)
+DriveBalance(near)
+DriveEnd()
+*
+ManipChangeState(2)
+ManipChangePiece(cone)
+ManipChangeScoringPosition(2)
+ManipWaitForArm()
+ManipDropPiece()
+ManipWaitForArm()
+ManipChangeState(1)
+ManipEnd()
