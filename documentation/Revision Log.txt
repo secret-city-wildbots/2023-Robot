@@ -3,17 +3,21 @@
 > Need to run additional checks and averaging on the AprilTags pose estimates.
 > Odometry distances appear to be short by around 5%.
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
-> SHELF and GROUND setpoints are locked out.
 
 -- Untested Features --
-> Gripper code.
+> Gripper state controller.
+> Gripper intialization.
 > Gripper LED color code.
 > Gear ratios etc. for the arm.
+> Gear ratios for the drivebase.
 > Removing the ability for the manipulator to select the LOW scoring position.
+> Updating the joint sequencing framework for the new arm design.
 
 -- Releases --
 
 v***
+> Gripper output code.
+> The robot forces itself to low gear if one of the drive motors fails.
 > Lowering the control loop alarm threshold.
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are now honored.
 > Updating to FRC Game Tools v2023.2.
