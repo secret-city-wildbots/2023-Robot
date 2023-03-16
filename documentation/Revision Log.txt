@@ -4,13 +4,17 @@
 > Odometry distances appear to be short by around 5%.
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SHELF and GROUND setpoints are locked out.
-> There is no gripper code currently implimented.
 
 -- Untested Features --
+> Gripper code.
+> Gripper LED color code.
+> Gear ratios etc. for the arm.
+> Removing the ability for the manipulator to select the LOW scoring position.
 
 -- Releases --
 
 v***
+> Lowering the control loop alarm threshold.
 > Values wired to the default terminal of "NT Get Boolean Array.vi" are now honored.
 > Updating to FRC Game Tools v2023.2.
 > Increasing the allowed wrist angle range and confirming that code can handle more than 360 degrees of allowed rotation.
