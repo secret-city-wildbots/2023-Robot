@@ -6,16 +6,17 @@
 
 -- Untested Features --
 > Gripper state controller.
-> Gripper intialization.
-> Gripper LED color code.
-> Gear ratios etc. for the arm.
-> Gear ratios for the drivebase.
-> Removing the ability for the manipulator to select the LOW scoring position.
-> Updating the joint sequencing framework for the new arm design.
+> Game piece sensing.
 
 -- Releases --
 
 v***
+> Gear ratios etc. for the drivebase.
+> Removing the ability for the manipulator to select the LOW scoring position.
+> Gripper intialization.
+> Gear ratios etc. for the arm.
+> Gripper LED color code.
+> Updating the joint sequencing framework for the new arm design.
 > Gripper output code.
 > The robot forces itself to low gear if one of the drive motors fails.
 > Lowering the control loop alarm threshold.
