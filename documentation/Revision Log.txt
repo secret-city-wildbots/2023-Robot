@@ -5,12 +5,16 @@
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 
 -- Untested Features --
-> Gripper state controller.
 > Game piece sensing.
+> LL pose isn't valid if not within max range.
 
 -- Releases --
 
 v***
+> Hold A for lock heading in STOW and GROUND.
+> Reporting auto-targeting usage to Dashboard.
+> Changing master state buttons.
+> Gripper state controller.
 > Gear ratios etc. for the drivebase.
 > Removing the ability for the manipulator to select the LOW scoring position.
 > Gripper intialization.

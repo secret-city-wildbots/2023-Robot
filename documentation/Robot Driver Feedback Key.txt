@@ -14,6 +14,7 @@ Status LED Backgrounds
 ------------------------------------------------------------
 Pink - balancing (flashing means not level)
 Aquamarine - scoring (flashing means arm is moving)
+Teal - when intake is ready to intake a CUBE or CONE.
 Yellow - selecting a CONE in stow, hoppering, shelf, or ground (flashing if CONE grabbed)
 Purple - selecting a CUBE in stow, hoppering, shelf, or ground (flashing is CUBE grabbed)
 ------------------------------------------------------------
