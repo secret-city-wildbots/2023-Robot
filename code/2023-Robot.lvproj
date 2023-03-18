@@ -216,7 +216,6 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipDropPiece.vi" Type="VI" URL="../ManipDropPiece.vi"/>
 				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
 				<Item Name="ManipGroundPickup.vi" Type="VI" URL="../ManipGroundPickup.vi"/>
-				<Item Name="ManipHumanPlayerSignal.vi" Type="VI" URL="../ManipHumanPlayerSignal.vi"/>
 				<Item Name="ManipWaitForArm.vi" Type="VI" URL="../ManipWaitForArm.vi"/>
 				<Item Name="ManipWaitForButton.vi" Type="VI" URL="../ManipWaitForButton.vi"/>
 				<Item Name="ManipWaitForDistance.vi" Type="VI" URL="../ManipWaitForDistance.vi"/>

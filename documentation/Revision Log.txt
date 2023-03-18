@@ -1,16 +1,19 @@
 -- Known Issues --
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
-> Need to run additional checks and averaging on the AprilTags pose estimates.
 > Odometry distances appear to be short by around 5%.
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 
 -- Untested Features --
-> Game piece sensing.
+>ManipGroundScore
+> ManipGroundPickup
+> ManipChangePeice
+>Added abitility to set scoring position from the dashboard.
 > LL pose isn't valid if not within max range.
 
 -- Releases --
 
 v***
+> Game piece sensing.
 > Hold A for lock heading in STOW and GROUND.
 > Reporting auto-targeting usage to Dashboard.
 > Changing master state buttons.

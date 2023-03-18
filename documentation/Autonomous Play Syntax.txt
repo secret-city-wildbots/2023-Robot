@@ -121,17 +121,10 @@ ManipChangeState(param1)
 
 -----------------------------------------------------------
 
-ManipHumanPlayerSignal(param1)
-# This VI starts or stops the human player signal
-
-1. Set to "on" to signal human player or "off" to stop
-
------------------------------------------------------------
-
 ManipChangeScoringPosition(param1)
 # This VI changes the robot's scoring height
 
-1. Specifies the desired scoring height (0=low, 1=mid, 2=high)
+1. Specifies the desired scoring height (-1=dashboard, 0=mid, 1=high)
 
 -----------------------------------------------------------
 
@@ -154,7 +147,7 @@ ManipGroundPickup(param1)
 
 -----------------------------------------------------------
 
-ManipGroundPickup(param1)
+ManipGroundScore(param1)
 # This VI enters or exits ground score mode (requires state to be stowed(0))
 
 1. Turns on or off ground scoring ("on" or "off")
