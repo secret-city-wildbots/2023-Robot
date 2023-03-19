@@ -8,7 +8,7 @@ start_x_blue = 74
 start_y_blue = 18
 start_h_blue = 0
 *
-DriveWaitForManip(6)
+DriveWaitForManip(8)
 DrivePath(6,10,-1,ConeMobilityRight,robot_suffix) # drive out of the community
 DriveEnd()
 *
@@ -18,4 +18,6 @@ ManipChangeState(2)
 ManipWaitForArm()
 ManipDropPiece()
 ManipWaitForArm()
+ManipChangeState(0)
+ManipGroundPickup(on)
 ManipEnd()

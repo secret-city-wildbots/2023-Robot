@@ -1,4 +1,4 @@
-This play scores one game piece high, goes over charging station to get the mobility bonus, then balances.
+This play scores one cone high, goes over charging station to get the mobility bonus, picks up a cube, then balances.
 
 *
 start_x_red = 75
@@ -10,6 +10,9 @@ start_h_blue = 0
 *
 DriveWaitForManip(7)
 DriveOver(near)
+DriveWaitForManip(8)
+DriveDistanceX(50)
+DriveWaitForManip(12)
 DriveBalance(far)
 DriveEnd()
 *
@@ -19,5 +22,11 @@ ManipChangeState(2)
 ManipWaitForArm()
 ManipDropPiece()
 ManipWaitForArm()
+ManipChangeState(0)
+ManipWaitForDrive(2)
+ManipGroundPickup(on)
+ManipChangePiece(cube)
+ManipWaitForDrive(4)
+ManipGroundPickup(off)
 ManipChangeState(1)
 ManipEnd()
