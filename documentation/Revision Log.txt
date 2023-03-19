@@ -10,6 +10,7 @@
 -- Releases --
 
 v***
+> Re-linking the arm simulator to the main robot code.
 > Updating velocity plot scalings based on the measured maximum velocities.
 > Tuning the deadband on the anti-drift contoller.
 > Tuning the "arm has arrived" threshold for greater responsiveness.
