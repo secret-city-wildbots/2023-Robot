@@ -12,6 +12,13 @@ DriveWaitForTime(param1)
 
 -----------------------------------------------------------
 
+DriveWaitForPiece(param1)
+# Pauses the drive sequencer until a piece has been acquired or the specified amount of time has elapsed.
+
+1. Timeout (ms), set to -1 to turn off timout.
+
+-----------------------------------------------------------
+
 DriveWaitForManip(param1)
 # Pauses the drive sequencer until the manipulator sequencer has reached (or passed) the specified step.
 
