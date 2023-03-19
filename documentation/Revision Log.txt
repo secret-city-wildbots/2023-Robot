@@ -1,20 +1,25 @@
 -- Known Issues --
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
-> Odometry distances appear to be short by around 5%.
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 
 -- Untested Features --
-> ManipGroundScore
-> ManipGroundPickup
-> Added abitility to set scoring position from the dashboard.
-> LL pose isn't valid if not within max range.
+> Added a ManipGroundScore auto command.
+> Added a ManipGroundPickup auto command.
+> Added abitility to set the autonomous scoring position from the dashboard.
 
 -- Releases --
 
 v***
-> ManipChangePeice
+> Updating velocity plot scalings based on the measured maximum velocities.
+> Tuning the deadband on the anti-drift contoller.
+> Tuning the "arm has arrived" threshold for greater responsiveness.
+> Applying a global fix to prevent spurious alarms while CAN devices are booting.
+> Fixing a bug with the master alarm state controller and the gripper alarms.
+> Vision pose is no longer valid if not within the community.
+> Updating the calibrated wheel diameter.
+> Adding a ManipChangePiece auto command.
 > Game piece sensing.
-> Hold A for lock heading in STOW and GROUND.
+> Hold A to lock the robot heading in STOW and GROUND.
 > Reporting auto-targeting usage to Dashboard.
 > Changing master state buttons.
 > Gripper state controller.
