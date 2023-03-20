@@ -1,3 +1,10 @@
+v2.0
+Control Loop: *** ms
+RoboRIO CPU: ***%
+CAN Utilization: ***
+Code Bootup Time: *** s
+Bandwidth Usage: *** Mbs
+
 v1.0
 Control Loop: 25 ms
 RoboRIO CPU: 80%

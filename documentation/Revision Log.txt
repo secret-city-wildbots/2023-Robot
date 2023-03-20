@@ -6,6 +6,8 @@
 > Added a ManipGroundScore auto command.
 > Added a ManipGroundPickup auto command.
 > Added abitility to set the autonomous scoring position from the dashboard.
+> Always starts the robot with a game piece in auto.
+> Always un-latch the detected game piece when entering HOPPER, SHELF, or GROUND.
 
 -- Releases --
 
