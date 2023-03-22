@@ -5,13 +5,17 @@
 -- Untested Features --
 > Added a ManipGroundScore auto command.
 > Added a ManipGroundPickup auto command.
-> Added abitility to set the autonomous scoring position from the dashboard.
-> Always starts the robot with a game piece in auto.
-> Always un-latch the detected game piece when entering HOPPER, SHELF, or GROUND.
+> Tune game piece detection.
 
 -- Releases --
 
-v***
+v2.0
+> Tuning the path following PID controllers.
+> Added abitility to set the autonomous scoring position from the dashboard.
+> Always starts the robot with a game piece in auto.
+> Always un-latch the detected game piece when entering HOPPER, SHELF, or GROUND.
+> Driver A is now used for switching to robot oriented mode
+> Straightening the robot with Driver A is now Driver Y
 > Re-linking the arm simulator to the main robot code.
 > Updating velocity plot scalings based on the measured maximum velocities.
 > Tuning the deadband on the anti-drift contoller.
