@@ -1,24 +1,98 @@
 -- Known Issues --
-> Need to run additional checks on the AprilTags pose estimates, they are still marked as valid even when too far away for stable calculation
-> Values wired to the default terminal of "NT Get Boolean Array.vi" are not honored
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
-> Auto-targeting is hard-disabled in DriverStationGetData.vi.
-> Arm absolute encoders are commented out.
-> When the Dashboard crashes during actuator testing mode, unexpected behavior can occur.
-> Odometry distances appear to be short by around 5%.
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
-> Photon cannons are are commented out.
-> SHELF and GROUND setpoints are locked out.
 
 -- Untested Features --
-> Tying the LimeLight PiP modes to the masters state controller.
-> Full sensor fusion at BioLargo.
+> Added a ManipGroundScore auto command.
+> Added a ManipGroundPickup auto command.
+> Tune game piece detection.
 
 -- Releases --
 
+v2.0
+> Tuning the path following PID controllers.
+> Added abitility to set the autonomous scoring position from the dashboard.
+> Always starts the robot with a game piece in auto.
+> Always un-latch the detected game piece when entering HOPPER, SHELF, or GROUND.
+> Driver A is now used for switching to robot oriented mode
+> Straightening the robot with Driver A is now Driver Y
+> Re-linking the arm simulator to the main robot code.
+> Updating velocity plot scalings based on the measured maximum velocities.
+> Tuning the deadband on the anti-drift contoller.
+> Tuning the "arm has arrived" threshold for greater responsiveness.
+> Applying a global fix to prevent spurious alarms while CAN devices are booting.
+> Fixing a bug with the master alarm state controller and the gripper alarms.
+> Vision pose is no longer valid if not within the community.
+> Updating the calibrated wheel diameter.
+> Adding a ManipChangePiece auto command.
+> Game piece sensing.
+> Hold A to lock the robot heading in STOW and GROUND.
+> Reporting auto-targeting usage to Dashboard.
+> Changing master state buttons.
+> Gripper state controller.
+> Gear ratios etc. for the drivebase.
+> Removing the ability for the manipulator to select the LOW scoring position.
+> Gripper intialization.
+> Gear ratios etc. for the arm.
+> Gripper LED color code.
+> Updating the joint sequencing framework for the new arm design.
+> Gripper output code.
+> The robot forces itself to low gear if one of the drive motors fails.
+> Lowering the control loop alarm threshold.
+> Values wired to the default terminal of "NT Get Boolean Array.vi" are now honored.
+> Updating to FRC Game Tools v2023.2.
+> Increasing the allowed wrist angle range and confirming that code can handle more than 360 degrees of allowed rotation.
+> Automated extension of the arm (auto-targeting) based on the robot pose is now implimented.
+> The robot can now balance while pointing in either direction.
+> Initial sensor fusion algorithm is working, more tuning of the AprilTag validity flags and the wheel diameter are need.
+> Fixing twitchy rotation control in the heading lock drive mode.
+> Changes the deadband behavior for the heading lock drive mode.
+> Fixing a bug that made the heading lock rotation adjustment sensitive to the driver profile's rotation maximum.
+> Fixing a bug that caused the manipulator joystick to vibrate on boot.
+> Adding ability to calibrate the GRID Y coordinates for each side of the field.
+> Dampening the azimuth PID response.
+> Improved the LimeLight latency estimation.
+> New auto-targeting driver controls.
+> Configured the target coordinates.
+> Tying the LimeLight PiP modes to the master state controller.
+> Updating the haptic engine to working with the planned SMR control scheme.
+> Connecting the arm the feed-forward controller to the manipulator buttons.
+> Connecting LED colors to manipulator buttons.
+> Connecting arm scoring positions to manipulator buttons.
+> The CUBE/CONE decision is now selected by the manipulator.
+> Fixing a critical bug in the drift lock controller.
+> Faulted drive motors can now be detected, handled, and reported to the Dashboard.
+> The azimuth motors are now unlocked when module calibration mode is armed.
+> Improving how the arm the recovers from a motor brownout condition.
+> Fixes a bug which would cause a false critical battery warning at boot.
+> Removing the absolute arm encoders.
+> Removing Gripper code.
+> Re-linking the auto-targeting override to the MASTER CAUTION.
+> Preparing the Intake subsystem for future work.
+> Removing the Hopper subsystem.
+> Removing the color sensor.
+> All Tune-tab NT values can be read when the Variables tab.
+> Sending the swerve output loop time to the Dashboard.
+> Fixing an initialization bug in the swerve angle latching.
+> Adding a visualization of the swerve module state downstream of the angle latching code.
+> Tuning swerve drift control PID.
+> Converting the speed cap deceleration limit into real units for clarity.
+> Overhauling the acceleration limiter on the swerve drive.
+> Tuning swrve azimuth PID.
+> The smoothed robot ground velocity can now be plotted.
+> Improving the velocity and pose estimates during shifting.
+> Properly tuning the shift time threshold.
+> Shifter failure alarm is now bypassed when in actuator testing mode.
+> Updating the documentation for the Talon FX wrappers.
+> Swerve drive motor RPM measurements are now consolidated in the pose code.
+> Switching to using Talon FX wrappers for the swerve output code.
+> Merging OutputSwerveDrive.vi and OutputSwerveAzimuth.vi into OutputSwerve.vi.
+> Adding a Talon FX wrapper for dynamic enabling of voltage compensation.
+
 v1.2
->Cleaned Hopper state controller
->Swapped all instances of StickyButton2 and StickyButton with an updated StickyButton
+> Cleaned up the Hopper state controller
+> Swapped all instances of StickyButton2 and StickyButton with an updated StickyButton
+
 v1.0
 > Final arm configurations and tuning parameters.
 > Updating the robot profile name.

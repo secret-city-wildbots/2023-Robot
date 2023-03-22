@@ -1,11 +1,11 @@
-This play does nothing and should always be left as the default auto play.
+This play calibrates the wheels
 
 *
-start_x_red = 75
-start_y_red = 300
+start_x_red = 210
+start_y_red = 290
 start_h_red = 0
-start_x_blue = 75
-start_y_blue = 25
+start_x_blue = 210
+start_y_blue = 290
 start_h_blue = 0
 *
 DriveEnd()
