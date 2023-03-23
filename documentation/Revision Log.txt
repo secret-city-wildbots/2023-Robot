@@ -10,6 +10,11 @@
 -- Releases --
 
 v***
+> Tuning auto-targeting.
+> Preventing pose windup in the X direction during auto-targeting.
+> Shelf and Scoring are now only allowed when the robot is within 45 degrees of the correct angle
+> All robot paths are sent to the Dashboard for display.
+> Stow state is always allowed and visible on the dashboard.
 
 v2.0
 > Tuning the path following PID controllers.
