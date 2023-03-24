@@ -3,6 +3,8 @@
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 
 -- Untested Features --
+> Auto-targeting is always on in auto
+> ManipWaitForArm now allows to wait for a safe position instead of stationary
 > Added a ManipGroundScore auto command.
 > Added a ManipGroundPickup auto command.
 > Added a ManipWaitForPiece auto command.
