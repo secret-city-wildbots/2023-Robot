@@ -10,6 +10,7 @@
 > Converts the DriveSetRobotPosition command to a manipulator command.
 > Allows the robot to accept vision pose updates from the far end of the field.
 > The manipulator haptic feedback now indicates confirmed changes to the robot state or scoring positions.
+> Modifying the human player signal so that it doesn't hide the game piece being request.
 
 -- Releases --
 
