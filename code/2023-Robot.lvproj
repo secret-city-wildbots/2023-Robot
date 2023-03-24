@@ -206,7 +206,6 @@ AddOutputFilter chunkFilter
 				<Item Name="DriveEnd.vi" Type="VI" URL="../DriveEnd.vi"/>
 				<Item Name="DriveOver.vi" Type="VI" URL="../DriveOver.vi"/>
 				<Item Name="DrivePath.vi" Type="VI" URL="../DrivePath.vi"/>
-				<Item Name="DriveSetRobotPosition.vi" Type="VI" URL="../DriveSetRobotPosition.vi"/>
 				<Item Name="DriveWaitForButton.vi" Type="VI" URL="../DriveWaitForButton.vi"/>
 				<Item Name="DriveWaitForManip.vi" Type="VI" URL="../DriveWaitForManip.vi"/>
 				<Item Name="DriveWaitForTime.vi" Type="VI" URL="../DriveWaitForTime.vi"/>
@@ -217,6 +216,7 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
 				<Item Name="ManipGroundPickup.vi" Type="VI" URL="../ManipGroundPickup.vi"/>
 				<Item Name="ManipGroundScore.vi" Type="VI" URL="../ManipGroundScore.vi"/>
+				<Item Name="ManipSetRobotPosition.vi" Type="VI" URL="../ManipSetRobotPosition.vi"/>
 				<Item Name="ManipWaitForArm.vi" Type="VI" URL="../ManipWaitForArm.vi"/>
 				<Item Name="ManipWaitForButton.vi" Type="VI" URL="../ManipWaitForButton.vi"/>
 				<Item Name="ManipWaitForDistance.vi" Type="VI" URL="../ManipWaitForDistance.vi"/>

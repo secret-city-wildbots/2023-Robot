@@ -6,16 +6,19 @@
 > Added a ManipGroundScore auto command.
 > Added a ManipGroundPickup auto command.
 > Added a ManipWaitForPiece auto command.
-> Tune game piece detection.
+> Added the ability to resync the odometry-only pose with the fused pose estimate during auto.
+> Converts the DriveSetRobotPosition command to a manipulator command.
 
 -- Releases --
 
 v***
+> Tuning the HOPPER arm setpoints.
+> Tuning game piece detection.
 > Tuning auto-targeting.
 > Preventing pose windup in the X direction during auto-targeting.
-> Shelf and Scoring are now only allowed when the robot is within 45 degrees of the correct angle
+> SHELF and SCORE are now only allowed when the robot is within 45 degrees of the correct angle.
 > All robot paths are sent to the Dashboard for display.
-> Stow state is always allowed and visible on the dashboard.
+> STOW state is always allowed and visible on the dashboard.
 
 v2.0
 > Tuning the path following PID controllers.
