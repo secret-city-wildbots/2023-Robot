@@ -5,6 +5,7 @@
 -- Untested Features --
 > Added a ManipGroundScore auto command.
 > Added a ManipGroundPickup auto command.
+> Added a ManipWaitForPiece auto command.
 > Tune game piece detection.
 
 -- Releases --

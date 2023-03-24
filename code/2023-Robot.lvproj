@@ -216,10 +216,12 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipDropPiece.vi" Type="VI" URL="../ManipDropPiece.vi"/>
 				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
 				<Item Name="ManipGroundPickup.vi" Type="VI" URL="../ManipGroundPickup.vi"/>
+				<Item Name="ManipGroundScore.vi" Type="VI" URL="../ManipGroundScore.vi"/>
 				<Item Name="ManipWaitForArm.vi" Type="VI" URL="../ManipWaitForArm.vi"/>
 				<Item Name="ManipWaitForButton.vi" Type="VI" URL="../ManipWaitForButton.vi"/>
 				<Item Name="ManipWaitForDistance.vi" Type="VI" URL="../ManipWaitForDistance.vi"/>
 				<Item Name="ManipWaitForDrive.vi" Type="VI" URL="../ManipWaitForDrive.vi"/>
+				<Item Name="ManipWaitForPiece.vi" Type="VI" URL="../ManipWaitForPiece.vi"/>
 				<Item Name="ManipWaitForTime.vi" Type="VI" URL="../ManipWaitForTime.vi"/>
 			</Item>
 			<Item Name="Path Following" Type="Folder">
@@ -943,7 +945,6 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="ManipGroundScore.vi" Type="VI" URL="../ManipGroundScore.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
