@@ -61,14 +61,6 @@ DriveOver(param1)
 
 -----------------------------------------------------------
 
-DriveSetRobotPosition(param1, param2)
-# This VI manually updates the robot's position, use to zero-out accumulated pose error.
-
-1. The field-oriented x position specified in inches.
-2. The field-oriented y position specified in inches.
-
------------------------------------------------------------
-
 DrivePath(param1, param2, param3, param4, param5)
 # This VI uses the pure-pursuit algorithm to follow the specified path.
 
@@ -84,6 +76,14 @@ DrivePath(param1, param2, param3, param4, param5)
 
 ManipEnd()
 # This VI sets the all of the joysticks buttons to safe positions and permanently halts the manipulator sequencer.
+
+-----------------------------------------------------------
+
+DriveSetRobotPosition(param1, param2)
+# This VI manually updates the robot's position, use to zero-out accumulated pose error. Pass -1 to re-sync with fused pose.
+
+1. The field-oriented x position specified in inches.
+2. The field-oriented y position specified in inches.
 
 -----------------------------------------------------------
 

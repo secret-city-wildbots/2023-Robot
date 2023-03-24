@@ -8,6 +8,7 @@
 > Added a ManipWaitForPiece auto command.
 > Added the ability to resync the odometry-only pose with the fused pose estimate during auto.
 > Converts the DriveSetRobotPosition command to a manipulator command.
+> Allows the robot to accept vision pose updates from the far end of the field.
 
 -- Releases --
 
