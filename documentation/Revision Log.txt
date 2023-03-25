@@ -9,15 +9,16 @@
 > Added the ability to resync the odometry-only pose with the fused pose estimate during auto.
 > Converts the DriveSetRobotPosition command to a manipulator command.
 > Fixing a critical bug in the ManipChangeState command.
-> Prevents the robot from going to SHELF outside of specified distance range.
-> Impliments an auto-stow from the SHELF.
-> Overhauls ModeDrivebase to make it easier to edit.
-> Automatically locks the robot heading as it exits the community after scoring.
 > Places the robot in auto-targeting when autonomous and continuously updates the closest target.
+> Prevents auto-stowing, and voids the "stationary" requirement, while the robot is autonomous to allow for faster state changes.
 
 -- Releases --
 
 v***
+> Prevents the robot from going to SHELF outside of specified distance range.
+> Impliments an auto-stow from the SHELF.
+> Overhauls ModeDrivebase to make it easier to edit.
+> Automatically locks the robot heading as it exits the community after scoring.
 > Disable vision pose updates when running in auto test mode.
 > Improving robot safety when the inverse kinematics solution fails during scoring.
 > Tuning the GROUND and HOPPER setpoints.
