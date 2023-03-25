@@ -11,11 +11,14 @@
 > Fixing a critical bug in the ManipChangeState command.
 > Prevents the robot from going to SHELF outside of specified distance range.
 > Impliments an auto-stow from the SHELF.
-> Disable vision pose updates when running in auto test mode.
+> Overhauls ModeDrivebase to make it easier to edit.
+> Automatically locks the robot heading as it exits the community after scoring.
+> Places the robot in auto-targeting when autonomous and continuously updates the closest target.
 
 -- Releases --
 
 v***
+> Disable vision pose updates when running in auto test mode.
 > Improving robot safety when the inverse kinematics solution fails during scoring.
 > Tuning the GROUND and HOPPER setpoints.
 > Preventing the LEDs from turning off when the battery gets low.
