@@ -8,7 +8,8 @@
 -- Releases --
 
 v***
-> Improving rotation when auto-stowing from score.
+> Tuning the MID CONE hold point.
+> Improving rotation when auto-stowing from score and adding reset on disabled.
 > Tuning the auto-targeting offset.
 > Added the ability to resync the odometry-only pose with the fused pose estimate during auto.
 > Places the robot in auto-targeting when autonomous and continuously updates the closest target.
