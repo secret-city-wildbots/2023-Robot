@@ -4,7 +4,7 @@
 
 -- Untested Features --
 
-> Added a ManipWaitForPiece auto command.
+> Added a ManipWaitForPiece auto command
 
 -- Releases --
 
