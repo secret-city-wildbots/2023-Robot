@@ -141,16 +141,14 @@ ManipChangePiece(param1)
 -----------------------------------------------------------
 
 ManipGroundPickup(param1)
-# This VI enters or exits ground pickup mode (requires state to be stowed(0))
+# This VI enters or exits ground pickup mode
 
 1. Turns on or off ground pickup ("on" or "off")
 
 -----------------------------------------------------------
 
-ManipGroundScore(param1)
-# This VI enters or exits ground score mode (requires state to be stowed(0))
-
-1. Turns on or off ground scoring ("on" or "off")
+ManipGroundScore()
+# This VI scores in the low position (requires state to be stowed(0))
 
 -----------------------------------------------------------
 
