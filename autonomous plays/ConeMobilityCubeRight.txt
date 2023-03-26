@@ -5,7 +5,7 @@ start_x_red = 74
 start_y_red = 298
 start_h_red = 0
 start_x_blue = 74
-start_y_blue = 17
+start_y_blue = 15
 start_h_blue = 0
 *
 DriveWaitForManip(8)
@@ -22,7 +22,7 @@ ManipChangePiece(cube)
 ManipChangeState(4)
 ManipWaitForArm(safe)
 ManipWaitForDrive(1)
-ManipWaitForDistance(-168,-1)
+ManipWaitForDistance(-144,-1)
 ManipGroundPickup(on)			# pickup cube 2
 ManipWaitForDrive(2)
 ManipGroundPickup(off)
