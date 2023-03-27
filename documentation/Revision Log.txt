@@ -4,6 +4,7 @@
 
 -- Untested Features --
 > Added a ManipWaitForPiece auto command.
+> Linking the simulated arm joint velocities to the true gear ratios.
 
 -- Releases --
 
