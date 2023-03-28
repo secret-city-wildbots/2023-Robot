@@ -8,6 +8,10 @@
 -- Releases --
 
 v***
+> Reducing the elbow and wrist acceleration to reduce arm jiggle.
+> Ejecting the game piece while hoppering will allow it to be re-acquired.
+> Biasing the low score direction so that game pieces ejected against the side wall always come out the back of the robot.
+> Makes the intake button slightly sticky.
 > Tuning the gripper acquisition threshold.
 > Adjusting the LED offsets for the new strips.
 > Tuning the setpoints for the final arm and gripper design.
