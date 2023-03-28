@@ -4,11 +4,14 @@
 
 -- Untested Features --
 > Added a ManipWaitForPiece auto command.
-> Linking the simulated arm joint velocities to the true gear ratios.
 
 -- Releases --
 
 v***
+> Tuning the gripper acquisition threshold.
+> Adjusting the LED offsets for the new strips.
+> Tuning the setpoints for the final arm and gripper design.
+> Linking the simulated arm joint velocities to the true gear ratios.
 > Tuning the MID CONE hold point.
 > Improving rotation when auto-stowing from score and adding reset on disabled.
 > Tuning the auto-targeting offset.
