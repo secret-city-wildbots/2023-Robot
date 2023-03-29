@@ -1,4 +1,4 @@
-This play calibrates the wheels
+This play does nothing
 
 *
 start_x_red = 210

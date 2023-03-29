@@ -3,11 +3,50 @@
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 
 -- Untested Features --
-> Added a ManipGroundScore auto command.
-> Added a ManipGroundPickup auto command.
-> Tune game piece detection.
+> Added a ManipWaitForPiece auto command.
 
 -- Releases --
+
+v2.1
+> Changing the pre-ground setpoint used during autonomous.
+> Reducing the elbow and wrist acceleration to reduce arm jiggle.
+> Ejecting the game piece while hoppering will allow it to be re-acquired.
+> Biasing the low score direction so that game pieces ejected against the side wall always come out the back of the robot.
+> Makes the intake button slightly sticky.
+> Tuning the gripper acquisition threshold.
+> Adjusting the LED offsets for the new strips.
+> Tuning the setpoints for the final arm and gripper design.
+> Linking the simulated arm joint velocities to the true gear ratios.
+> Tuning the MID CONE hold point.
+> Improving rotation when auto-stowing from score and adding reset on disabled.
+> Tuning the auto-targeting offset.
+> Added the ability to resync the odometry-only pose with the fused pose estimate during auto.
+> Places the robot in auto-targeting when autonomous and continuously updates the closest target.
+> Prevents auto-stowing, and voids the "stationary" requirement, while the robot is autonomous to allow for faster state changes.
+> Added a ManipGroundPickup auto command.
+> Converts the DriveSetRobotPosition command to a manipulator command.
+> Fixing a critical bug in the ManipChangeScoringPosition command.
+> Added a ManipGroundScore auto command.
+> Fixing a critical bug in the ManipChangeState command.
+> Prevents the robot from going to SHELF outside of specified distance range.
+> Impliments an auto-stow from the SHELF.
+> Overhauls ModeDrivebase to make it easier to edit.
+> Automatically locks the robot heading as it exits the community after scoring.
+> Disable vision pose updates when running in auto test mode.
+> Improving robot safety when the inverse kinematics solution fails during scoring.
+> Tuning the GROUND and HOPPER setpoints.
+> Preventing the LEDs from turning off when the battery gets low.
+> Allows the robot to accept vision pose updates from the far end of the field.
+> The manipulator haptic feedback now indicates confirmed changes to the robot state or scoring positions.
+> Modifying the human player signal so that it doesn't hide the game piece being request.
+> Cleaning up the master state controller.
+> Tuning the HOPPER arm setpoints.
+> Tuning game piece detection.
+> Tuning auto-targeting.
+> Preventing pose windup in the X direction during auto-targeting.
+> SHELF and SCORE are now only allowed when the robot is within 45 degrees of the correct angle.
+> All robot paths are sent to the Dashboard for display.
+> STOW state is always allowed and visible on the dashboard.
 
 v2.0
 > Tuning the path following PID controllers.

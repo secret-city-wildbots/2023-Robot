@@ -5,7 +5,7 @@ start_x_red = 75
 start_y_red = 200
 start_h_red = 0
 start_x_blue = 75
-start_y_blue = 100
+start_y_blue = 130
 start_h_blue = 0
 *
 DriveWaitForManip(7)
@@ -16,8 +16,8 @@ DriveEnd()
 ManipChangePiece(cone)
 ManipChangeScoringPosition(-1)
 ManipChangeState(2)
-ManipWaitForArm()
-ManipDropPiece()
-ManipWaitForArm()
+ManipWaitForArm(stationary)
+ManipDropPiece()				# score cone 1
 ManipChangeState(1)
+ManipWaitForArm(safe)
 ManipEnd()

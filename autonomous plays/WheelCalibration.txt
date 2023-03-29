@@ -8,8 +8,9 @@ start_x_blue = 210
 start_y_blue = 290
 start_h_blue = 0
 *
-DriveSetRobotPosition(210, 290)
+DriveWaitForManip(1)
 DrivePath(2,5,-1,WheelCalibration,normal)
 DriveEnd()
 *
+ManipSetRobotPosition(210, 290)
 ManipEnd()
