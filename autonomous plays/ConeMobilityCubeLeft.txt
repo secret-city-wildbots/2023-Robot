@@ -22,10 +22,10 @@ ManipChangePiece(cube)
 ManipChangeState(4)
 ManipWaitForArm(safe)
 ManipWaitForDrive(1)
+ManipWaitForDistance(1,-1)
+ManipGroundPickup(on)			# pickup cube 2
 ManipWaitForDistance(53,-1)
 ManipSetRobotPosition(-1,-1)
-ManipWaitForDistance(-192,-1)
-ManipGroundPickup(on)			# pickup cube 2
 ManipWaitForDrive(2)
 ManipGroundPickup(off)
 ManipChangeState(0)
