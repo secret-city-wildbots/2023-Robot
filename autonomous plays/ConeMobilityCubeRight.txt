@@ -2,7 +2,7 @@ This play scores one cone high and then gets the mobility bonus
 
 *
 start_x_red = 74
-start_y_red = 298
+start_y_red = 299
 start_h_red = 0
 start_x_blue = 74
 start_y_blue = 15
