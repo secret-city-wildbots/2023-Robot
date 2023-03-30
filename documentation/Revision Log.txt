@@ -8,6 +8,7 @@
 -- Releases --
 
 v***
+> Disabling auto-targeting when running a systems check.
 
 v2.1
 > Changing the pre-ground setpoint used during autonomous.

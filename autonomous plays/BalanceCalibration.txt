@@ -1,0 +1,16 @@
+
+This play scores one game piece high, goes over charging station to get the mobility bonus, then balances.
+
+*
+start_x_red = 75
+start_y_red = 207
+start_h_red = 0
+start_x_blue = 75
+start_y_blue = 107
+start_h_blue = 0
+*
+DriveBalance(near)
+DriveEnd()
+*
+ManipChangeState(1)
+ManipEnd()
