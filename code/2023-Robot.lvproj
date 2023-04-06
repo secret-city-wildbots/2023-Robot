@@ -300,12 +300,6 @@ AddOutputFilter chunkFilter
 				<Item Name="OutputArm.vi" Type="VI" URL="../OutputArm.vi"/>
 				<Item Name="StateArm.vi" Type="VI" URL="../StateArm.vi"/>
 			</Item>
-			<Item Name="Climber" Type="Folder">
-				<Item Name="GlobalClimber.vi" Type="VI" URL="../GlobalClimber.vi"/>
-				<Item Name="InitClimber.vi" Type="VI" URL="../InitClimber.vi"/>
-				<Item Name="OutputClimber.vi" Type="VI" URL="../OutputClimber.vi"/>
-				<Item Name="StateClimber.vi" Type="VI" URL="../StateClimber.vi"/>
-			</Item>
 			<Item Name="Drivebase" Type="Folder">
 				<Item Name="Swerve Toolbox" Type="Folder">
 					<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
@@ -337,12 +331,6 @@ AddOutputFilter chunkFilter
 				<Item Name="InitGripper.vi" Type="VI" URL="../InitGripper.vi"/>
 				<Item Name="OutputGripper.vi" Type="VI" URL="../OutputGripper.vi"/>
 				<Item Name="StateGripper.vi" Type="VI" URL="../StateGripper.vi"/>
-			</Item>
-			<Item Name="Intake" Type="Folder">
-				<Item Name="GlobalIntake.vi" Type="VI" URL="../GlobalIntake.vi"/>
-				<Item Name="InitIntake.vi" Type="VI" URL="../InitIntake.vi"/>
-				<Item Name="OutputIntake.vi" Type="VI" URL="../OutputIntake.vi"/>
-				<Item Name="StateIntake.vi" Type="VI" URL="../StateIntake.vi"/>
 			</Item>
 			<Item Name="LEDs" Type="Folder">
 				<Item Name="LEDDebugColorSensors.vi" Type="VI" URL="../LEDDebugColorSensors.vi"/>

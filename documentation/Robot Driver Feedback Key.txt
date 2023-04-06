@@ -15,6 +15,7 @@ Status LED Backgrounds
 Pink - balancing (flashing means not level)
 Aquamarine - scoring (flashing means arm is moving)
 Teal - signaling the human player that the robot is ready for a game piece
+White - signaling that the endgame has started
 Yellow - selecting a CONE in stow, hoppering, shelf, or ground (flashing if CONE grabbed)
 Purple - selecting a CUBE in stow, hoppering, shelf, or ground (flashing is CUBE grabbed)
 ------------------------------------------------------------

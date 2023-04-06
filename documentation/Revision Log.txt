@@ -4,10 +4,16 @@
 
 -- Untested Features --
 > Added a ManipWaitForPiece auto command.
+> Adding an endgame timer to the LED indicators.
 
 -- Releases --
 
 v***
+> Removing placeholder code for the climber subsystem.
+> Removing placeholder code for the intake subsystem.
+> Tweaking the master state to Lime Light stream mode mapping.
+> Tuning the auto-balancing proportional gain.
+> Tuning the MID and HIGH CONE arm setpoints.
 > Disabling auto-targeting when running a systems check.
 
 v2.1
