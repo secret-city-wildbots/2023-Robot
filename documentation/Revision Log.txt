@@ -1,14 +1,18 @@
 -- Known Issues --
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
+> SwerveStrafeAssist.vi only supports locking to vectors parallel to the field Y-axis.
 
 -- Untested Features --
 > Added a ManipWaitForPiece auto command.
-> Adding an endgame timer to the LED indicators.
+> The scoring speed cap is only enforced under human control.
+
 
 -- Releases --
 
 v***
+> Fixes an issue where the human player signal would cover up the status chaser.
+> Adding an endgame timer to the LED indicators.
 > Removing placeholder code for the climber subsystem.
 > Removing placeholder code for the intake subsystem.
 > Tweaking the master state to Lime Light stream mode mapping.

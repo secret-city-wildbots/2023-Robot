@@ -305,6 +305,7 @@ AddOutputFilter chunkFilter
 					<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
 					<Item Name="SwerveAccelerationLimiting.vi" Type="VI" URL="../SwerveAccelerationLimiting.vi"/>
 					<Item Name="SwerveAssistHeading.vi" Type="VI" URL="../SwerveAssistHeading.vi"/>
+					<Item Name="SwerveAssistStrafe.vi" Type="VI" URL="../SwerveAssistStrafe.vi"/>
 					<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
 					<Item Name="SwerveChooseCenter.vi" Type="VI" URL="../SwerveChooseCenter.vi"/>
 					<Item Name="SwerveJoystickRotationScaling.vi" Type="VI" URL="../SwerveJoystickRotationScaling.vi"/>
