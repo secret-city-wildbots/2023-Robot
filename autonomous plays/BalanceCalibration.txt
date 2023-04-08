@@ -1,5 +1,4 @@
-
-This play scores one game piece high, goes over charging station to get the mobility bonus, then balances.
+This play scores no pieces and then balances
 
 *
 start_x_red = 75

@@ -12,6 +12,13 @@ DriveWaitForTime(param1)
 
 -----------------------------------------------------------
 
+DriveAutoTarget(param1)
+# Sets if robot is in auto targeting or not.
+
+1. Sets if it is on or off("on" or "off").
+
+-----------------------------------------------------------
+
 DriveWaitForManip(param1)
 # Pauses the drive sequencer until the manipulator sequencer has reached (or passed) the specified step.
 
@@ -130,6 +137,11 @@ ManipChangeScoringPosition(param1)
 
 ManipDropPiece()
 # This VI drops a held piece
+
+-----------------------------------------------------------
+
+ManipWaitForTeleOp()
+# This VI waits for the robot mode to be TeleOp Enabled
 
 -----------------------------------------------------------
 

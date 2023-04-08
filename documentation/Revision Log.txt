@@ -2,19 +2,21 @@
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SwerveStrafeAssist.vi only supports locking to vectors parallel to the field Y-axis.
-> Auto-targeting while to robot is autonomous is not hooked up.
 > The auto-targeting strafe controller PID is not yet tuned.
 > The new auto-targeting hasn't been tested on a full field.
 > A driver has not yet tested the corner pivot controls.
 
 -- Untested Features --
 > Added a ManipWaitForPiece auto command.
-> The scoring speed cap is only enforced under human control.
-> Pre-GROUND now changes based off of the game period instead of if the robot is autonomous.
 
 -- Releases --
 
 v***
+> The scoring speed cap is only enforced under human control.
+> Auto plays can no specifiy when to go in and out of auto-targeting.
+> Allowing the robot to stay in ground pickup when autonomous transitions to TeleOp.
+> Adding a wait for TeleOp autonomous command.
+> Pre-GROUND now changes based off of the game period instead of if the robot is autonomous.
 > Arm accelerates faster when stowing
 > The speed limiter now applies while the arm is stowing.
 > Improving the reliability and changing the behavior of the corner pivot controls.
