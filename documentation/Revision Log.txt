@@ -15,6 +15,7 @@
 -- Releases --
 
 v***
+> Arm accelerates faster when stowing
 > The speed limiter now applies while the arm is stowing.
 > Improving the reliability and changing the behavior of the corner pivot controls.
 > Corner pivoting is now disabled if the robot's heading is locked.
