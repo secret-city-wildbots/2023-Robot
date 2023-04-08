@@ -2,15 +2,20 @@
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SwerveStrafeAssist.vi only supports locking to vectors parallel to the field Y-axis.
+> Auto-targeting while to robot is autonomous is not hooked up.
+> The auto-targeting strafe controller PID is not yet tuned.
+> The new auto-targeting hasn't been tested on a full field.
 
 -- Untested Features --
 > Added a ManipWaitForPiece auto command.
 > The scoring speed cap is only enforced under human control.
 
-
 -- Releases --
 
 v***
+> Overhauls the auto-targeting behavior.
+> Enables auto-targeting on the SHELF locations.
+> Cleans up the drive state controller.
 > Fixes an issue where the human player signal would cover up the status chaser.
 > Adding an endgame timer to the LED indicators.
 > Removing placeholder code for the climber subsystem.
