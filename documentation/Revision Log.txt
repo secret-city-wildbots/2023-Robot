@@ -5,14 +5,19 @@
 > Auto-targeting while to robot is autonomous is not hooked up.
 > The auto-targeting strafe controller PID is not yet tuned.
 > The new auto-targeting hasn't been tested on a full field.
+> A driver has not yet tested the corner pivot controls.
 
 -- Untested Features --
 > Added a ManipWaitForPiece auto command.
 > The scoring speed cap is only enforced under human control.
+> Pre-GROUND now changes based off of the game period instead of if the robot is autonomous.
 
 -- Releases --
 
 v***
+> The speed limiter now applies while the arm is stowing.
+> Improving the reliability and changing the behavior of the corner pivot controls.
+> Corner pivoting is now disabled if the robot's heading is locked.
 > Overhauls the auto-targeting behavior.
 > Enables auto-targeting on the SHELF locations.
 > Cleans up the drive state controller.
