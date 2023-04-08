@@ -21,4 +21,6 @@ ManipWaitForArm(stationary)
 ManipDropPiece()				# score cone 1
 ManipChangeState(1)
 ManipWaitForArm(safe)
+ManipWaitForTeleOp()
+ManipChangeState(4)
 ManipEnd()
