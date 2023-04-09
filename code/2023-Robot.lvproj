@@ -303,6 +303,12 @@ AddOutputFilter chunkFilter
 				<Item Name="OutputArm.vi" Type="VI" URL="../OutputArm.vi"/>
 				<Item Name="StateArm.vi" Type="VI" URL="../StateArm.vi"/>
 			</Item>
+			<Item Name="Climber" Type="Folder">
+				<Item Name="GlobalClimber.vi" Type="VI" URL="../GlobalClimber.vi"/>
+				<Item Name="InitClimber.vi" Type="VI" URL="../InitClimber.vi"/>
+				<Item Name="OutputClimber.vi" Type="VI" URL="../OutputClimber.vi"/>
+				<Item Name="StateClimber.vi" Type="VI" URL="../StateClimber.vi"/>
+			</Item>
 			<Item Name="Drivebase" Type="Folder">
 				<Item Name="Swerve Toolbox" Type="Folder">
 					<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>

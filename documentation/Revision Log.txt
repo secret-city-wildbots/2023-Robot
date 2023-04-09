@@ -9,7 +9,7 @@
 -- Releases --
 
 v***
-> Hybrid nodes that have been scored on are saved and displayed on the dashboard
+> Hybrid nodes that have been scored on are saved and displayed on the dashboard.
 > Adjusted Y positions of each target.
 > Increased max vision pose trust X limit.
 > Tuning the auto-targeting strafe PID controller.
