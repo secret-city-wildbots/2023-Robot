@@ -2,20 +2,21 @@ This play scores one cone mid on the shelf side, and then picks up a cube and sc
 
 *
 start_x_red = 74
-start_y_red = 163
+start_y_red = 158
 start_h_red = 0
 start_x_blue = 74
-start_y_blue = 194
+start_y_blue = 199
 start_h_blue = 0
 *
 DriveWaitForManip(8)
 DrivePath(6,10,-1,Cone1ToCube2Shelf,robot_suffix) # drive to cube 2
 DrivePath(6,10,-1,Cube2ToScoreShelf,robot_suffix) # drive to score cube 2
+DriveWaitForManip(24)
 DriveAutoTarget(on)
 DriveEnd()
 *
 ManipChangePiece(cone)
-ManipChangeScoringPosition(0)
+ManipChangeScoringPosition(-1)
 ManipChangeState(2)
 ManipWaitForArm(stationary)
 ManipDropPiece() 				# score cone 1
@@ -30,13 +31,15 @@ ManipSetRobotPosition(-1,-1)
 ManipWaitForDrive(2)
 ManipGroundPickup(off)
 ManipChangeState(0)
-ManipWaitForDistance(-36, -1)
-ManipChangeScoringPosition(0)
+ManipWaitForDistance(-84, -1)
+ManipChangeScoringPosition(-1)
 ManipWaitForArm(stationary)
 ManipChangeState(2)
 ManipWaitForDistance(-18, -1)
 ManipSetRobotPosition(-1,-1)
-ManipWaitForDrive(4)
+ManipWaitForDrive(3)
+ManipSetRobotPosition(-1,-1)
+ManipWaitForDrive(5)
 ManipWaitForArm(stationary)
 ManipDropPiece() 				# score cube 2
 ManipChangeState(0)
