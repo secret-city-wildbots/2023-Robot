@@ -200,6 +200,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Autonomous" Type="Folder">
 			<Item Name="Commands" Type="Folder">
 				<Item Name="DriveAngleH.vi" Type="VI" URL="../DriveAngleH.vi"/>
+				<Item Name="DriveAutoTarget.vi" Type="VI" URL="../DriveAutoTarget.vi"/>
 				<Item Name="DriveBalance.vi" Type="VI" URL="../DriveBalance.vi"/>
 				<Item Name="DriveDistanceX.vi" Type="VI" URL="../DriveDistanceX.vi"/>
 				<Item Name="DriveDistanceY.vi" Type="VI" URL="../DriveDistanceY.vi"/>
@@ -222,6 +223,7 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipWaitForDistance.vi" Type="VI" URL="../ManipWaitForDistance.vi"/>
 				<Item Name="ManipWaitForDrive.vi" Type="VI" URL="../ManipWaitForDrive.vi"/>
 				<Item Name="ManipWaitForPiece.vi" Type="VI" URL="../ManipWaitForPiece.vi"/>
+				<Item Name="ManipWaitForTeleOp.vi" Type="VI" URL="../ManipWaitForTeleOp.vi"/>
 				<Item Name="ManipWaitForTime.vi" Type="VI" URL="../ManipWaitForTime.vi"/>
 			</Item>
 			<Item Name="Path Following" Type="Folder">
@@ -269,6 +271,7 @@ AddOutputFilter chunkFilter
 					<Item Name="GetSwerveRawAzimuth.vi" Type="VI" URL="../GetSwerveRawAzimuth.vi"/>
 					<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 				</Item>
+				<Item Name="EstimateHybridNodes.vi" Type="VI" URL="../EstimateHybridNodes.vi"/>
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
 				<Item Name="GetAprilTags.vi" Type="VI" URL="../GetAprilTags.vi"/>
@@ -310,7 +313,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Swerve Toolbox" Type="Folder">
 					<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
 					<Item Name="SwerveAccelerationLimiting.vi" Type="VI" URL="../SwerveAccelerationLimiting.vi"/>
-					<Item Name="SwerveAntiDrift.vi" Type="VI" URL="../SwerveAntiDrift.vi"/>
+					<Item Name="SwerveAssistHeading.vi" Type="VI" URL="../SwerveAssistHeading.vi"/>
+					<Item Name="SwerveAssistStrafe.vi" Type="VI" URL="../SwerveAssistStrafe.vi"/>
 					<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
 					<Item Name="SwerveChooseCenter.vi" Type="VI" URL="../SwerveChooseCenter.vi"/>
 					<Item Name="SwerveJoystickRotationScaling.vi" Type="VI" URL="../SwerveJoystickRotationScaling.vi"/>
@@ -337,12 +341,6 @@ AddOutputFilter chunkFilter
 				<Item Name="InitGripper.vi" Type="VI" URL="../InitGripper.vi"/>
 				<Item Name="OutputGripper.vi" Type="VI" URL="../OutputGripper.vi"/>
 				<Item Name="StateGripper.vi" Type="VI" URL="../StateGripper.vi"/>
-			</Item>
-			<Item Name="Intake" Type="Folder">
-				<Item Name="GlobalIntake.vi" Type="VI" URL="../GlobalIntake.vi"/>
-				<Item Name="InitIntake.vi" Type="VI" URL="../InitIntake.vi"/>
-				<Item Name="OutputIntake.vi" Type="VI" URL="../OutputIntake.vi"/>
-				<Item Name="StateIntake.vi" Type="VI" URL="../StateIntake.vi"/>
 			</Item>
 			<Item Name="LEDs" Type="Folder">
 				<Item Name="LEDDebugColorSensors.vi" Type="VI" URL="../LEDDebugColorSensors.vi"/>
@@ -971,7 +969,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">/C/Git Checkouts/Robot Builds/2023</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">61</Property>
+				<Property Name="Bld_version.build" Type="Int">71</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

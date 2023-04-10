@@ -1,0 +1,48 @@
+This play scores one cone high and then gets the mobility bonus
+
+*
+start_x_red = 74
+start_y_red = 158
+start_h_red = 0
+start_x_blue = 74
+start_y_blue = 199
+start_h_blue = 0
+*
+DriveWaitForManip(4)
+DrivePath(6,10,-1,Cone1ToCube2LowShelf,robot_suffix) # drive to cube 2
+DrivePath(6,10,-1,Cube2ToScoreLowShelf,robot_suffix) # drive to score cube 2
+DriveWaitForManip(18)
+DrivePath(6,10,-1,ScoreToCube3LowShelf,robot_suffix) # drive to cube 2
+DrivePath(6,10,-1,Cube3ToScoreLowShelf,robot_suffix) # drive to score cube 2
+DriveEnd()
+*
+ManipChangePiece(cone)
+ManipGroundScore()				# score cone 1
+ManipChangePiece(cube)
+ManipChangeState(4)
+ManipWaitForDrive(1)
+ManipWaitForDistance(1,-1)
+ManipGroundPickup(on)			# pickup cube 2
+ManipWaitForDistance(53,-1)
+ManipSetRobotPosition(-1,-1)
+ManipWaitForDrive(2)
+ManipGroundPickup(off)
+ManipChangeState(0)
+ManipWaitForDistance(-36, -1)
+ManipGroundScore() 				# score cube 2
+ManipWaitForDistance(-18, -1)
+ManipSetRobotPosition(-1,-1)
+ManipWaitForDrive(3)
+ManipChangeState(4)
+ManipWaitForDrive(4)
+ManipWaitForDistance(1,-1)
+ManipGroundPickup(on)			# pickup cube 3
+ManipWaitForDistance(53,-1)
+ManipSetRobotPosition(-1,-1)
+ManipWaitForDrive(5)
+ManipGroundPickup(off)
+ManipChangeState(0)
+ManipWaitForDistance(-36, -1)
+ManipGroundScore() 				# score cube 3
+ManipWaitForArm(safe)
+ManipEnd()

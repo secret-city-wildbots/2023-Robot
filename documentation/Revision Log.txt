@@ -1,11 +1,38 @@
 -- Known Issues --
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
+> SwerveStrafeAssist.vi only supports locking to vectors parallel to the field Y-axis.
 
 -- Untested Features --
 > Added a ManipWaitForPiece auto command.
 
 -- Releases --
+
+v2.2
+> Hybrid nodes that have been scored on are saved and displayed on the dashboard.
+> Adjusted Y positions of each target.
+> Increased max vision pose trust X limit.
+> Tuning the auto-targeting strafe PID controller.
+> The scoring speed cap is only enforced under human control.
+> Auto plays can no specifiy when to go in and out of auto-targeting.
+> Allowing the robot to stay in ground pickup when autonomous transitions to TeleOp.
+> Adding a wait for TeleOp autonomous command.
+> Pre-GROUND now changes based off of the game period instead of if the robot is autonomous.
+> Arm accelerates faster when stowing
+> The speed limiter now applies while the arm is stowing.
+> Improving the reliability and changing the behavior of the corner pivot controls.
+> Corner pivoting is now disabled if the robot's heading is locked.
+> Overhauls the auto-targeting behavior.
+> Enables auto-targeting on the SHELF locations.
+> Cleans up the drive state controller.
+> Fixes an issue where the human player signal would cover up the status chaser.
+> Adding an endgame timer to the LED indicators.
+> Removing placeholder code for the climber subsystem.
+> Removing placeholder code for the intake subsystem.
+> Tweaking the master state to Lime Light stream mode mapping.
+> Tuning the auto-balancing proportional gain.
+> Tuning the MID and HIGH CONE arm setpoints.
+> Disabling auto-targeting when running a systems check.
 
 v2.1
 > Changing the pre-ground setpoint used during autonomous.
