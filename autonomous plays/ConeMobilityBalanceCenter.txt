@@ -1,5 +1,6 @@
 This play scores one cone high or mid, goes over charging station to get the mobility bonus, then balances.
-
+Supports driver station scoring positions
+Supports dashboard state selection
 *
 start_x_red = 75
 start_y_red = 185
@@ -21,5 +22,5 @@ ManipDropPiece()				# score cone 1
 ManipChangeState(1)
 ManipWaitForArm(safe)
 ManipWaitForTeleOp()
-ManipChangeState(4)
+ManipChangeState(-1)
 ManipEnd()

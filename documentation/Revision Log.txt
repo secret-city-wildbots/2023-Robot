@@ -5,6 +5,10 @@
 
 -- Untested Features --
 > Added a ManipWaitForPiece auto command.
+> ManipChangeState now allows for -1 to indicate dashboard state selection
+> Added a ManipWaitForAlignment auto command
+> Added additional feeder paths to both two piece mid/high autos
+> Added ConeMobilityLowCubeBalanceShelf play
 
 -- Releases --
 

@@ -124,7 +124,7 @@ ManipWaitForDistance(param1, param2)
 ManipChangeState(param1)
 # This VI changes the robot's master state.
 
-1. Specifies the desired robot master state. 0=stow, 1=balancing, 2=scoring, 3=hoppering, 4=ground, 5=shelf
+1. Specifies the desired robot master state. -1=dashboard-configurable, 0=stow, 1=balancing, 2=scoring, 3=hoppering, 4=ground, 5=shelf
 
 -----------------------------------------------------------
 

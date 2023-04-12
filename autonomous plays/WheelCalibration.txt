@@ -1,5 +1,4 @@
 This play calibrates the wheels
-
 *
 start_x_red = 210
 start_y_red = 290

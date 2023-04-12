@@ -1,8 +1,9 @@
-This play scores one cone high and then gets the mobility bonus
-
+This play scores one cone low, then picks up two cubes and scores them low
+Does not support dashboard scoring position selection
+Does not support dashboard state selection
 *
 start_x_red = 74
-start_y_red = 158
+start_y_red = 117
 start_h_red = 0
 start_x_blue = 74
 start_y_blue = 199
