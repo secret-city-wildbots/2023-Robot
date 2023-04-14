@@ -275,6 +275,7 @@ AddOutputFilter chunkFilter
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
 				<Item Name="GetAprilTags.vi" Type="VI" URL="../GetAprilTags.vi"/>
+				<Item Name="GetHybridNodeTOF.vi" Type="VI" URL="../GetHybridNodeTOF.vi"/>
 				<Item Name="GetPigeonIMU.vi" Type="VI" URL="../GetPigeonIMU.vi"/>
 				<Item Name="GlobalPoseAndTargeting.vi" Type="VI" URL="../GlobalPoseAndTargeting.vi"/>
 				<Item Name="ModePose.vi" Type="VI" URL="../ModePose.vi"/>
@@ -294,20 +295,14 @@ AddOutputFilter chunkFilter
 					<Item Name="ArmInverseKinematics.vi" Type="VI" URL="../ArmInverseKinematics.vi"/>
 					<Item Name="InitArmKinematics.vi" Type="VI" URL="../InitArmKinematics.vi"/>
 				</Item>
-				<Item Name="Arm Position Check.vi" Type="VI" URL="../Arm Position Check.vi"/>
 				<Item Name="ArmAutoTargetingExtension.vi" Type="VI" URL="../ArmAutoTargetingExtension.vi"/>
+				<Item Name="ArmPositionCheck.vi" Type="VI" URL="../ArmPositionCheck.vi"/>
 				<Item Name="ArmSequencer.vi" Type="VI" URL="../ArmSequencer.vi"/>
 				<Item Name="GlobalArm.vi" Type="VI" URL="../GlobalArm.vi"/>
 				<Item Name="InitArm.vi" Type="VI" URL="../InitArm.vi"/>
 				<Item Name="ModeArmScoring.vi" Type="VI" URL="../ModeArmScoring.vi"/>
 				<Item Name="OutputArm.vi" Type="VI" URL="../OutputArm.vi"/>
 				<Item Name="StateArm.vi" Type="VI" URL="../StateArm.vi"/>
-			</Item>
-			<Item Name="Climber" Type="Folder">
-				<Item Name="GlobalClimber.vi" Type="VI" URL="../GlobalClimber.vi"/>
-				<Item Name="InitClimber.vi" Type="VI" URL="../InitClimber.vi"/>
-				<Item Name="OutputClimber.vi" Type="VI" URL="../OutputClimber.vi"/>
-				<Item Name="StateClimber.vi" Type="VI" URL="../StateClimber.vi"/>
 			</Item>
 			<Item Name="Drivebase" Type="Folder">
 				<Item Name="Swerve Toolbox" Type="Folder">
@@ -727,6 +722,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
+				<Item Name="PlayingWithFusionLib.lvlib" Type="Library" URL="/&lt;vilib&gt;/Playing With Fusion Inc/Playing With Fusion Lib for FRC/PlayingWithFusionLib.lvlib"/>
 				<Item Name="PWM data proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/PWM data proto.ctl"/>
 				<Item Name="PWM proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/PWM proto.ctl"/>
 				<Item Name="PWM Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/PWM Update Ops.ctl"/>

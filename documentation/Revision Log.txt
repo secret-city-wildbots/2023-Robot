@@ -2,17 +2,20 @@
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SwerveStrafeAssist.vi only supports locking to vectors parallel to the field Y-axis.
+> The TOF sensor read code is currently commented out.
 
 -- Untested Features --
 > Added a ManipWaitForPiece auto command.
-> ManipChangeState now allows for -1 to indicate dashboard state selection
-> Added a ManipWaitForAlignment auto command
-> Added additional feeder paths to both two piece mid/high autos
-> Added ConeMobilityLowCubeBalanceShelf play
+> ManipChangeState now allows for -1 to indicate dashboard state selection.
+> Added a ManipWaitForAlignment auto command.
 
 -- Releases --
 
 v***
+> Removing the climber subsystem.
+> Adjusting the LED strip length for the new arm.
+> Fixing the name of "ArmPositionCheck.vi".
+> Adding a time-of-flight sensor to detect game pieces in the hybrid nodes.
 
 v2.2
 > Hybrid nodes that have been scored on are saved and displayed on the dashboard.
