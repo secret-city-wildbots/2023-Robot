@@ -262,6 +262,7 @@ AddOutputFilter chunkFilter
 				<Item Name="MeasureBaselineCurrents.vi" Type="VI" URL="../MeasureBaselineCurrents.vi"/>
 			</Item>
 			<Item Name="Pose Estimation" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Odometry" Type="Folder">
 					<Item Name="CalculateRobotVelocityAcceleration.vi" Type="VI" URL="../CalculateRobotVelocityAcceleration.vi"/>
 					<Item Name="ConvertFalconDriveEncoders.vi" Type="VI" URL="../ConvertFalconDriveEncoders.vi"/>
@@ -275,9 +276,9 @@ AddOutputFilter chunkFilter
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
 				<Item Name="GetAprilTags.vi" Type="VI" URL="../GetAprilTags.vi"/>
+				<Item Name="GlobalPoseAndTargeting.vi" Type="VI" URL="../GlobalPoseAndTargeting.vi"/>
 				<Item Name="GetPigeonIMU.vi" Type="VI" URL="../GetPigeonIMU.vi"/>
 				<Item Name="GetTOF.vi" Type="VI" URL="../GetTOF.vi"/>
-				<Item Name="GlobalPoseAndTargeting.vi" Type="VI" URL="../GlobalPoseAndTargeting.vi"/>
 				<Item Name="ModePose.vi" Type="VI" URL="../ModePose.vi"/>
 				<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
 				<Item Name="VisionPose.vi" Type="VI" URL="../VisionPose.vi"/>
