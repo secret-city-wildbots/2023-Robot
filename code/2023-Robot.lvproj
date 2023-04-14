@@ -278,7 +278,7 @@ AddOutputFilter chunkFilter
 				<Item Name="GetAprilTags.vi" Type="VI" URL="../GetAprilTags.vi"/>
 				<Item Name="GlobalPoseAndTargeting.vi" Type="VI" URL="../GlobalPoseAndTargeting.vi"/>
 				<Item Name="GetPigeonIMU.vi" Type="VI" URL="../GetPigeonIMU.vi"/>
-				<Item Name="GetTOF.vi" Type="VI" URL="../GetTOF.vi"/>
+				<Item Name="GetHybridNodeTOF.vi" Type="VI" URL="../GetHybridNodeTOF.vi"/>
 				<Item Name="ModePose.vi" Type="VI" URL="../ModePose.vi"/>
 				<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
 				<Item Name="VisionPose.vi" Type="VI" URL="../VisionPose.vi"/>
