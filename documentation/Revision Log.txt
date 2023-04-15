@@ -2,16 +2,19 @@
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SwerveStrafeAssist.vi only supports locking to vectors parallel to the field Y-axis.
-> The TOF sensor read code is currently commented out.
+> The wide-angle camera is currently bypassed.
 
 -- Untested Features --
 > Added a ManipWaitForPiece auto command.
-> ManipChangeState now allows for -1 to indicate dashboard state selection.
 > Added a ManipWaitForAlignment auto command.
 
 -- Releases --
 
 v***
+> Updating the baseline current measurements.
+> Fixing a bug in the Zebra play that prevented it from vibrating initially and when driving.
+> Fixed an issue with selecting the TeleOp starting state.
+> ManipChangeState now allows for -1 to indicate dashboard state selection.
 > Tuning the arm joint accelerations for the stiffer arm.
 > Adding the ability to balance each swerve drive motor via the feed-forward controller.
 > Adding a timer SubVI with a built-in comparison.

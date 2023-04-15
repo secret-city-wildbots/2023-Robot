@@ -1,6 +1,6 @@
 This play scores one cone low, picks up a cube, scores it low, then balances
 Does not support dashboard scoring position selection
-Does not support dashboard state selection
+Supports dashboard state selection
 *
 start_x_red = 74
 start_y_red = 117
@@ -31,4 +31,6 @@ ManipChangeState(0)
 ManipWaitForDistance(-36, -1)
 ManipGroundScore() 				# score cube 2
 ManipChangeState(1)
+ManipWaitForTeleOp()
+ManipChangeState(-1)
 ManipEnd()
