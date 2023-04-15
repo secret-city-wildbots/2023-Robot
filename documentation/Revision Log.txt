@@ -12,6 +12,9 @@
 -- Releases --
 
 v***
+> Tuning the arm joint accelerations for the stiffer arm.
+> Adding the ability to balance each swerve drive motor via the feed-forward controller.
+> Adding a timer SubVI with a built-in comparison.
 > Removing the climber subsystem.
 > Adjusting the LED strip length for the new arm.
 > Fixing the name of "ArmPositionCheck.vi".

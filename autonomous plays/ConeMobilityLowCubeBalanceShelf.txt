@@ -10,8 +10,8 @@ start_y_blue = 199
 start_h_blue = 0
 *
 DriveWaitForManip(2)
-DrivePath(6,10,-1,Cone1ToCube2LowShelf,robot_suffix) # drive to cube 2
-DrivePath(6,10,-1,Cube2ToScoreLowBalanceShelf,robot_suffix) # drive to score cube 2
+DrivePath(6,10,-1,Cone1ToCube2Shelf,robot_suffix) # drive to cube 2
+DrivePath(6,10,-1,Cube2ToScoreBalanceShelf,robot_suffix) # drive to score cube 2
 DriveWaitForManip(14)
 DriveBalance(near)
 DriveEnd()

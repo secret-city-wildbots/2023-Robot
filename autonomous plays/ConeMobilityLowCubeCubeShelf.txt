@@ -10,11 +10,11 @@ start_y_blue = 199
 start_h_blue = 0
 *
 DriveWaitForManip(4)
-DrivePath(6,10,-1,Cone1ToCube2LowShelf,robot_suffix) # drive to cube 2
-DrivePath(6,10,-1,Cube2ToScoreLowShelf,robot_suffix) # drive to score cube 2
+DrivePath(6,10,-1,Cone1ToCube2Shelf,robot_suffix) # drive to cube 2
+DrivePath(6,10,-1,Cube2ToScoreShelf,robot_suffix) # drive to score cube 2
 DriveWaitForManip(18)
-DrivePath(6,10,-1,ScoreToCube3LowShelf,robot_suffix) # drive to cube 2
-DrivePath(6,10,-1,Cube3ToScoreLowShelf,robot_suffix) # drive to score cube 2
+DrivePath(6,10,-1,ScoreToCube3Shelf,robot_suffix) # drive to cube 2
+DrivePath(6,10,-1,Cube3ToScoreShelf,robot_suffix) # drive to score cube 2
 DriveEnd()
 *
 ManipChangePiece(cone)
