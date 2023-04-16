@@ -11,6 +11,10 @@
 -- Releases --
 
 v***
+> Tuning the gripper game piece sensing.
+> Allowing increased joint accelerations when going to GROUND.
+> Allowing different low score setpoints for TeleOp and Auto.
+> Robot is no longer forced to low gear when the arm is out.
 > Updating the baseline current measurements.
 > Fixing a bug in the Zebra play that prevented it from vibrating initially and when driving.
 > Fixed an issue with selecting the TeleOp starting state.
