@@ -10,7 +10,10 @@
 
 -- Releases --
 
-v***
+v2.3
+> Modified pose-sync while auto-targeting in auto.
+> Modified the game piece sensing behavior.
+> Tuning the path following rotation PID.
 > Tuning the gripper game piece sensing.
 > Allowing increased joint accelerations when going to GROUND.
 > Allowing different low score setpoints for TeleOp and Auto.
