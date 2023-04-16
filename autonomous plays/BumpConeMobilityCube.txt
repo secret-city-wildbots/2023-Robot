@@ -1,5 +1,5 @@
 This play scores one cone mid or high on the bump side, and then picks up a cube and scores it mid or high.
-Supports dashboard scoring position selection
+Supports dashboard scoring position selection for second piece only
 Does not support dashboard state selection
 *
 start_x_red = 74
@@ -15,7 +15,7 @@ DrivePath(6,10,-1,Cube2ToScoreBump,robot_suffix) # drive to score cube 2
 DriveWaitForManip(24)
 DriveAutoTarget(on)
 DriveWaitForManip(29)
-DrivePath(6,10,-1,ScoreToFeederBump,robot_suffix)
+DrivePath(6,10,-1,ReadyForTeleOpBump,robot_suffix)
 DriveEnd()
 *
 ManipChangePiece(cone)
@@ -35,7 +35,7 @@ ManipWaitForDrive(2)
 ManipGroundPickup(off)
 ManipChangeState(0)
 ManipWaitForDistance(-84, -1)
-ManipChangeScoringPosition(0)
+ManipChangeScoringPosition(-1)
 ManipWaitForArm(stationary)
 ManipChangeState(2)
 ManipWaitForDistance(-18, -1)
@@ -47,4 +47,5 @@ ManipWaitForArm(stationary)
 ManipDropPiece()				# score cube 2
 ManipChangeState(0)
 ManipWaitForArm(safe)
+ManipChangeState(-1)
 ManipEnd()

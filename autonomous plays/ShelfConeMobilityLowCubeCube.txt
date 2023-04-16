@@ -12,14 +12,14 @@ start_h_blue = 0
 DriveWaitForManip(4)
 DrivePath(6,10,-1,Cone1ToCube2Shelf,robot_suffix) # drive to cube 2
 DrivePath(6,10,-1,Cube2ToScoreShelf,robot_suffix) # drive to score cube 2
-DriveWaitForManip(18)
+DriveWaitForManip(17)
 DrivePath(6,10,-1,ScoreToCube3Shelf,robot_suffix) # drive to cube 2
 DrivePath(6,10,-1,Cube3ToScoreShelf,robot_suffix) # drive to score cube 2
 DriveEnd()
 *
 ManipChangePiece(cone)
 ManipGroundScore()				# score cone 1
-ManipChangePiece(cube)
+ManipChangePiece(cone)
 ManipChangeState(4)
 ManipWaitForDrive(1)
 ManipWaitForDistance(1,-1)
@@ -29,9 +29,8 @@ ManipSetRobotPosition(-1,-1)
 ManipWaitForDrive(2)
 ManipGroundPickup(off)
 ManipChangeState(0)
-ManipWaitForDistance(-36, -1)
+ManipWaitForDistance(-12, -1)
 ManipGroundScore() 				# score cube 2
-ManipWaitForDistance(-18, -1)
 ManipSetRobotPosition(-1,-1)
 ManipWaitForDrive(3)
 ManipChangeState(4)
@@ -43,7 +42,7 @@ ManipSetRobotPosition(-1,-1)
 ManipWaitForDrive(5)
 ManipGroundPickup(off)
 ManipChangeState(0)
-ManipWaitForDistance(-36, -1)
+ManipWaitForDistance(-12, -1)
 ManipGroundScore() 				# score cube 3
 ManipWaitForArm(safe)
 ManipEnd()

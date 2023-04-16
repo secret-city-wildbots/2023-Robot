@@ -1,6 +1,6 @@
 This play scores one cone mid or high on the shelf side, and then picks up a cube and scores it mid or high.
-Supports dashboard scoring position selection
-Does not support dashboard state selection
+Supports dashboard scoring position selection for second piece only
+Supports dashboard state selection
 *
 start_x_red = 74
 start_y_red = 117
@@ -15,11 +15,11 @@ DrivePath(6,10,-1,Cube2ToScoreShelf,robot_suffix) # drive to score cube 2
 DriveWaitForManip(24)
 DriveAutoTarget(on)
 DriveWaitForManip(29)
-DrivePath(6,10,-1,ScoreToFeederShelf,robot_suffix)
+DrivePath(6,10,-1,ReadyForTeleOpShelf,robot_suffix)
 DriveEnd()
 *
 ManipChangePiece(cone)
-ManipChangeScoringPosition(-1)
+ManipChangeScoringPosition(0)
 ManipChangeState(2)
 ManipWaitForArm(stationary)
 ManipDropPiece() 				# score cone 1
@@ -34,11 +34,11 @@ ManipSetRobotPosition(-1,-1)
 ManipWaitForDrive(2)
 ManipGroundPickup(off)
 ManipChangeState(0)
-ManipWaitForDistance(-84, -1)
+ManipWaitForDistance(-120, -1)
 ManipChangeScoringPosition(-1)
 ManipWaitForArm(stationary)
 ManipChangeState(2)
-ManipWaitForDistance(-18, -1)
+ManipWaitForDistance(-12, -1)
 ManipSetRobotPosition(-1,-1)
 ManipWaitForDrive(3)
 ManipSetRobotPosition(-1,-1)
@@ -47,4 +47,5 @@ ManipWaitForArm(stationary)
 ManipDropPiece() 				# score cube 2
 ManipChangeState(0)
 ManipWaitForArm(safe)
+ManipChangeState(-1)
 ManipEnd()
