@@ -2,11 +2,33 @@
 > The ArmKinematicsSimulator.vi has a habit of crashing randomly...
 > Position holding doesn't disengage when the arm reaches its final setpoint location.
 > SwerveStrafeAssist.vi only supports locking to vectors parallel to the field Y-axis.
+> The wide-angle camera is currently bypassed.
 
 -- Untested Features --
 > Added a ManipWaitForPiece auto command.
+> Added a ManipWaitForAlignment auto command.
 
 -- Releases --
+
+v2.3
+> Modified pose-sync while auto-targeting in auto.
+> Modified the game piece sensing behavior.
+> Tuning the path following rotation PID.
+> Tuning the gripper game piece sensing.
+> Allowing increased joint accelerations when going to GROUND.
+> Allowing different low score setpoints for TeleOp and Auto.
+> Robot is no longer forced to low gear when the arm is out.
+> Updating the baseline current measurements.
+> Fixing a bug in the Zebra play that prevented it from vibrating initially and when driving.
+> Fixed an issue with selecting the TeleOp starting state.
+> ManipChangeState now allows for -1 to indicate dashboard state selection.
+> Tuning the arm joint accelerations for the stiffer arm.
+> Adding the ability to balance each swerve drive motor via the feed-forward controller.
+> Adding a timer SubVI with a built-in comparison.
+> Removing the climber subsystem.
+> Adjusting the LED strip length for the new arm.
+> Fixing the name of "ArmPositionCheck.vi".
+> Adding a time-of-flight sensor to detect game pieces in the hybrid nodes.
 
 v2.2
 > Hybrid nodes that have been scored on are saved and displayed on the dashboard.

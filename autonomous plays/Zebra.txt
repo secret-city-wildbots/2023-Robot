@@ -8,7 +8,7 @@ start_x_blue = 124
 start_y_blue = 62
 start_h_blue = 0
 *
-DriveWaitForManip(13) # wait until manipulator sequence is complete
+DriveWaitForManip(14) # wait until manipulator sequence is complete
 DriveWaitForButton()
 DriveDistanceX(400, 0.2) # drive forward
 DriveWaitForTime(2000)
@@ -24,6 +24,7 @@ DriveWaitForButton()
 DriveDistanceX(350, 1.0) # high gear sprint down-field
 DriveEnd()
 *
+ManipWaitForTeleOp()
 ManipSetRobotPosition(124,62) # set robot position to consistent location
 ManipChangePiece(cube)
 ManipChangeScoringPosition(0)

@@ -1,5 +1,6 @@
-This play scores no pieces and then balances
-
+This play scores no pieces and then balances (for calibration)
+Does not support driver station scoring positions
+Does not support dashboard state selection
 *
 start_x_red = 75
 start_y_red = 207

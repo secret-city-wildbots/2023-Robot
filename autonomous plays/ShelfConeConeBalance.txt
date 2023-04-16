@@ -1,0 +1,35 @@
+This play scores one cone low, picks up a cone, scores it low, then balances.
+Supports dashboard state selection
+*
+start_x_red = 74
+start_y_red = 117
+start_h_red = 0
+start_x_blue = 74
+start_y_blue = 199
+start_h_blue = 0
+*
+DriveWaitForManip(2)
+DrivePath(6,10,-1,Cone1ToCube2Shelf,robot_suffix) # drive to cube 2
+DrivePath(6,10,-1,Cube2ToScoreBalanceShelf,robot_suffix) # drive to score cube 2
+DriveWaitForManip(14)
+DriveBalance(near)
+DriveEnd()
+*
+ManipChangePiece(cone)
+ManipGroundScore()				# score cone 1
+ManipChangePiece(cone)
+ManipChangeState(4)
+ManipWaitForDrive(1)
+ManipWaitForDistance(1,-1)
+ManipGroundPickup(on)			# pickup cone 2
+ManipWaitForDistance(53,-1)
+ManipSetRobotPosition(-1,-1)
+ManipWaitForDrive(2)
+ManipGroundPickup(off)
+ManipChangeState(0)
+ManipWaitForDistance(-12, -1)
+ManipGroundScore() 				# score cone 2
+ManipChangeState(1)
+ManipWaitForTeleOp()
+ManipChangeState(-1)
+ManipEnd()
