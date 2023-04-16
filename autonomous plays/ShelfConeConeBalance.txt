@@ -1,5 +1,4 @@
-This play scores one cone low, picks up a cube, scores it low, then balances
-Does not support dashboard scoring position selection
+This play scores one cone low, picks up a cone, scores it low, then balances.
 Supports dashboard state selection
 *
 start_x_red = 74
@@ -29,7 +28,7 @@ ManipWaitForDrive(2)
 ManipGroundPickup(off)
 ManipChangeState(0)
 ManipWaitForDistance(-12, -1)
-ManipGroundScore() 				# score cube 2
+ManipGroundScore() 				# score cone 2
 ManipChangeState(1)
 ManipWaitForTeleOp()
 ManipChangeState(-1)

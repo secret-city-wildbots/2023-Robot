@@ -1,4 +1,4 @@
-This play scores one game piece high, goes over charging station to get the mobility bonus, then balances.
+This play scores one cube high or mid, goes over charging station to get the mobility bonus, then balances.
 Supports driver station scoring positions
 Supports dashboard state selection
 *

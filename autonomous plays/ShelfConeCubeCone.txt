@@ -12,8 +12,8 @@ DriveWaitForTime(500)                                # wait for arm
 DrivePath(6,10,-1,Cone1ToCube2Shelf,robot_suffix)    # drive to CUBE 2
 DrivePath(6,10,-1,Cube2ToScoreShelf,robot_suffix)    # drive to score CUBE 2
 DriveAutoTarget(on)
-DriveWaitForManip(20)                                # wait to score CUBE 2
-DriveAutoTarget(off)                                 
+DriveWaitForManip(18)                                # wait to score CUBE 2                                
+DriveAutoTarget(off)
 DrivePath(6,3,-1,Cube2ToCone3Shelf,robot_suffix)     # drive to CONE 3
 DriveEnd()
 *
@@ -22,8 +22,8 @@ ManipChangeScoringPosition(0)      # set MID
 ManipChangeState(2)                # raise arm
 ManipWaitForArm(stationary)
 ManipDropPiece()                   # score CONE 1
-ManipWaitForDrive(2)               # drive to CUBE 2
 ManipChangeState(4)                # go to GROUND
+ManipWaitForDrive(2)               # drive to CUBE 2
 ManipGroundPickup(on)			   # drop gripper
 ManipChangePiece(cube)
 ManipWaitForDistance(53,-1)        # sync leaving community
@@ -31,17 +31,14 @@ ManipSetRobotPosition(-1,-1)
 ManipWaitForDrive(3)
 ManipGroundPickup(off)             # stop intaking on return
 ManipChangeState(2)                # start raising arm immediately
-ManipWaitForDistance(-12, -1)
-ManipSetRobotPosition(-1,-1)       # sync in the community
 ManipWaitForDrive(5)
 ManipSetRobotPosition(-1,-1)       # sync after starting auto-targeting
 ManipWaitForArm(stationary)        # align check???
 ManipDropPiece() 				   # score CUBE 2
 ManipWaitForDrive(7)               # drive to CONE 3
+ManipSetRobotPosition(-1,-1)
 ManipChangeState(4)                # go to GROUND   
 ManipGroundPickup(on)			   # drop gripper
 ManipChangePiece(cone)  
-ManipWaitForDistance(60,-1)        # sync leaving community
-ManipSetRobotPosition(-1,-1)
 ManipWaitForTime(10000)            # wait forever
 ManipEnd()                         # will stay in ground and ready for pickup
