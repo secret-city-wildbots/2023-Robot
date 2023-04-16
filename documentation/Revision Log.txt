@@ -10,6 +10,8 @@
 
 -- Releases --
 
+v***
+
 v2.3
 > Modified pose-sync while auto-targeting in auto.
 > Modified the game piece sensing behavior.
