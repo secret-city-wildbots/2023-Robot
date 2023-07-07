@@ -457,6 +457,7 @@ AddOutputFilter chunkFilter
 			<Item Name="StateSelectionEnum.vim" Type="VI" URL="../StateSelectionEnum.vim"/>
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
 		</Item>
+		<Item Name="GamepiecePose.vi" Type="VI" URL="../GamepiecePose.vi"/>
 		<Item Name="MasterRobotModeController.vi" Type="VI" URL="../MasterRobotModeController.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
