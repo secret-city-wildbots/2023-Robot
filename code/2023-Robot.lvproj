@@ -271,9 +271,11 @@ AddOutputFilter chunkFilter
 					<Item Name="GetSwerveRawAzimuth.vi" Type="VI" URL="../GetSwerveRawAzimuth.vi"/>
 					<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 				</Item>
+				<Item Name="EstimateGamepiece.vi" Type="VI" URL="../EstimateGamepiece.vi"/>
 				<Item Name="EstimateHybridNodes.vi" Type="VI" URL="../EstimateHybridNodes.vi"/>
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
+				<Item Name="GamepiecePose.vi" Type="VI" URL="../GamepiecePose.vi"/>
 				<Item Name="GetAprilTags.vi" Type="VI" URL="../GetAprilTags.vi"/>
 				<Item Name="GetGamePiece.vi" Type="VI" URL="../GetGamePiece.vi"/>
 				<Item Name="GetHybridNodeTOF.vi" Type="VI" URL="../GetHybridNodeTOF.vi"/>
@@ -457,7 +459,6 @@ AddOutputFilter chunkFilter
 			<Item Name="StateSelectionEnum.vim" Type="VI" URL="../StateSelectionEnum.vim"/>
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
 		</Item>
-		<Item Name="GamepiecePose.vi" Type="VI" URL="../GamepiecePose.vi"/>
 		<Item Name="MasterRobotModeController.vi" Type="VI" URL="../MasterRobotModeController.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
