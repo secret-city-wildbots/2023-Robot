@@ -115,8 +115,6 @@
 			<Item Name="GlobalPoseAndTargeting.vi" Type="VI" URL="../GlobalPoseAndTargeting.vi"/>
 			<Item Name="GlobalGripper.vi" Type="VI" URL="../GlobalGripper.vi"/>
 			<Item Name="ArmAutoTargetingExtension.vi" Type="VI" URL="../ArmAutoTargetingExtension.vi"/>
-			<Item Name="SearchTimestampArray.vi" Type="VI" URL="../SearchTimestampArray.vi"/>
-			<Item Name="BuildRollingArray.vim" Type="VI" URL="../BuildRollingArray.vim"/>
 			<Item Name="EstimateGamepiece.vi" Type="VI" URL="../EstimateGamepiece.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
