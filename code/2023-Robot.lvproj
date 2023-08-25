@@ -264,6 +264,7 @@ AddOutputFilter chunkFilter
 				<Item Name="MeasureBaselineCurrents.vi" Type="VI" URL="../MeasureBaselineCurrents.vi"/>
 			</Item>
 			<Item Name="Pose Estimation" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Odometry" Type="Folder">
 					<Item Name="CalculateRobotVelocityAcceleration.vi" Type="VI" URL="../CalculateRobotVelocityAcceleration.vi"/>
 					<Item Name="ConvertFalconDriveEncoders.vi" Type="VI" URL="../ConvertFalconDriveEncoders.vi"/>
@@ -274,9 +275,9 @@ AddOutputFilter chunkFilter
 					<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 				</Item>
 				<Item Name="EstimateGamepiece.vi" Type="VI" URL="../EstimateGamepiece.vi"/>
-				<Item Name="EstimateHybridNodes.vi" Type="VI" URL="../EstimateHybridNodes.vi"/>
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
+				<Item Name="EstimateHybridNodes.vi" Type="VI" URL="../EstimateHybridNodes.vi"/>
 				<Item Name="GamepiecePose.vi" Type="VI" URL="../GamepiecePose.vi"/>
 				<Item Name="GetAprilTags.vi" Type="VI" URL="../GetAprilTags.vi"/>
 				<Item Name="GetGamePiece.vi" Type="VI" URL="../GetGamePiece.vi"/>
