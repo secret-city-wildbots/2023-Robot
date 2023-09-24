@@ -115,7 +115,7 @@
 			<Item Name="GlobalPoseAndTargeting.vi" Type="VI" URL="../GlobalPoseAndTargeting.vi"/>
 			<Item Name="GlobalGripper.vi" Type="VI" URL="../GlobalGripper.vi"/>
 			<Item Name="ArmAutoTargetingExtension.vi" Type="VI" URL="../ArmAutoTargetingExtension.vi"/>
-			<Item Name="EstimateGamePiece2.vi" Type="VI" URL="../EstimateGamePiece2.vi"/>
+			<Item Name="EstimateGamePiece.vi" Type="VI" URL="../EstimateGamePiece.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -274,11 +274,11 @@ AddOutputFilter chunkFilter
 					<Item Name="GetSwerveRawAzimuth.vi" Type="VI" URL="../GetSwerveRawAzimuth.vi"/>
 					<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 				</Item>
-				<Item Name="EstimateGamePiece2.vi" Type="VI" URL="../EstimateGamePiece2.vi"/>
+				<Item Name="EstimateGamePiece.vi" Type="VI" URL="../EstimateGamePiece.vi"/>
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
 				<Item Name="EstimateHybridNodes.vi" Type="VI" URL="../EstimateHybridNodes.vi"/>
-				<Item Name="GamePiecePose2.vi" Type="VI" URL="../GamePiecePose2.vi"/>
+				<Item Name="GamePiecePose.vi" Type="VI" URL="../GamePiecePose.vi"/>
 				<Item Name="GetAprilTags.vi" Type="VI" URL="../GetAprilTags.vi"/>
 				<Item Name="GetGamePiece.vi" Type="VI" URL="../GetGamePiece.vi"/>
 				<Item Name="GetHybridNodeTOF.vi" Type="VI" URL="../GetHybridNodeTOF.vi"/>
