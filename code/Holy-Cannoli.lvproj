@@ -201,28 +201,19 @@ AddOutputFilter chunkFilter
 			<Item Name="Commands" Type="Folder">
 				<Item Name="DriveAngleH.vi" Type="VI" URL="../DriveAngleH.vi"/>
 				<Item Name="DriveAutoTarget.vi" Type="VI" URL="../DriveAutoTarget.vi"/>
-				<Item Name="DriveBalance.vi" Type="VI" URL="../DriveBalance.vi"/>
 				<Item Name="DriveDistanceX.vi" Type="VI" URL="../DriveDistanceX.vi"/>
 				<Item Name="DriveDistanceY.vi" Type="VI" URL="../DriveDistanceY.vi"/>
 				<Item Name="DriveEnd.vi" Type="VI" URL="../DriveEnd.vi"/>
-				<Item Name="DriveOver.vi" Type="VI" URL="../DriveOver.vi"/>
 				<Item Name="DrivePath.vi" Type="VI" URL="../DrivePath.vi"/>
 				<Item Name="DriveWaitForButton.vi" Type="VI" URL="../DriveWaitForButton.vi"/>
 				<Item Name="DriveWaitForManip.vi" Type="VI" URL="../DriveWaitForManip.vi"/>
 				<Item Name="DriveWaitForTime.vi" Type="VI" URL="../DriveWaitForTime.vi"/>
-				<Item Name="ManipChangePiece.vi" Type="VI" URL="../ManipChangePiece.vi"/>
-				<Item Name="ManipChangeScoringPosition.vi" Type="VI" URL="../ManipChangeScoringPosition.vi"/>
 				<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
-				<Item Name="ManipDropPiece.vi" Type="VI" URL="../ManipDropPiece.vi"/>
 				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
-				<Item Name="ManipGroundPickup.vi" Type="VI" URL="../ManipGroundPickup.vi"/>
-				<Item Name="ManipGroundScore.vi" Type="VI" URL="../ManipGroundScore.vi"/>
 				<Item Name="ManipSetRobotPosition.vi" Type="VI" URL="../ManipSetRobotPosition.vi"/>
-				<Item Name="ManipWaitForArm.vi" Type="VI" URL="../ManipWaitForArm.vi"/>
 				<Item Name="ManipWaitForButton.vi" Type="VI" URL="../ManipWaitForButton.vi"/>
 				<Item Name="ManipWaitForDistance.vi" Type="VI" URL="../ManipWaitForDistance.vi"/>
 				<Item Name="ManipWaitForDrive.vi" Type="VI" URL="../ManipWaitForDrive.vi"/>
-				<Item Name="ManipWaitForPiece.vi" Type="VI" URL="../ManipWaitForPiece.vi"/>
 				<Item Name="ManipWaitForTeleOp.vi" Type="VI" URL="../ManipWaitForTeleOp.vi"/>
 				<Item Name="ManipWaitForTime.vi" Type="VI" URL="../ManipWaitForTime.vi"/>
 			</Item>
@@ -287,23 +278,6 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Subsystems" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Arm" Type="Folder">
-				<Item Name="Kinematics" Type="Folder">
-					<Item Name="ArmEndEffectorPosition.vi" Type="VI" URL="../ArmEndEffectorPosition.vi"/>
-					<Item Name="ArmFeedForwardCalculations.vi" Type="VI" URL="../ArmFeedForwardCalculations.vi"/>
-					<Item Name="ArmGoalJointAngleCalculations.vi" Type="VI" URL="../ArmGoalJointAngleCalculations.vi"/>
-					<Item Name="ArmInverseKinematics.vi" Type="VI" URL="../ArmInverseKinematics.vi"/>
-					<Item Name="InitArmKinematics.vi" Type="VI" URL="../InitArmKinematics.vi"/>
-				</Item>
-				<Item Name="ArmAutoTargetingExtension.vi" Type="VI" URL="../ArmAutoTargetingExtension.vi"/>
-				<Item Name="ArmPositionCheck.vi" Type="VI" URL="../ArmPositionCheck.vi"/>
-				<Item Name="ArmSequencer.vi" Type="VI" URL="../ArmSequencer.vi"/>
-				<Item Name="GlobalArm.vi" Type="VI" URL="../GlobalArm.vi"/>
-				<Item Name="InitArm.vi" Type="VI" URL="../InitArm.vi"/>
-				<Item Name="ModeArmScoring.vi" Type="VI" URL="../ModeArmScoring.vi"/>
-				<Item Name="OutputArm.vi" Type="VI" URL="../OutputArm.vi"/>
-				<Item Name="StateArm.vi" Type="VI" URL="../StateArm.vi"/>
-			</Item>
 			<Item Name="Drivebase" Type="Folder">
 				<Item Name="Swerve Toolbox" Type="Folder">
 					<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
@@ -330,12 +304,6 @@ AddOutputFilter chunkFilter
 				<Item Name="OutputSwerve.vi" Type="VI" URL="../OutputSwerve.vi"/>
 				<Item Name="StateDrivebase.vi" Type="VI" URL="../StateDrivebase.vi"/>
 				<Item Name="StutterShifterState.vi" Type="VI" URL="../StutterShifterState.vi"/>
-			</Item>
-			<Item Name="Gripper" Type="Folder">
-				<Item Name="GlobalGripper.vi" Type="VI" URL="../GlobalGripper.vi"/>
-				<Item Name="InitGripper.vi" Type="VI" URL="../InitGripper.vi"/>
-				<Item Name="OutputGripper.vi" Type="VI" URL="../OutputGripper.vi"/>
-				<Item Name="StateGripper.vi" Type="VI" URL="../StateGripper.vi"/>
 			</Item>
 			<Item Name="LEDs" Type="Folder">
 				<Item Name="LEDDebugColorSensors.vi" Type="VI" URL="../LEDDebugColorSensors.vi"/>
@@ -481,8 +449,6 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigOpenLoopRamp.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Output Config/CTRE_Phoenix_MotorControl_ConfigOpenLoopRamp.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigSelectedFeedbackSensor_TalonFX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_ConfigSelectedFeedbackSensor_TalonFX.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigSetParameter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Parameter/CTRE_Phoenix_MotorControl_ConfigSetParameter.vi"/>
-				<Item Name="CTRE_Phoenix_MotorControl_ConfigSoftLimitEnables.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Limit Switch/CTRE_Phoenix_MotorControl_ConfigSoftLimitEnables.vi"/>
-				<Item Name="CTRE_Phoenix_MotorControl_ConfigSoftLimitThresholds.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Limit Switch/CTRE_Phoenix_MotorControl_ConfigSoftLimitThresholds.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigStatorCurrentLimit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Current Limit/CTRE_Phoenix_MotorControl_ConfigStatorCurrentLimit.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigSupplyCurrentLimit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Current Limit/CTRE_Phoenix_MotorControl_ConfigSupplyCurrentLimit.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigVoltageCompensation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Output Config/CTRE_Phoenix_MotorControl_ConfigVoltageCompensation.vi"/>
@@ -501,7 +467,6 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_SetInverted_TalonFX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_SetInverted_TalonFX.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetNeutralMode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_SetNeutralMode.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi"/>
-				<Item Name="CTRE_Phoenix_MotorControl_SetSensorPhase.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_SetSensorPhase.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetStatusFramePeriod_Enhanced.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Frame Rate/CTRE_Phoenix_MotorControl_SetStatusFramePeriod_Enhanced.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_StatorCurrentLimitConfiguration.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_StatorCurrentLimitConfiguration.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_StatusFrameEnhanced.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_StatusFrameEnhanced.ctl"/>
@@ -557,8 +522,6 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_PigeonIMU_PigeonState.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_PigeonState.ctl"/>
 				<Item Name="CTRE_PigeonIMU_RefNumRegistryGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_RefNumRegistryGet.vi"/>
 				<Item Name="CTRE_PigeonIMU_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_RefNumRegistrySet.vi"/>
-				<Item Name="DH Dynamic Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/robotics/Kinematics/DH Dynamic Parameters.ctl"/>
-				<Item Name="DH Kinematic Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/robotics/Kinematics/DH Kinematic Parameters.ctl"/>
 				<Item Name="DIO data proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO data proto.ctl"/>
 				<Item Name="DIO proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO proto.ctl"/>
 				<Item Name="DIO Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO Update Ops.ctl"/>
@@ -639,23 +602,8 @@ AddOutputFilter chunkFilter
 				<Item Name="NetComm_UnloadCPPStartupProgram.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UnloadCPPStartupProgram.vi"/>
 				<Item Name="NetComm_UsageReport_report.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_report.vi"/>
 				<Item Name="NetComm_UsageReport_ResourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_ResourceType.ctl"/>
-				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
-				<Item Name="NI_Kinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/NI_Kinematics.lvlib"/>
-				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
-				<Item Name="NI_Robotics Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/NI_Robotics Utilities.lvlib"/>
-				<Item Name="NI_Robotics_3DKinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/Plotting/NI_Robotics_3DKinematics.lvlib"/>
-				<Item Name="NI_Robotics_5R Type 1 Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/5R/Type 1/NI_Robotics_5R Type 1 Serial Arm Class.lvclass"/>
-				<Item Name="NI_Robotics_6R Type 1 Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/6R/Type 1/NI_Robotics_6R Type 1 Serial Arm Class.lvclass"/>
-				<Item Name="NI_Robotics_6R Type 2 Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/6R/Type 2/NI_Robotics_6R Type 2 Serial Arm Class.lvclass"/>
-				<Item Name="NI_Robotics_6R Type 3 Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/6R/Type 3/NI_Robotics_6R Type 3 Serial Arm Class.lvclass"/>
-				<Item Name="NI_Robotics_Analytical Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/Generic/NI_Robotics_Analytical Serial Arm Class.lvclass"/>
-				<Item Name="NI_Robotics_AnalyticKinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/NI_Robotics_AnalyticKinematics.lvlib"/>
-				<Item Name="NI_Robotics_Link.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Link/NI_Robotics_Link.lvclass"/>
-				<Item Name="NI_Robotics_SCARA Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/SCARA/NI_Robotics_SCARA Serial Arm Class.lvclass"/>
-				<Item Name="NI_Robotics_Serial Robot Arm.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Robot/NI_Robotics_Serial Robot Arm.lvclass"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Normalize End Of Line.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Normalize End Of Line.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
