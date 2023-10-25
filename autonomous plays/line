@@ -1,0 +1,13 @@
+This play goes brrrrrrr
+*
+start_x_red = 225
+start_y_red = 100
+start_h_red = 0
+start_x_blue = 225
+start_y_blue = 100
+start_h_blue = 0
+*
+DrivePath(6,10,-1,StraightLine,robot_suffix)
+DriveEnd()
+*
+ManipEnd()
